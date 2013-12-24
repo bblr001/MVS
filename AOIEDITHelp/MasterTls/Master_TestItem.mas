@@ -1,0 +1,2283 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<!-- This file written by the SLACAOICONFIGUI ,SZ_SALC-->
+<slactls ver="1.1">
+    <common tlsname="SLAC AOI Test">
+        <author>sam</author>
+        <createtime>2011-10-17 10:41</createtime>
+        <version>1.0</version>
+        <site>苏州SLAC</site>
+        <host>OFFLINE_PC</host>
+        <program>基本盖检测</program>
+        <program_revision>102</program_revision>
+        <timeout>20</timeout>
+        <system_type>WindowsXP</system_type>
+    </common>
+    <test_instance>
+        <test testid="圆心定位">
+            <subtest subtestid="圆心查找算法1">
+                <exe>
+                    <exename>CenterDll</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="Thred_Center1" parameterDesc="检测阀值">
+                    <property>
+                        <interface>iint</interface>
+                        <visibility>GURU</visibility>
+                        <max>100</max>
+                        <min>5</min>
+                    </property>
+                    <setting>5</setting>
+                    <helpdescription>圆心查找第一次种方法的参数值, 大小表示灰度的差值. 如果背景亮此值见意大点</helpdescription>
+                </parameter>
+                <parameter name="Thred_Center2" parameterDesc="检测阀值2">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>120</max>
+                        <min>5</min>
+                        <visibility>GURU</visibility>
+                    </property>
+                    <setting>50</setting>
+                    <helpdescription>圆心查找第一次种方法的参数值, 大小表示灰度的差值. 如果背景亮此值见意大点. 此值是对第一种处理结果不理想的状况下才会被运行</helpdescription>
+                </parameter>
+                <parameter name="XMax" parameterDesc="水平位置最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>550</max>
+                        <min>200</min>
+                    </property>
+                    <setting>400</setting>
+                    <helpdescription>圆心X轴方向上X的最大值</helpdescription>
+                </parameter>
+                <parameter name="XMin" parameterDesc="水平位置最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>50</min>
+                    </property>
+                    <setting>100</setting>
+                    <helpdescription>圆心X轴方向上X的最小值</helpdescription>
+                </parameter>
+                <parameter name="YMax" parameterDesc="垂直位置最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>50</min>
+                    </property>
+                    <setting>400</setting>
+                    <helpdescription>圆心Y轴方向上Y的最大值</helpdescription>
+                </parameter>
+                <parameter name="YMin" parameterDesc="垂直位置最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>5</min>
+                    </property>
+                    <setting>50</setting>
+                    <helpdescription>圆心Y轴方向上Y的最小值</helpdescription>
+                </parameter>
+                <parameter name="RMax" parameterDesc="检测圆心半径最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>80</min>
+                    </property>
+                    <setting>375</setting>
+                    <helpdescription>圆心半径容许的最大值</helpdescription>
+                </parameter>
+                <parameter name="RMin" parameterDesc="检测圆半径最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>60</min>
+                    </property>
+                    <setting>80</setting>
+                    <helpdescription>圆心半径容许的最小值</helpdescription>
+                </parameter>
+                <property>
+                    <interface>common</interface>
+                </property>
+                <helpdescription>圆心查找算法1. 主要是按灰度进行一些圆心的查找定位</helpdescription>
+            </subtest>
+            <subtest subtestid="圆心查找算法2">
+                <exe>
+                    <exename>CenterHC</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <parameter name="LongAxis" parameterDesc="椭圆ROI区域长轴半径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>400</max>
+                        <min>20</min>
+                    </property>
+                    <setting>200</setting>
+                    <helpdescription>建立椭圆型感兴趣区域的长半轴，显示颜色为黄色</helpdescription>
+                </parameter>
+                <parameter name="ShortAxis" parameterDesc="椭圆ROI区域短轴半径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>20</min>
+                    </property>
+                    <setting>100</setting>
+                    <helpdescription>建立椭圆型感兴趣区域的短半轴，显示颜色为黄色</helpdescription>
+                </parameter>
+                <parameter name="Thred_Contrast" parameterDesc="灰度阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>130</setting>
+                    <helpdescription>圆心查找第一次的参考值</helpdescription>
+                </parameter>
+                <parameter name="Select_Shape_Size" parameterDesc="目标图像大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>130</setting>
+                    <helpdescription>圆心查找形装筛选图形尺寸的下限</helpdescription>
+                </parameter>
+                <parameter name="XMax" parameterDesc="水平位置最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>550</max>
+                        <min>200</min>
+                    </property>
+                    <setting>400</setting>
+                    <helpdescription>圆心X轴方向上X的最大值</helpdescription>
+                </parameter>
+                <parameter name="XMin" parameterDesc="水平位置最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>50</min>
+                    </property>
+                    <setting>100</setting>
+                    <helpdescription>圆心X轴方向上X的最小值</helpdescription>
+                </parameter>
+                <parameter name="YMax" parameterDesc="垂直位置最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>50</min>
+                    </property>
+                    <setting>400</setting>
+                    <helpdescription>圆心Y轴方向上Y的最大值</helpdescription>
+                </parameter>
+                <parameter name="YMin" parameterDesc="垂直位置最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>5</min>
+                    </property>
+                    <setting>50</setting>
+                    <helpdescription>圆心Y轴方向上Y的最小值</helpdescription>
+                </parameter>
+                <parameter name="RMax" parameterDesc="检测圆心半径最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>80</min>
+                    </property>
+                    <setting>375</setting>
+                    <helpdescription>圆心半径容许的最大值</helpdescription>
+                </parameter>
+                <parameter name="RMin" parameterDesc="检测圆半径最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>60</min>
+                    </property>
+                    <setting>80</setting>
+                    <helpdescription>圆心半径容许的最小值</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                    <max>500</max>
+                    <min>5</min>
+                </property>
+                <order>999</order>
+                <runtest>YES</runtest>
+                <helpdescription>第二种这种是用动态查找边缘的方法, 用轮廓再找符合的圆心</helpdescription>
+            </subtest>
+            <subtest subtestid="圆心查找算法3">
+                <exe>
+                    <exename>CenterDllHS</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <parameter name="Graylowerlimit" parameterDesc="灰度下限">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>100</setting>
+                    <helpdescription>使用静态灰度值的方法查找原心，卷边暗的调低，卷边亮的调高</helpdescription>
+                </parameter>
+                <parameter name="XMax" parameterDesc="水平位置最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>700</max>
+                        <min>300</min>
+                    </property>
+                    <setting>550</setting>
+                    <helpdescription>圆心X轴方向上X的最大值</helpdescription>
+                </parameter>
+                <parameter name="XMin" parameterDesc="水平位置最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>400</max>
+                        <min>50</min>
+                    </property>
+                    <setting>100</setting>
+                    <helpdescription>圆心X轴方向上X的最小值</helpdescription>
+                </parameter>
+                <parameter name="YMax" parameterDesc="垂直位置最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>200</min>
+                    </property>
+                    <setting>350</setting>
+                    <helpdescription>圆心Y轴方向上Y的最大值</helpdescription>
+                </parameter>
+                <parameter name="YMin" parameterDesc="垂直位置最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>50</min>
+                    </property>
+                    <setting>100</setting>
+                    <helpdescription>圆心Y轴方向上Y的最小值</helpdescription>
+                </parameter>
+                <parameter name="RMax" parameterDesc="检测圆半径最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>100</min>
+                    </property>
+                    <setting>375</setting>
+                    <helpdescription>圆心半径容许的最大值</helpdescription>
+                </parameter>
+                <parameter name="RMin" parameterDesc="检测圆半径最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>60</min>
+                    </property>
+                    <setting>80</setting>
+                    <helpdescription>圆心半径容许的最小值</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                    <max>500</max>
+                    <min>5</min>
+                </property>
+                <order>999</order>
+                <runtest>YES</runtest>
+                <helpdescription>第三种是用静态灰度值的方法, 用轮廓再找符合的圆心</helpdescription>
+            </subtest>
+            <property />
+            <helpdescription>对圆形产品的圆心进行定位查找参数供其它测试使用, 找到圆心的坐标, 及半径</helpdescription>
+        </test>
+        <test testid="卷边测试">
+            <subtest subtestid="卷边测试">
+                <exe>
+                    <exename>CurlDll</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="Thred_Curl" parameterDesc="检测阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>100</setting>
+                    <helpdescription>阈值参数, 越小表示检测越严</helpdescription>
+                </parameter>
+                <parameter name="Regional_Internal" parameterDesc="检测内径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>30</max>
+                        <min>-2000</min>
+                    </property>
+                    <setting>-50</setting>
+                    <helpdescription>测试区域圆内径</helpdescription>
+                </parameter>
+                <parameter name="Regional_Out" parameterDesc="检测外径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>50</max>
+                        <min>-2000</min>
+                    </property>
+                    <setting>-10</setting>
+                    <helpdescription>测试区域圆外径</helpdescription>
+                </parameter>
+                <property />
+                <helpdescription>对产品边缘卷边部分进行检测. 对卷边上的压伤, 缺角等进行检测</helpdescription>
+            </subtest>
+            <subtest subtestid="盖环形区域算法2">
+                <exe>
+                    <exename>CurlDll2</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="Regional_Out" parameterDesc="检测外径">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>10</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-10</setting>
+                    <helpdescription>检测区域外环圆半径</helpdescription>
+                </parameter>
+                <parameter name="ROIWidth" parameterDesc="检测区域宽度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>检测区域宽度</helpdescription>
+                </parameter>
+                <parameter name="NumPart" parameterDesc="分块数">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>5</min>
+                    </property>
+                    <setting>300</setting>
+                    <helpdescription>环划分块数</helpdescription>
+                </parameter>
+                <parameter name="ThresholdValue" parameterDesc="梯度阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>100</max>
+                        <min>1</min>
+                    </property>
+                    <setting>10</setting>
+                    <helpdescription>环梯度变化率阈值</helpdescription>
+                </parameter>
+                <parameter name="GrayValue" parameterDesc="灰度阀值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>20</setting>
+                    <helpdescription>环灰度变化率阈值</helpdescription>
+                </parameter>
+                <property />
+                <helpdescription>对产品边缘比如卷边部分进行检测,包括压伤, 缺角,毛刺等进行检测</helpdescription>
+            </subtest>
+            <subtest subtestid="UV补涂测试2.1">
+                <exe>
+                    <exename>UVCurlDll2.1</exename>
+                    <exeversion>1.0.3.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="Regional_Out" parameterDesc="检测环外径">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>10</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-10</setting>
+                    <helpdescription>检测环外径，显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="ROIWidth" parameterDesc="检测区域宽度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>1</min>
+                    </property>
+                    <setting>5</setting>
+                    <helpdescription>检测环宽度，显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="DriftAngle1" parameterDesc="偏置角度1">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>360</max>
+                        <min>0</min>
+                    </property>
+                    <setting>10</setting>
+                    <helpdescription>环的扇形缺口偏置角度1</helpdescription>
+                </parameter>
+                <parameter name="DriftAngle2" parameterDesc="偏置角度2">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>720</max>
+                        <min>0</min>
+                    </property>
+                    <setting>200</setting>
+                    <helpdescription>环的扇形缺口偏置角度2</helpdescription>
+                </parameter>
+                <parameter name="NumPart" parameterDesc="分块数">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>5</min>
+                    </property>
+                    <setting>300</setting>
+                    <helpdescription>环划分块数</helpdescription>
+                </parameter>
+                <parameter name="ThresholdValue" parameterDesc="梯度阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>100</max>
+                        <min>1</min>
+                    </property>
+                    <setting>10</setting>
+                    <helpdescription>环梯度变化率阈值</helpdescription>
+                </parameter>
+                <parameter name="GrayValue" parameterDesc="灰度阀值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>20</setting>
+                    <helpdescription>环灰度阈值</helpdescription>
+                </parameter>
+                <parameter name="MeanGray" parameterDesc="平均灰度阀值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>60</setting>
+                    <helpdescription>补涂区域有大量未补涂，整个区域显示颜色为红色</helpdescription>
+                </parameter>
+                <property />
+                <helpdescription>此算法专门针对UV补涂检测</helpdescription>
+            </subtest>
+            <property />
+            <helpdescription>算法能对产品卷边，注胶，嵌环，盖面等部分进行检测</helpdescription>
+        </test>
+        <test testid="嵌环测试">
+            <subtest subtestid="嵌环测试方法1">
+                <exe>
+                    <exename>qianhuan</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="Thred_qian_b" parameterDesc="检测阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>1000</max>
+                        <min>5</min>
+                    </property>
+                    <setting>2000</setting>
+                    <helpdescription>嵌环测试算子阈值</helpdescription>
+                </parameter>
+                <parameter name="Regional_Internal" parameterDesc="检测内径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>0</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-186</setting>
+                    <helpdescription>测试区域圆内径</helpdescription>
+                </parameter>
+                <parameter name="Regional_Out" parameterDesc="检测外径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>0</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-191</setting>
+                    <helpdescription>测试区域圆外径</helpdescription>
+                </parameter>
+                <property />
+                <helpdescription>对嵌环区域进行检测, 底盖此区域比较大可以检测. 成品盖此区域比较小, 有时可以不检测此部分</helpdescription>
+            </subtest>
+            <property>
+                <interface>iint</interface>
+            </property>
+            <helpdescription>对嵌环区域进行检测</helpdescription>
+        </test>
+        <test testid="注胶检测">
+            <subtest subtestid="注胶测试1">
+                <exe>
+                    <exename>zhujiao</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="Thred_jiao_outer" parameterDesc="外环阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>1000</max>
+                        <min>100</min>
+                    </property>
+                    <setting>350</setting>
+                    <helpdescription>注胶测试参数外围阈值</helpdescription>
+                </parameter>
+                <parameter name="Thred_jiao" parameterDesc="中环阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>1000</max>
+                        <min>100</min>
+                    </property>
+                    <setting>600</setting>
+                    <helpdescription>注胶测试参数中间阈值</helpdescription>
+                </parameter>
+                <parameter name="Thred_jiao_inter" parameterDesc="内环阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>1000</max>
+                        <min>100</min>
+                    </property>
+                    <setting>350</setting>
+                    <helpdescription>注胶测试参数内层阈值</helpdescription>
+                </parameter>
+                <parameter name="Thred_no_jiao" parameterDesc="无胶阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>80</setting>
+                    <helpdescription>无胶测试参数阈值, 此值建议略大于有胶时的灰度值</helpdescription>
+                </parameter>
+                <parameter name="Regional_Internal" parameterDesc="区域内径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>10</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-19</setting>
+                    <helpdescription>测试区域圆内径</helpdescription>
+                </parameter>
+                <parameter name="Regional_Out" parameterDesc="区域外径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>0</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-7</setting>
+                    <helpdescription>测试区域圆外径</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                </property>
+                <helpdescription>注胶检测， 对产品内的注胶进行检验和测试, 主要是缺胶及气泡,油污等</helpdescription>
+            </subtest>
+            <subtest subtestid="光盖测试">
+                <exe>
+                    <exename>GuangGai</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="Regional_Out" parameterDesc="检测区域外径">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>10</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-10</setting>
+                    <helpdescription>ROI区域外环圆半径,显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="ROIWidth" parameterDesc="检测区域宽度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>ROI区域宽度,显示颜色为绿色</helpdescription>
+                </parameter>
+                <parameter name="GuangGaiThreshed" parameterDesc="光盖阀值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>150</setting>
+                    <helpdescription>注胶区域判定为光盖的阀值</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                </property>
+                <helpdescription>注胶检测， 对产品内的注胶进行检验和测试, 主要是缺胶及气泡,油污等</helpdescription>
+            </subtest>
+            <property>
+                <interface>iint</interface>
+            </property>
+            <helpdescription>注胶检测， 对产品内的注胶进行检验和测试, 主要是缺胶及气泡,油污等</helpdescription>
+        </test>
+        <test testid="面心检测">
+            <subtest subtestid="静态灰度值面心测试">
+                <exe>
+                    <exename>mianxin</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <parameter name="Thred_white" parameterDesc="白色块检测阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>120</setting>
+                    <helpdescription>对缺陷区域成白色的检测, 此数表示灰度的下限</helpdescription>
+                </parameter>
+                <parameter name="Thred_black" parameterDesc="黑色块检测阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>10</min>
+                    </property>
+                    <setting>85</setting>
+                    <helpdescription>对缺陷区域成黑色的检测, 此数表示灰度的下上限</helpdescription>
+                </parameter>
+                <parameter name="Thred_white_point" parameterDesc="白点检测阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>10</min>
+                    </property>
+                    <setting>135</setting>
+                    <helpdescription>对缺陷区域成白色点的检测, 此数表示灰度的上限</helpdescription>
+                </parameter>
+                <parameter name="Thred_black_point" parameterDesc="黑点检测阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>10</min>
+                    </property>
+                    <setting>65</setting>
+                    <helpdescription>对缺陷区域成黑色的检测, 此数表示灰度的下限</helpdescription>
+                </parameter>
+                <parameter name="Regional_Internal" parameterDesc="检测内径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>0</max>
+                        <min>-400</min>
+                    </property>
+                    <setting>0</setting>
+                    <helpdescription>测试区域圆内径</helpdescription>
+                </parameter>
+                <parameter name="Regional_Out" parameterDesc="检测外径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>0</max>
+                        <min>-350</min>
+                    </property>
+                    <setting>-83</setting>
+                    <helpdescription>测试区域圆外径</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                    <max>20</max>
+                    <min>5</min>
+                </property>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <helpdescription>对区域的表面进行缺陷检测, 主要是划痕及大的油污等</helpdescription>
+            </subtest>
+            <subtest subtestid="动态灰度值面心测试">
+                <exe>
+                    <exename>mianxinAuto</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <parameter name="Regional_Out" parameterDesc="检测区域外径">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>10</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-10</setting>
+                    <helpdescription>ROI区域外环圆半径,显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="ROIWidth" parameterDesc="检测区域宽度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>ROI区域宽度,显示颜色为绿色</helpdescription>
+                </parameter>
+                <parameter name="BlackMaskSize" parameterDesc="黑不良平滑处理尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>101</max>
+                        <min>3</min>
+                    </property>
+                    <setting>7</setting>
+                    <helpdescription>图像灰度值的线性平滑所用滤波器的矩阵组成大小，建议值：3，5，7，9，11，15，23，31，43，61，101 限制：奇数(MaskWidth) 对于黑盖面找黑时，需均匀度很高用3，3，白盖面黑白对比度大，无需很高的均匀性(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="BlackLineDynThresh" parameterDesc="黑线动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>7</setting>
+                    <helpdescription>黑色划痕检测参数阈值。放大会选择较少的区域，建议选取值5以上(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="BlackLinesLength" parameterDesc="黑线不良长度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>8</setting>
+                    <helpdescription>黑色划痕大小，建议8个像素值，可根据需要选取更小或者更大， 但越小发生误排的概率也越大(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="BlackPointDynThresh" parameterDesc="黑点动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>8</setting>
+                    <helpdescription>黑污点动态阈值，建议选取值3.5以上，最好能比黑色划痕动态阈值大，以便清晰的提取点(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="BlackPointSize" parameterDesc="黑点尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>6</setting>
+                    <helpdescription>黑污点大小，建议5个像素值以上，可根据需要选取更小或者更大，但越小发生误排的概率也越大(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousBlackPointDynThresh" parameterDesc="极黑点动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>5</min>
+                    </property>
+                    <setting>20</setting>
+                    <helpdescription>找极黑污点,极黑污点动态阈值 ,建议选取数值20以上(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousBlackPointSize" parameterDesc="极黑点尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>极黑点大小，建议选1开始(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="WhiteMaskSize" parameterDesc="白不良平滑处理尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>101</max>
+                        <min>3</min>
+                    </property>
+                    <setting>23</setting>
+                    <helpdescription>图像灰度值的线性平滑所用滤波器的矩阵组成大小，建议值：3，5，7，9，11，15，23，31，43，61，101 限制：奇数(MaskWidth) 对于白盖面找白时，需均匀度很高用3，3，黑盖面黑白对比度大，无需很高的均匀性(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="WhiteLineDynThresh" parameterDesc="白线动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>7</setting>
+                    <helpdescription>白色划痕动态阈值，建议选取值5以上(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="WhiteLinesLength" parameterDesc="白线不良长度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>8</setting>
+                    <helpdescription>白色划痕大小,建议8个像素值,可根据需要选取更小或者更大, 但越小发生误排的概率也越大.(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="WhitePointDynThresh" parameterDesc="白点动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>12</setting>
+                    <helpdescription>白污点动态阈值，建议选取值45以上，最好能比白色划痕动态阈值大，以便清晰的提取点(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="WhitePointSize" parameterDesc="白点大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>6</setting>
+                    <helpdescription>白污点大小，建议5个像素值以上，可根据需要选取更小或者更大，但越小发生误排的概率也越大(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousWhitePointDynThresh" parameterDesc="极白点动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>5</min>
+                    </property>
+                    <setting>20</setting>
+                    <helpdescription>找极白污点,极白污点动态阈值 ,建议选取数值20以上(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousWhitePointSize" parameterDesc="极白点大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>1</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>极白点大小，建议选1开始(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="MeanGrayUpperLimit" parameterDesc="区域平均灰度上限">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>100</setting>
+                    <helpdescription>测试区域平均灰度值的上限</helpdescription>
+                </parameter>
+                <parameter name="MeanGrayLowerLimit" parameterDesc="区域平均灰度下限">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>50</setting>
+                    <helpdescription>测试区域平均灰度值的下限</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                </property>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <helpdescription>对区域的表面进行缺陷检测, 主要是划痕及大的油污等</helpdescription>
+            </subtest>
+            <subtest subtestid="成品盖动态灰度值表面测试">
+                <exe>
+                    <exename>CPGMianXinTest</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <parameter name="Test_Regist" parameterDesc="检测的区域">
+                    <property>
+                        <interface>iobject</interface>
+                        <max>1000</max>
+                        <min>100</min>
+                    </property>
+                    <setting>d:\SLACTST\Example.101\\myregion33</setting>
+                    <helpdescription>设定检测的区域</helpdescription>
+                </parameter>
+                <parameter name="BlackMaskSize" parameterDesc="黑不良平滑处理尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>101</max>
+                        <min>3</min>
+                    </property>
+                    <setting>7</setting>
+                    <helpdescription>图像灰度值的线性平滑所用滤波器的矩阵组成大小，建议值：3，5，7，9，11，15，23，31，43，61，101 限制：奇数(MaskWidth) 对于黑盖面找黑时，需均匀度很高用3，3，白盖面黑白对比度大，无需很高的均匀性(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="BlackLineDynThresh" parameterDesc="黑线动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>7</setting>
+                    <helpdescription>黑色划痕检测参数阈值。放大会选择较少的区域，建议选取值5以上(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="BlackLinesLength" parameterDesc="黑线不良长度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>8</setting>
+                    <helpdescription>黑色划痕大小，建议8个像素值，可根据需要选取更小或者更大， 但越小发生误排的概率也越大(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="BlackPointDynThresh" parameterDesc="黑点动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>8</setting>
+                    <helpdescription>黑污点动态阈值，建议选取值3.5以上，最好能比黑色划痕动态阈值大，以便清晰的提取点(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="BlackPointSize" parameterDesc="黑点尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>6</setting>
+                    <helpdescription>黑污点大小，建议5个像素值以上，可根据需要选取更小或者更大，但越小发生误排的概率也越大(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousBlackPointDynThresh" parameterDesc="极黑点动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>5</min>
+                    </property>
+                    <setting>20</setting>
+                    <helpdescription>找极黑污点,极黑污点动态阈值 ,建议选取数值20以上(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousBlackPointSize" parameterDesc="极黑点尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>极黑点大小，建议选1开始(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="WhiteMaskSize" parameterDesc="白不良平滑处理尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>101</max>
+                        <min>3</min>
+                    </property>
+                    <setting>23</setting>
+                    <helpdescription>图像灰度值的线性平滑所用滤波器的矩阵组成大小，建议值：3，5，7，9，11，15，23，31，43，61，101 限制：奇数(MaskWidth) 对于白盖面找白时，需均匀度很高用3，3，黑盖面黑白对比度大，无需很高的均匀性(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="WhiteLineDynThresh" parameterDesc="白线动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>7</setting>
+                    <helpdescription>白色划痕动态阈值，建议选取值5以上(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="WhiteLinesLength" parameterDesc="白线不良长度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>8</setting>
+                    <helpdescription>白色划痕大小,建议8个像素值,可根据需要选取更小或者更大, 但越小发生误排的概率也越大.(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="WhitePointDynThresh" parameterDesc="白点动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>12</setting>
+                    <helpdescription>白污点动态阈值，建议选取值45以上，最好能比白色划痕动态阈值大，以便清晰的提取点(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="WhitePointSize" parameterDesc="白点大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>6</setting>
+                    <helpdescription>白污点大小，建议5个像素值以上，可根据需要选取更小或者更大，但越小发生误排的概率也越大(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousWhitePointDynThresh" parameterDesc="极白点动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>5</min>
+                    </property>
+                    <setting>20</setting>
+                    <helpdescription>找极白污点,极白污点动态阈值 ,建议选取数值20以上(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousWhitePointSize" parameterDesc="极白点大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>1</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>极白点大小，建议选1开始(不良区域为黄色)</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                </property>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <helpdescription>对区域的表面进行缺陷检测, 主要是划痕及大的油污等</helpdescription>
+            </subtest>
+            <subtest subtestid="动态灰度值算法1.3">
+                <exe>
+                    <exename>DynThreshed1.3</exename>
+                    <exeversion>1.0.1.3</exeversion>
+                </exe>
+                <parameter name="Regional_Out" parameterDesc="检测区域外径">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>10</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-10</setting>
+                    <helpdescription>ROI区域外环圆半径,显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="ROIWidth" parameterDesc="检测区域宽度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>ROI区域宽度,显示颜色为绿色</helpdescription>
+                </parameter>
+                <parameter name="BlackMaskSize" parameterDesc="黑不良平滑处理尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>101</max>
+                        <min>3</min>
+                    </property>
+                    <setting>7</setting>
+                    <helpdescription>图像灰度值的线性平滑所用滤波器的矩阵组成大小，建议值：3，5，7，9，11，15，23，31，43，61，101 限制：奇数(MaskWidth) 对于黑盖面找黑时，需均匀度很高用3，3，白盖面黑白对比度大，无需很高的均匀性(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="BlackPointDynThresh" parameterDesc="黑点动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>8</setting>
+                    <helpdescription>黑污点动态阈值，建议选取值3.5以上，最好能比黑色划痕动态阈值大，以便清晰的提取点(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="BlackPointSize" parameterDesc="黑点尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>6</setting>
+                    <helpdescription>黑污点大小，建议5个像素值以上，可根据需要选取更小或者更大，但越小发生误排的概率也越大(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousBlackPointDynThresh" parameterDesc="极黑点动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>5</min>
+                    </property>
+                    <setting>20</setting>
+                    <helpdescription>找极黑污点,极黑污点动态阈值 ,建议选取数值20以上(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousBlackPointSize" parameterDesc="极黑点尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>1</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>极黑点大小，建议选1开始(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="WhiteMaskSize" parameterDesc="白不良平滑处理尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>101</max>
+                        <min>3</min>
+                    </property>
+                    <setting>23</setting>
+                    <helpdescription>图像灰度值的线性平滑所用滤波器的矩阵组成大小，建议值：3，5，7，9，11，15，23，31，43，61，101 限制：奇数(MaskWidth) 对于白盖面找白时，需均匀度很高用3，3，黑盖面黑白对比度大，无需很高的均匀性(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="WhitePointDynThresh" parameterDesc="白点动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>12</setting>
+                    <helpdescription>白污点动态阈值，建议选取值45以上，最好能比白色划痕动态阈值大，以便清晰的提取点(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="WhitePointSize" parameterDesc="白点大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>6</setting>
+                    <helpdescription>白污点大小，建议5个像素值以上，可根据需要选取更小或者更大，但越小发生误排的概率也越大(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousWhitePointDynThresh" parameterDesc="极白点动态阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>250</max>
+                        <min>5</min>
+                    </property>
+                    <setting>20</setting>
+                    <helpdescription>找极白污点,极白污点动态阈值 ,建议选取数值20以上(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousWhitePointSize" parameterDesc="极白点大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>极白点大小，建议选1开始(不良区域为黄色)</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                </property>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <helpdescription>对区域的表面进行缺陷检测, 主要是划痕及大的油污等</helpdescription>
+            </subtest>
+            <subtest subtestid="盖面边沿算法">
+                <exe>
+                    <exename>EOEEdgeDll</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="Regional_Out" parameterDesc="检测区域外径">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>10</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-10</setting>
+                    <helpdescription>ROI区域外环圆半径,显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="ROIWidth" parameterDesc="检测区域宽度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>ROI区域宽度,显示颜色为绿色</helpdescription>
+                </parameter>
+                <parameter name="ThresholdValue" parameterDesc="边沿阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>10</setting>
+                    <helpdescription>提取均匀面缺陷边沿的阀值，缺陷显示为红色</helpdescription>
+                </parameter>
+                <parameter name="DefectSize" parameterDesc="缺陷大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>10</setting>
+                    <helpdescription>检测面缺陷的像素值大小,显示颜色为红色</helpdescription>
+                </parameter>
+                <property />
+                <helpdescription>对产品表面进行检测. 包括压伤, 缺角, 垫模等</helpdescription>
+            </subtest>
+            <property>
+                <interface>iint</interface>
+            </property>
+            <helpdescription>对区域的表面进行缺陷检测, 主要是划痕及大的油污等</helpdescription>
+        </test>
+        <test testid="中心轴线定位">
+            <subtest subtestid="中心轴线定位">
+                <exe>
+                    <exename>ZhouXianDianWeiDll</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <parameter name="Thred_Curl" parameterDesc="检测阀值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>30000</max>
+                        <min>500</min>
+                    </property>
+                    <setting>10062</setting>
+                    <helpdescription>成品盖方向定位及大小缩放</helpdescription>
+                </parameter>
+                <parameter name="Regional_Internal" parameterDesc="检测内径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>400</max>
+                        <min>-400</min>
+                    </property>
+                    <setting>-50</setting>
+                    <helpdescription>测试区域圆内径</helpdescription>
+                </parameter>
+                <parameter name="Regional_Out" parameterDesc="检测外径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>400</max>
+                        <min>-400</min>
+                    </property>
+                    <setting>-10</setting>
+                    <helpdescription>测试区域圆外径</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                </property>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <helpdescription>成品盖方向定位及大小缩放</helpdescription>
+            </subtest>
+            <subtest subtestid="英联200成品盖角度定位">
+                <exe>
+                    <exename>CPGDianWeiROI</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <parameter name="MaskSize" parameterDesc="预平滑处理尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>101</max>
+                        <min>3</min>
+                    </property>
+                    <setting>23</setting>
+                    <helpdescription>图像灰度值的线性平滑所用滤波器的矩阵组成大小，建议值：3，5，7，9，11，15，23，31，43，61，101 限制：奇数(MaskWidth) 对图像进行均值化处理， 若盖面光源打黑，建议使用数值9，9至23，23，对于盖面打白建议使用数值3，3 若盖面光源打白，相反取值 简言之，对于白盖面找白时，需均匀度很高用3，3，黑盖面黑白对比度大，无需很高的均匀性</helpdescription>
+                </parameter>
+                <parameter name="DynThreshold" parameterDesc="动态阀值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>1000</max>
+                        <min>45</min>
+                    </property>
+                    <setting>100</setting>
+                    <helpdescription>动态阈值，建议选取值45以上</helpdescription>
+                </parameter>
+                <parameter name="AreaLowlimit" parameterDesc="区域下限">
+                    <property>
+                        <interface>iint</interface>
+                        <max>2000</max>
+                        <min>20</min>
+                    </property>
+                    <setting>200</setting>
+                    <helpdescription>目标矩形块面积下限</helpdescription>
+                </parameter>
+                <parameter name="AreaUpperLimit" parameterDesc="区域上限">
+                    <property>
+                        <interface>iint</interface>
+                        <max>3000</max>
+                        <min>100</min>
+                    </property>
+                    <setting>500</setting>
+                    <helpdescription>目标矩形块面积上限</helpdescription>
+                </parameter>
+                <parameter name="RECLowLimit" parameterDesc="矩形度下限">
+                    <property>
+                        <interface>iint</interface>
+                        <max>100</max>
+                        <min>1</min>
+                    </property>
+                    <setting>60</setting>
+                    <helpdescription>目标相似矩形度</helpdescription>
+                </parameter>
+                <parameter name="BlockRadiusLowLimit" parameterDesc="矩形块半径下限">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>1</min>
+                    </property>
+                    <setting>30</setting>
+                    <helpdescription>目标矩形块半径下限</helpdescription>
+                </parameter>
+                <parameter name="BlockRadiusUpperLimit" parameterDesc="矩形块半径上限">
+                    <property>
+                        <interface>iint</interface>
+                        <max>400</max>
+                        <min>30</min>
+                    </property>
+                    <setting>80</setting>
+                    <helpdescription>目标矩形块半径上限</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                </property>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <helpdescription>成品盖方向定位</helpdescription>
+            </subtest>
+            <subtest subtestid="成品盖模式匹配算法建模">
+                <exe>
+                    <exename>CPGModelCreate</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <parameter name="MODEL_REGIST_CREATE" parameterDesc="标准匹配区域文件名">
+                    <property>
+                        <interface>iobjectcreate</interface>
+                        <max>1000</max>
+                        <min>100</min>
+                    </property>
+                    <setting>d:\SLACTST\CH1.101\\myregion33</setting>
+                    <helpdescription>设定检测的区域</helpdescription>
+                </parameter>
+                <parameter name="Regional_Internal" parameterDesc="匹配区域内径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>0</max>
+                        <min>-400</min>
+                    </property>
+                    <setting>-120</setting>
+                    <helpdescription>测试区域圆内径</helpdescription>
+                </parameter>
+                <parameter name="Regional_Out" parameterDesc="匹配区域外径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>10</max>
+                        <min>-350</min>
+                    </property>
+                    <setting>-63</setting>
+                    <helpdescription>测试区域圆外径</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                </property>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <helpdescription>成品盖方向定位</helpdescription>
+            </subtest>
+            <subtest subtestid="成品盖模式匹配">
+                <exe>
+                    <exename>CPGDianWeiMatching</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <parameter name="MODEL_REGIST_LOAD" parameterDesc="标准匹配区域文件名">
+                    <property>
+                        <interface>iobjectload</interface>
+                        <max>1000</max>
+                        <min>100</min>
+                    </property>
+                    <setting>d:\SLACTST\CH1.101\\myregion33</setting>
+                    <helpdescription>设定检测的区域</helpdescription>
+                </parameter>
+                <parameter name="Minscore" parameterDesc="匹配程度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>10</max>
+                        <min>1</min>
+                    </property>
+                    <setting>5</setting>
+                    <helpdescription>匹配程度(参数单位是0.1)</helpdescription>
+                </parameter>
+                <parameter name="Greediness" parameterDesc="匹配极限">
+                    <property>
+                        <interface>iint</interface>
+                        <max>10</max>
+                        <min>1</min>
+                    </property>
+                    <setting>9</setting>
+                    <helpdescription>匹配极限(参数单位是0.1)</helpdescription>
+                </parameter>
+                <parameter name="Regional_Out" parameterDesc="匹配查找区域外径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>10</max>
+                        <min>-350</min>
+                    </property>
+                    <setting>-83</setting>
+                    <helpdescription>测试区域圆外径</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                </property>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <helpdescription>成品盖方向定位</helpdescription>
+            </subtest>
+            <property>
+                <interface>iint</interface>
+            </property>
+            <helpdescription>成品盖方向定位</helpdescription>
+        </test>
+        <test testid="罐检测相关算法">
+            <subtest subtestid="罐圆心查找算法2">
+                <exe>
+                    <exename>CanCenter2</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <parameter name="LongAxis" parameterDesc="椭圆ROI区域长轴半径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>391</max>
+                        <min>20</min>
+                    </property>
+                    <setting>130</setting>
+                    <helpdescription>建立椭圆型感兴趣区域的长半轴，区域半径不要选取过大以致超过图片范围，显示颜色为黄色</helpdescription>
+                </parameter>
+                <parameter name="ShortAxis" parameterDesc="椭圆ROI区域短轴半径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>291</max>
+                        <min>20</min>
+                    </property>
+                    <setting>130</setting>
+                    <helpdescription>建立椭圆型感兴趣区域的短半轴，区域半径不要选取过大以致超过图片范围，显示颜色为黄色</helpdescription>
+                </parameter>
+                <parameter name="Thred_Contrast" parameterDesc="灰度阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>130</setting>
+                    <helpdescription>圆心查找第一次的参考值</helpdescription>
+                </parameter>
+                <parameter name="Select_Shape_Size" parameterDesc="目标图像大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>130</setting>
+                    <helpdescription>圆心查找形装筛选图形尺寸的下限</helpdescription>
+                </parameter>
+                <parameter name="XMax" parameterDesc="水平位置最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>550</max>
+                        <min>200</min>
+                    </property>
+                    <setting>400</setting>
+                    <helpdescription>圆心X轴方向上X的最大值</helpdescription>
+                </parameter>
+                <parameter name="XMin" parameterDesc="水平位置最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>50</min>
+                    </property>
+                    <setting>100</setting>
+                    <helpdescription>圆心X轴方向上X的最小值</helpdescription>
+                </parameter>
+                <parameter name="YMax" parameterDesc="垂直位置最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>50</min>
+                    </property>
+                    <setting>400</setting>
+                    <helpdescription>圆心Y轴方向上Y的最大值</helpdescription>
+                </parameter>
+                <parameter name="YMin" parameterDesc="垂直位置最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>5</min>
+                    </property>
+                    <setting>50</setting>
+                    <helpdescription>圆心Y轴方向上Y的最小值</helpdescription>
+                </parameter>
+                <parameter name="RMax" parameterDesc="检测圆心半径最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>80</min>
+                    </property>
+                    <setting>375</setting>
+                    <helpdescription>圆心半径容许的最大值</helpdescription>
+                </parameter>
+                <parameter name="RMin" parameterDesc="检测圆半径最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>60</min>
+                    </property>
+                    <setting>80</setting>
+                    <helpdescription>圆心半径容许的最小值</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                    <max>500</max>
+                    <min>5</min>
+                </property>
+                <order>999</order>
+                <runtest>YES</runtest>
+                <helpdescription>次算法是用动态查找边缘的方法, 用轮廓再找符合的圆心</helpdescription>
+            </subtest>
+            <subtest subtestid="罐双圆心查找及角度定位">
+                <exe>
+                    <exename>CanCenterAndOrientation</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <parameter name="OuterROILongAxis" parameterDesc="翻边椭圆ROI区域长轴半径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>391</max>
+                        <min>20</min>
+                    </property>
+                    <setting>160</setting>
+                    <helpdescription>建立翻边椭圆型感兴趣区域的长半轴，区域半径不要选取过大以致超过图片范围，显示颜色为黄色</helpdescription>
+                </parameter>
+                <parameter name="OuterROIShortAxis" parameterDesc="翻边椭圆ROI区域短轴半径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>291</max>
+                        <min>20</min>
+                    </property>
+                    <setting>160</setting>
+                    <helpdescription>建立翻边椭圆型感兴趣区域的短半轴，区域半径不要选取过大以致超过图片范围，显示颜色为黄色</helpdescription>
+                </parameter>
+                <parameter name="OuterCircleContrast" parameterDesc="翻边灰度对比度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>130</setting>
+                    <helpdescription>查找翻边时的灰度值对比度</helpdescription>
+                </parameter>
+                <parameter name="OuterCirclePieceSize" parameterDesc="翻边筛选图像块大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>100</setting>
+                    <helpdescription>翻边圆心查找筛选图形尺寸的下限</helpdescription>
+                </parameter>
+                <parameter name="InnerROILongAxis" parameterDesc="底盖椭圆ROI区域长轴半径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>391</max>
+                        <min>20</min>
+                    </property>
+                    <setting>60</setting>
+                    <helpdescription>建立底盖椭圆型感兴趣区域的长半轴，区域半径不要选取过大以致超过图片范围，显示颜色为黄色</helpdescription>
+                </parameter>
+                <parameter name="InnerROIShortAxis" parameterDesc="底盖椭圆ROI区域短轴半径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>291</max>
+                        <min>20</min>
+                    </property>
+                    <setting>40</setting>
+                    <helpdescription>建立翻边椭圆型感兴趣区域的短半轴，区域半径不要选取过大以致超过图片范围，显示颜色为黄色</helpdescription>
+                </parameter>
+                <parameter name="InnerCircleContrast" parameterDesc="底盖灰度对比度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>50</setting>
+                    <helpdescription>查找底盖时的灰度值对比度</helpdescription>
+                </parameter>
+                <parameter name="InnerCirclePieceSize" parameterDesc="底盖筛选图像块大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>40</setting>
+                    <helpdescription>底盖圆心查找筛选图形尺寸的下限</helpdescription>
+                </parameter>
+                <parameter name="RadiusForGettingOrientation" parameterDesc="定位罐角度的ROI区域半径">
+                    <property>
+                        <interface>iint</interface>
+                        <max>291</max>
+                        <min>30</min>
+                    </property>
+                    <setting>130</setting>
+                    <helpdescription>定位罐转向角度的ROI区域半径，显示颜色为黄色</helpdescription>
+                </parameter>
+                <parameter name="WidthForGettingOrientation" parameterDesc="定位罐角度的ROI区域宽度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>5</min>
+                    </property>
+                    <setting>50</setting>
+                    <helpdescription>定位罐转向角度的ROI区域宽度，显示颜色为黄色</helpdescription>
+                </parameter>
+                <parameter name="XMax" parameterDesc="水平位置最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>550</max>
+                        <min>200</min>
+                    </property>
+                    <setting>400</setting>
+                    <helpdescription>圆心X轴方向上X的最大值</helpdescription>
+                </parameter>
+                <parameter name="XMin" parameterDesc="水平位置最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>50</min>
+                    </property>
+                    <setting>100</setting>
+                    <helpdescription>圆心X轴方向上X的最小值</helpdescription>
+                </parameter>
+                <parameter name="YMax" parameterDesc="垂直位置最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>50</min>
+                    </property>
+                    <setting>400</setting>
+                    <helpdescription>圆心Y轴方向上Y的最大值</helpdescription>
+                </parameter>
+                <parameter name="YMin" parameterDesc="垂直位置最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>5</min>
+                    </property>
+                    <setting>50</setting>
+                    <helpdescription>圆心Y轴方向上Y的最小值</helpdescription>
+                </parameter>
+                <parameter name="RMax" parameterDesc="检测圆心半径最大值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>80</min>
+                    </property>
+                    <setting>375</setting>
+                    <helpdescription>圆心半径容许的最大值</helpdescription>
+                </parameter>
+                <parameter name="RMin" parameterDesc="检测圆半径最小值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>60</min>
+                    </property>
+                    <setting>80</setting>
+                    <helpdescription>圆心半径容许的最小值</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                    <max>500</max>
+                    <min>5</min>
+                </property>
+                <order>999</order>
+                <runtest>YES</runtest>
+                <helpdescription>此算法是用动态查找边缘的方法, 用轮廓再找符合的圆心</helpdescription>
+            </subtest>
+            <subtest subtestid="罐环形区域算法2">
+                <exe>
+                    <exename>CanCurlDll2</exename>
+                    <exeversion>1.0.2.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="PartitionBoundary" parameterDesc="区域划分">
+                    <property>
+                        <interface>iint</interface>
+                        <max>400</max>
+                        <min>10</min>
+                    </property>
+                    <setting>60</setting>
+                    <helpdescription>大于此区域的使用翻边中心，小于此环的使用底盖中心，显示颜色为橙色</helpdescription>
+                </parameter>
+                <parameter name="Regional_Out" parameterDesc="检测环外径">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>10</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-10</setting>
+                    <helpdescription>检测环外径，显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="ROIWidth" parameterDesc="检测区域宽度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>1</min>
+                    </property>
+                    <setting>5</setting>
+                    <helpdescription>检测环宽度，显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="NumPart" parameterDesc="分块数">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>5</min>
+                    </property>
+                    <setting>300</setting>
+                    <helpdescription>环划分块数</helpdescription>
+                </parameter>
+                <parameter name="DriftAngle1" parameterDesc="偏置角度1">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>360</max>
+                        <min>-50</min>
+                    </property>
+                    <setting>10</setting>
+                    <helpdescription>环的扇形缺口偏置角度1</helpdescription>
+                </parameter>
+                <parameter name="DriftAngle2" parameterDesc="偏置角度2">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>360</max>
+                        <min>-50</min>
+                    </property>
+                    <setting>200</setting>
+                    <helpdescription>环的扇形缺口偏置角度2</helpdescription>
+                </parameter>
+                <parameter name="ThresholdValue" parameterDesc="梯度阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>100</max>
+                        <min>1</min>
+                    </property>
+                    <setting>10</setting>
+                    <helpdescription>环梯度变化率阈值</helpdescription>
+                </parameter>
+                <parameter name="GrayValue" parameterDesc="灰度阀值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>20</setting>
+                    <helpdescription>环灰度阈值</helpdescription>
+                </parameter>
+                <property />
+                <helpdescription>对产品边缘比如卷边部分进行检测. 对卷边上的压伤, 缺角等进行检测</helpdescription>
+            </subtest>
+            <subtest subtestid="罐环形区域算法3">
+                <exe>
+                    <exename>CanCurlDll3</exename>
+                    <exeversion>1.0.2.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="PartitionBoundary" parameterDesc="区域划分">
+                    <property>
+                        <interface>iint</interface>
+                        <max>400</max>
+                        <min>10</min>
+                    </property>
+                    <setting>60</setting>
+                    <helpdescription>大于此区域的使用翻边中心，小于此环的使用底盖中心，显示颜色为橙色</helpdescription>
+                </parameter>
+                <parameter name="Regional_Out" parameterDesc="检测环外径">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>10</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-10</setting>
+                    <helpdescription>检测环外径，显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="ROIWidth" parameterDesc="检测区域宽度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>1</min>
+                    </property>
+                    <setting>5</setting>
+                    <helpdescription>检测环宽度，显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="NumPart" parameterDesc="分块数">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>5</min>
+                    </property>
+                    <setting>300</setting>
+                    <helpdescription>环划分块数</helpdescription>
+                </parameter>
+                <parameter name="DriftAngle1" parameterDesc="偏置角度1">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>360</max>
+                        <min>-50</min>
+                    </property>
+                    <setting>10</setting>
+                    <helpdescription>环的扇形缺口偏置角度1</helpdescription>
+                </parameter>
+                <parameter name="DriftAngle2" parameterDesc="偏置角度2">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>360</max>
+                        <min>-50</min>
+                    </property>
+                    <setting>200</setting>
+                    <helpdescription>环的扇形缺口偏置角度2</helpdescription>
+                </parameter>
+                <parameter name="DeviationValue" parameterDesc="方差阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>100</max>
+                        <min>1</min>
+                    </property>
+                    <setting>10</setting>
+                    <helpdescription>灰度方差变化率阈值</helpdescription>
+                </parameter>
+                <parameter name="SingleMeanGrayValue" parameterDesc="单一块灰度阀值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>20</setting>
+                    <helpdescription>环单一块灰度阈值</helpdescription>
+                </parameter>
+                <parameter name="List_Value" parameterDesc="另行加载算法选用">
+                    <property>
+                        <interface>ilist</interface>
+                        <max>1000</max>
+                        <min>100</min>
+                        <listvalue>
+                            <Energy />
+                            <Homogeneity />
+                            <Contrast />
+                            <EmptySolution />
+                        </listvalue>
+                    </property>
+                    <setting>EmptySolution</setting>
+                    <helpdescription>对于标准方差判断不够完善时，可另选算法。包括灰度能量、均匀性、对比度。如果不想添加新算法，请选择EmptySolution</helpdescription>
+                </parameter>
+                <parameter name="ThreshedGrayValue" parameterDesc="新加载算法阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>500</max>
+                        <min>1</min>
+                    </property>
+                    <setting>30</setting>
+                    <helpdescription>新加载算法变化率阈值</helpdescription>
+                </parameter>
+                <property />
+                <helpdescription>针对盖面压伤，缺角，油污，垫模等进行检测</helpdescription>
+            </subtest>
+            <subtest subtestid="罐边沿算法">
+                <exe>
+                    <exename>CanEdgeDLL</exename>
+                    <exeversion>1.0.2.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="PartitionBoundary" parameterDesc="区域划分">
+                    <property>
+                        <interface>iint</interface>
+                        <max>400</max>
+                        <min>10</min>
+                    </property>
+                    <setting>60</setting>
+                    <helpdescription>大于此区域的使用翻边中心，小于此环的使用底盖中心，显示颜色为橙色</helpdescription>
+                </parameter>
+                <parameter name="Regional_Out" parameterDesc="检测环外径">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>10</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-10</setting>
+                    <helpdescription>检测环外径，显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="ROIWidth" parameterDesc="检测区域宽度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>5</setting>
+                    <helpdescription>检测环宽度，显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="DriftAngle1" parameterDesc="偏置角度1">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>360</max>
+                        <min>-50</min>
+                    </property>
+                    <setting>10</setting>
+                    <helpdescription>环的扇形缺口偏置角度1</helpdescription>
+                </parameter>
+                <parameter name="DriftAngle2" parameterDesc="偏置角度2">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>360</max>
+                        <min>-50</min>
+                    </property>
+                    <setting>200</setting>
+                    <helpdescription>环的扇形缺口偏置角度2</helpdescription>
+                </parameter>
+                <parameter name="ThresholdValue" parameterDesc="灰度阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>10</setting>
+                    <helpdescription>缺陷灰度阈值</helpdescription>
+                </parameter>
+                <parameter name="DefectSize" parameterDesc="缺陷大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>300</max>
+                        <min>1</min>
+                    </property>
+                    <setting>20</setting>
+                    <helpdescription>缺陷的像素点大小</helpdescription>
+                </parameter>
+                <property />
+                <helpdescription>对产品进行边缘检测. 检测内容包括压伤，缺角，垫模，油污，划伤等</helpdescription>
+            </subtest>
+            <subtest subtestid="罐动态灰度值算法1.3">
+                <exe>
+                    <exename>CanDynThreshed1.3</exename>
+                    <exeversion>2.0.1.3</exeversion>
+                </exe>
+                <parameter name="PartitionBoundary" parameterDesc="区域划分">
+                    <property>
+                        <interface>iint</interface>
+                        <max>400</max>
+                        <min>10</min>
+                    </property>
+                    <setting>60</setting>
+                    <helpdescription>大于此区域的使用翻边中心，小于此环的使用底盖中心，显示颜色为橙色</helpdescription>
+                </parameter>
+                <parameter name="Regional_Out" parameterDesc="检测环外径">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>10</max>
+                        <min>-300</min>
+                    </property>
+                    <setting>-10</setting>
+                    <helpdescription>检测环外径，显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="ROIWidth" parameterDesc="检测区域宽度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>1</min>
+                    </property>
+                    <setting>5</setting>
+                    <helpdescription>检测环宽度，显示颜色为蓝色</helpdescription>
+                </parameter>
+                <parameter name="DriftAngle1" parameterDesc="偏置角度1">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>360</max>
+                        <min>-50</min>
+                    </property>
+                    <setting>50</setting>
+                    <helpdescription>环的扇形缺口偏置角度1</helpdescription>
+                </parameter>
+                <parameter name="DriftAngle2" parameterDesc="偏置角度2">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>360</max>
+                        <min>-50</min>
+                    </property>
+                    <setting>200</setting>
+                    <helpdescription>环的扇形缺口偏置角度2</helpdescription>
+                </parameter>
+                <parameter name="BlackMaskSize" parameterDesc="黑不良平滑处理尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>101</max>
+                        <min>3</min>
+                    </property>
+                    <setting>7</setting>
+                    <helpdescription>图像灰度值的线性平滑所用滤波器的矩阵组成大小，建议值：3，5，7，9，11，15，23，31，43，61，101 限制：奇数(MaskWidth) 对于黑盖面找黑时，需均匀度很高用3，3，白盖面黑白对比度大，无需很高的均匀性(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="BlackPointDynThresh" parameterDesc="黑点动态阀值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>8</setting>
+                    <helpdescription>黑污点动态阈值，建议选取值3.5以上，最好能比黑色划痕动态阈值大，以便清晰的提取点(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="BlackPointSize" parameterDesc="黑点尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>6</setting>
+                    <helpdescription>黑污点大小，建议5个像素值以上，可根据需要选取更小或者更大，但越小发生误排的概率也越大(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousBlackPointDynThresh" parameterDesc="极黑点动态阀值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>5</min>
+                    </property>
+                    <setting>20</setting>
+                    <helpdescription>找极黑污点,极黑污点动态阈值 ,建议选取数值20以上(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousBlackPointSize" parameterDesc="极黑点尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>1</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>极黑点大小，建议选1开始(不良区域为红色)</helpdescription>
+                </parameter>
+                <parameter name="WhiteMaskSize" parameterDesc="白不良平滑处理尺寸大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>101</max>
+                        <min>3</min>
+                    </property>
+                    <setting>23</setting>
+                    <helpdescription>图像灰度值的线性平滑所用滤波器的矩阵组成大小，建议值：3，5，7，9，11，15，23，31，43，61，101 限制：奇数(MaskWidth) 对于白盖面找白时，需均匀度很高用3，3，黑盖面黑白对比度大，无需很高的均匀性(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="WhitePointDynThresh" parameterDesc="白点动态阀值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>12</setting>
+                    <helpdescription>白污点动态阈值，建议选取值45以上，最好能比白色划痕动态阈值大，以便清晰的提取点(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="WhitePointSize" parameterDesc="白点大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>1</min>
+                    </property>
+                    <setting>8</setting>
+                    <helpdescription>白污点大小，建议5个像素值以上，可根据需要选取更小或者更大，但越小发生误排的概率也越大(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousWhitePointDynThresh" parameterDesc="极白点动态阀值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>250</max>
+                        <min>5</min>
+                    </property>
+                    <setting>20</setting>
+                    <helpdescription>找极白污点,极白污点动态阈值 ,建议选取数值20以上(不良区域为黄色)</helpdescription>
+                </parameter>
+                <parameter name="SeriousWhitePointSize" parameterDesc="极白点大小">
+                    <property>
+                        <interface>iint</interface>
+                        <max>200</max>
+                        <min>1</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>极白点大小，建议选1开始(不良区域为黄色)</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                </property>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <helpdescription>对区域的表面进行缺陷检测, 主要是划痕及大的油污等</helpdescription>
+            </subtest>
+            <property />
+            <helpdescription>罐的定位,翻边,缩紧,罐身,罐底及底盖等进行测试的算子库</helpdescription>
+        </test>
+        <test testid="展会Demo">
+            <subtest subtestid="胶囊测试">
+                <exe>
+                    <exename>check_blister</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="TransImage" parameterDesc="标准学习文件">
+                    <property>
+                        <interface>iobjectload</interface>
+                        <max>100</max>
+                        <min>5</min>
+                    </property>
+                    <setting>15</setting>
+                    <helpdescription>DEMO</helpdescription>
+                </parameter>
+                <property>
+                    <interface>common</interface>
+                </property>
+                <helpdescription>DEMO</helpdescription>
+            </subtest>
+            <subtest subtestid="胶囊测试2">
+                <exe>
+                    <exename>check_blister_mixed</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="TransImage" parameterDesc="标准学习文件">
+                    <property>
+                        <interface>iobjectload</interface>
+                        <max>100</max>
+                        <min>5</min>
+                    </property>
+                    <setting>15</setting>
+                    <helpdescription>DEMO</helpdescription>
+                </parameter>
+                <property>
+                    <interface>common</interface>
+                </property>
+                <helpdescription>DEMO</helpdescription>
+            </subtest>
+            <subtest subtestid="标签检测">
+                <exe>
+                    <exename>inspect_shampoo_label</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="TransImage" parameterDesc="标准学习文件">
+                    <property>
+                        <interface>iobjectload</interface>
+                        <max>100</max>
+                        <min>5</min>
+                    </property>
+                    <setting>15</setting>
+                    <helpdescription>DEMO</helpdescription>
+                </parameter>
+                <property>
+                    <interface>common</interface>
+                </property>
+                <helpdescription>DEMO</helpdescription>
+            </subtest>
+            <subtest subtestid="玻璃瓶口检测">
+                <exe>
+                    <exename>bottle</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <parameter name="TransImage" parameterDesc="标准学习文件">
+                    <property>
+                        <interface>iobjectload</interface>
+                        <max>100</max>
+                        <min>5</min>
+                    </property>
+                    <setting>15</setting>
+                    <helpdescription>DEMO</helpdescription>
+                </parameter>
+                <property>
+                    <interface>common</interface>
+                </property>
+                <helpdescription>DEMO</helpdescription>
+            </subtest>
+            <property />
+            <helpdescription>对圆形产品的圆心进行定位查找参数供其它测试使用, 找到圆心的坐标, 及半径</helpdescription>
+        </test>
+        <test testid="UV补涂检测">
+            <subtest subtestid="UV补涂表面测试">
+                <exe>
+                    <exename>CPGUVPuTu</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <parameter name="Regional_Out" parameterDesc="检测外径">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>300</max>
+                        <min>-200</min>
+                    </property>
+                    <setting>-10</setting>
+                    <helpdescription>卷圆外环圆半径</helpdescription>
+                </parameter>
+                <parameter name="NoTest_Regist" parameterDesc="非检测的区域设定">
+                    <property>
+                        <interface>iobject</interface>
+                    </property>
+                    <setting>d:\SLACTST\Example.101\\myregion33</setting>
+                    <helpdescription>设定不检测的区域</helpdescription>
+                </parameter>
+                <parameter name="NumPart" parameterDesc="分块数">
+                    <property>
+                        <interface>iint</interface>
+                        <max>500</max>
+                        <min>30</min>
+                    </property>
+                    <setting>300</setting>
+                    <helpdescription>卷圆外环划分块数</helpdescription>
+                </parameter>
+                <parameter name="Width" parameterDesc="检测区域宽度">
+                    <property>
+                        <interface>iint</interface>
+                        <max>30</max>
+                        <min>3</min>
+                    </property>
+                    <setting>3</setting>
+                    <helpdescription>卷圆外环宽度</helpdescription>
+                </parameter>
+                <parameter name="ThresholdValue" parameterDesc="阀值">
+                    <property>
+                        <interface>ifloat</interface>
+                        <max>150</max>
+                        <min>1</min>
+                    </property>
+                    <setting>18</setting>
+                    <helpdescription>灰度变化率阈值</helpdescription>
+                </parameter>
+                <parameter name="Thred_no_butu" parameterDesc="检测区域无补涂阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>40</setting>
+                    <helpdescription>整体无补涂测试参数阈值, 此值建议略在有补涂时的灰度下限灰度值</helpdescription>
+                </parameter>
+                <parameter name="Thred_Sing_MeanGrayLowerLimit" parameterDesc="每一块无补涂阈值">
+                    <property>
+                        <interface>iint</interface>
+                        <max>255</max>
+                        <min>1</min>
+                    </property>
+                    <setting>40</setting>
+                    <helpdescription>单块无补涂测试参数阈值, 此值建议略在有补涂时的灰度下限灰度值</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                </property>
+                <order>999</order>
+                <runtest>NO</runtest>
+                <helpdescription>对区域的表面进行缺陷检测</helpdescription>
+            </subtest>
+            <property>
+                <interface>iint</interface>
+            </property>
+            <helpdescription>对区域的表面进行缺陷检测</helpdescription>
+        </test>
+        <test testid="DllTest">
+            <subtest subtestid="DllTest">
+                <exe>
+                    <exename>dlltest</exename>
+                    <exeversion>1.0.1.0</exeversion>
+                </exe>
+                <parameter name="test_regist" parameterDesc="这是一个测试. 主要测试参数中文说明">
+                    <property>
+                        <interface>iobject</interface>
+                        <max>1000</max>
+                        <min>100</min>
+                        <visibility>GURU</visibility>
+                    </property>
+                    <setting>d:\SLACTST\Example.101\\myregion33.reg</setting>
+                    <helpdescription>这个是在测试Dll的一个功能. 供系统开发使用. 生产中无需此项</helpdescription>
+                </parameter>
+                <parameter name="test_regist2" parameterDesc="这是一个测试. 主要测试参数中文说明">
+                    <property>
+                        <interface>iobject</interface>
+                        <max>1000</max>
+                        <min>100</min>
+                    </property>
+                    <setting>d:\SLACTST\Example.101\\myregion33.reg</setting>
+                    <helpdescription>这个是在测试Dll的一个功能. 供系统开发使用. 生产中无需此项</helpdescription>
+                </parameter>
+                <parameter name="test_list" parameterDesc="这是一个测试. 主要测试参数中文说明">
+                    <property>
+                        <interface>ilist</interface>
+                        <max>1000</max>
+                        <min>100</min>
+                        <listvalue>
+                            <TEST1 />
+                            <test2 />
+                            <test3 />
+                            <test4 />
+                            <value5 />
+                            <value6 />
+                        </listvalue>
+                    </property>
+                    <setting>test4</setting>
+                    <helpdescription>这个是在测试Dll的一个功能. 供系统开发使用. 生产中无需此项</helpdescription>
+                </parameter>
+                <property>
+                    <interface>iint</interface>
+                </property>
+                <order>999</order>
+                <runtest>YES</runtest>
+                <helpdescription>这个是在测试Dll的一个功能. 供系统开发使用. 生产中无需此项</helpdescription>
+            </subtest>
+            <property>
+                <interface>iint</interface>
+            </property>
+            <helpdescription>DllTest</helpdescription>
+        </test>
+    </test_instance>
+</slactls>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/slacmvs/!svn/ver/1309/trunk/UVCurlDLL2.1
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/UVCurlDLL2.1/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/UVCurlDLL2.1/dllmain.cpp
+END
+UVCurlDLL2.1.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/1309/trunk/UVCurlDLL2.1/UVCurlDLL2.1.h
+END
+UVCurlDLL2.1.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/1036/trunk/UVCurlDLL2.1/UVCurlDLL2.1.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/UVCurlDLL2.1/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/UVCurlDLL2.1/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/UVCurlDLL2.1/ReadMe.txt
+END
+UVCurlDLL2.1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/1309/trunk/UVCurlDLL2.1/UVCurlDLL2.1.cpp
+END

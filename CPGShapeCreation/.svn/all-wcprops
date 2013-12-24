@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/1347/trunk/CPGShapeCreation
+END
+ShapeCreation.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/slacmvs/!svn/ver/1326/trunk/CPGShapeCreation/ShapeCreation.vcxproj
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/659/trunk/CPGShapeCreation/stdafx.h
+END
+CPGShapeCreation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/1329/trunk/CPGShapeCreation/CPGShapeCreation.cpp
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/659/trunk/CPGShapeCreation/dllmain.cpp
+END
+CPGShapeCreation.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/1329/trunk/CPGShapeCreation/CPGShapeCreation.h
+END
+ShapeCreation.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/slacmvs/!svn/ver/659/trunk/CPGShapeCreation/ShapeCreation.vcproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/659/trunk/CPGShapeCreation/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/659/trunk/CPGShapeCreation/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/659/trunk/CPGShapeCreation/ReadMe.txt
+END

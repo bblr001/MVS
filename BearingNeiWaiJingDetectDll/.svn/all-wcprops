@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/1343/trunk/BearingNeiWaiJingDetectDll
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/1343/trunk/BearingNeiWaiJingDetectDll/stdafx.h
+END
+NeiWaiJingDetectDll.vcxproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/slacmvs/!svn/ver/1343/trunk/BearingNeiWaiJingDetectDll/NeiWaiJingDetectDll.vcxproj.user
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/slacmvs/!svn/ver/1343/trunk/BearingNeiWaiJingDetectDll/dllmain.cpp
+END
+BearingNeiWaiJingDetectDll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/slacmvs/!svn/ver/1343/trunk/BearingNeiWaiJingDetectDll/BearingNeiWaiJingDetectDll.cpp
+END
+NeiWaiJingDetectDll.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/slacmvs/!svn/ver/1343/trunk/BearingNeiWaiJingDetectDll/NeiWaiJingDetectDll.vcxproj
+END
+BearingNeiWaiJingDetectDll.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/slacmvs/!svn/ver/1343/trunk/BearingNeiWaiJingDetectDll/BearingNeiWaiJingDetectDll.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/slacmvs/!svn/ver/1343/trunk/BearingNeiWaiJingDetectDll/targetver.h
+END
+CenterRegionDetectDll.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/slacmvs/!svn/ver/1343/trunk/BearingNeiWaiJingDetectDll/CenterRegionDetectDll.vcxproj.filters
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/1343/trunk/BearingNeiWaiJingDetectDll/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/1343/trunk/BearingNeiWaiJingDetectDll/ReadMe.txt
+END

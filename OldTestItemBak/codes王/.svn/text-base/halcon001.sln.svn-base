@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "halcon001", "halcon001.vcproj", "{A7D4DB67-7B3C-444B-9DE4-905231ECE7C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChenPinGTest", "..\ChenPinGTest\ChenPinGTest.vcproj", "{36D49A47-6E26-468E-9BD9-7524C3E93C25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7D4DB67-7B3C-444B-9DE4-905231ECE7C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7D4DB67-7B3C-444B-9DE4-905231ECE7C2}.Debug|Win32.Build.0 = Debug|Win32
+		{A7D4DB67-7B3C-444B-9DE4-905231ECE7C2}.Release|Win32.ActiveCfg = Release|Win32
+		{A7D4DB67-7B3C-444B-9DE4-905231ECE7C2}.Release|Win32.Build.0 = Release|Win32
+		{36D49A47-6E26-468E-9BD9-7524C3E93C25}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36D49A47-6E26-468E-9BD9-7524C3E93C25}.Debug|Win32.Build.0 = Debug|Win32
+		{36D49A47-6E26-468E-9BD9-7524C3E93C25}.Release|Win32.ActiveCfg = Release|Win32
+		{36D49A47-6E26-468E-9BD9-7524C3E93C25}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

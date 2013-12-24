@@ -1,0 +1,102 @@
+// common_base.idl : IDL source for 
+//
+// Copyright (c) SLAC.  All rights reserved.
+//
+// Author : Xu,Fei
+// This file will be processed by the MIDL tool to
+// produce the type library (common_base.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+import "HalconXimport.idl";
+cpp_quote("#include "HalconCOM.h"")
+
+[
+	object,
+	uuid(185C5A1B-CF21-4c3d-B9F0-B8DB64A2F767),
+	dual,
+	helpstring("common base Interface"),
+	pointer_default(unique)
+]
+interface IBaseInterface : IDispatch
+{
+	typedef
+    [
+        uuid(249A008B-9D16-4eff-8E57-8DC4164632D7),
+        version(1.0),
+        helpstring("Parameter Container Class")
+    ]
+	struct tagParameter
+	{
+		BSTR parameter[20]; // These parameter will be parsed by different Algorithm
+	}CParameter;
+
+	typedef
+    [
+        uuid(C6E08724-7A03-4fb5-91CD-75017915C11F),
+        version(1.0),
+        helpstring("The test result retrived from the test algorithm")
+    ]
+	struct tagResult
+	{
+		boolean  m_bFailSubTest;
+		int      m_index;
+		BSTR     m_strSubTestName;
+		BSTR	 m_strErrorMsg;
+		long	 m_errorX;
+		long	 m_errorY;
+		long	 m_errorR;
+	}CResult;
+
+	typedef
+    [
+        uuid(B2F83644-A782-4756-B998-2764ED31A52D),
+        version(1.0),
+        helpstring("This Class hold all the image information")
+    ]
+	struct tagImageData
+	{
+		boolean    m_isFail;
+		boolean    m_isDebug;
+		long	   m_imageIndex;// 
+		long       m_handleOfShowWin; // Window's handle 
+		double	   m_roateAngle;
+		double     m_center_x;
+		double     m_center_y;
+		double     m_center_x2; // unused now
+		double     m_center_y2; // unused now
+		double     m_redius;
+		double     m_redius2;   // unused now
+		Hobject    m_Image;
+		Hobject    m_errorRgn;
+		Hobject    m_object1;
+		Hobject    m_object2;
+		HTuple     m_reciveStartTime;
+		HTuple     m_reciveEndTime;
+		HTuple     m_processStartTime;
+		HTuple     m_processEndTime;
+		HTuple	   m_displayStartTime;
+		HTuple     m_displayEndTime;
+		short      m_count;
+		[size_is(m_count),unique]CResult* m_rsltArray;
+	}CImageData;
+
+	HRESULT SetParameter([in] short* paramIndex, [in] CParameter* pParameter);
+	HRESULT ProcessImageData([in] CImageData* pImageData, [in] short* parameterIndex, [out] CResult* retResult);
+	HRESULT TrainPrameter([in, ref] CImageData* pImageData);
+};
+
+// Lib
+[
+	uuid(17FE3A54-733E-43bc-8261-4AC493A17912),
+	version(1.0),
+	helpstring("COMMap 1.0 Type Library")
+]
+library BaseInterfaceLib
+{
+    importlib("stdole2.tlb");
+
+	struct CParameter;
+	struct CResult;
+	struct CImageData;
+};

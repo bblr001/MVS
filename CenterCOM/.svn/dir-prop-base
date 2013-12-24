@@ -1,0 +1,17 @@
+K 10
+svn:ignore
+V 123
+*.aps
+*.eto
+*.user
+CenterCOM_i.c
+CenterCOM_i.h
+ClientBin
+GeneratedArtifacts
+[Bb]in
+[Dd]ebug
+[Rr]elease
+_Pvt_Extensions
+obj
+
+END

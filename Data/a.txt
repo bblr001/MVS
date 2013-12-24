@@ -1,0 +1,4 @@
+
+HALCONARCH=x86-win32
+HALCONROOT=C:\Program Files\MVTec\HALCON-10.0
+Path=C:\Program Files\MVTec\HALCON-10.0\bin\x86-win32;C:\Program Files\MVTec\HALCON-10.0\FLEXlm\x86-win32

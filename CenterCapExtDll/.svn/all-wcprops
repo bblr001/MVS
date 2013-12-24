@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/1357/trunk/CenterCapExtDll
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/1357/trunk/CenterCapExtDll/stdafx.h
+END
+CenterCapDll.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/slacmvs/!svn/ver/1357/trunk/CenterCapExtDll/CenterCapDll.vcxproj.filters
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/1357/trunk/CenterCapExtDll/dllmain.cpp
+END
+CenterCapExtDll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/1357/trunk/CenterCapExtDll/CenterCapExtDll.cpp
+END
+CenterCapExtDll.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/1357/trunk/CenterCapExtDll/CenterCapExtDll.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/1357/trunk/CenterCapExtDll/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/1357/trunk/CenterCapExtDll/stdafx.cpp
+END
+CenterCapExtDll.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/slacmvs/!svn/ver/1357/trunk/CenterCapExtDll/CenterCapExtDll.vcxproj
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/1357/trunk/CenterCapExtDll/ReadMe.txt
+END

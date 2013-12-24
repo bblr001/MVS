@@ -1,0 +1,21 @@
+K 13
+bugtraq:label
+V 37
+淇敼瀵瑰簲Bugzilla鐨凚ugID:
+K 15
+bugtraq:message
+V 27
+Bugzilla鐨凚ugID: %BUGID%
+K 11
+bugtraq:url
+V 47
+http://192.168.1.3/bugs/show_bug.cgi?id=%BUGID%
+K 21
+bugtraq:warnifnoissue
+V 4
+true
+K 15
+tsvn:logminsize
+V 1
+5
+END

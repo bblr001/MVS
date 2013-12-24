@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/slacmvs/!svn/ver/1165/trunk/CurlDll4
+END
+CurlDll4.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/930/trunk/CurlDll4/CurlDll4.vcxproj
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/930/trunk/CurlDll4/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/930/trunk/CurlDll4/dllmain.cpp
+END
+CurlDll4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1165/trunk/CurlDll4/CurlDll4.cpp
+END
+CurlDll4.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/930/trunk/CurlDll4/CurlDll4.vcxproj.filters
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/930/trunk/CurlDll4/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/930/trunk/CurlDll4/stdafx.cpp
+END
+CurlDll4.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/930/trunk/CurlDll4/CurlDll4.h
+END

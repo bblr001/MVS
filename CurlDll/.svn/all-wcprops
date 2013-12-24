@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/slacmvs/!svn/ver/1036/trunk/CurlDll
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/564/trunk/CurlDll/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/CurlDll/dllmain.cpp
+END
+CurlDll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/672/trunk/CurlDll/CurlDll.cpp
+END
+CurlDll.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/669/trunk/CurlDll/CurlDll.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/CurlDll/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/564/trunk/CurlDll/stdafx.cpp
+END
+CurlDll.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1036/trunk/CurlDll/CurlDll.vcxproj
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/564/trunk/CurlDll/ReadMe.txt
+END

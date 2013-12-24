@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<!-- This file written by the SLACAOICONFIGUI ,SZ_SALC-->
+<slactls ver="1.0">
+	<common tlsname = "SLAC AOI Test">
+		<author>sam</author>
+		<createtime>2011-10-17 10:41</createtime>
+		<version>1.0</version>
+		<site>苏州SLAC</site>
+		<host>OFFLINE_PC</host>
+		<program>基本盖检测</program>
+		<program_revision>100</program_revision>
+		<timeout>20</timeout>
+		<system_type>WindowsXP</system_type>
+	</common>
+	<test_instance>
+		<test testid="圆心定位" >
+			<subtest subtestid="圆心查找算法1" >
+				<exe>
+					<exename>CenterDll.dll</exename>
+					<exeversion>1.0.1.0</exeversion>
+				</exe>
+				<order>999</order>
+				<runtest>NO</runtest>
+				<parameter name = "Thred_Center1" >
+					<property>
+						<accessmode>RW</accessmode>
+						<name>Thred_Center1</name>
+						<interface>int</interface>
+						<visibility>beginner</visibility>
+						<default>15</default>
+						<max>50</max>
+						<min>5</min>
+					</property>
+					<setting>15</setting>
+					<helpdescription>圆心查找第一次的参考值</helpdescription>
+				</parameter>
+				<parameter name = "Thred_Center2" >
+					<property>
+						<accessmode>RW</accessmode>
+						<name>Thred_Center2</name>
+						<interface>int</interface>
+						<visibility>beginner</visibility>
+						<default>10</default>
+						<max>20</max>
+						<min>5</min>
+					</property>
+					<setting>50</setting>
+					<helpdescription>圆心查找第二种算法的参考值。此值是对第一种处理结果不理想的状况下才会被运行</helpdescription>
+				</parameter>
+				<parameter name = "XMax" >
+					<property>
+						<accessmode>RW</accessmode>
+						<name>xsize</name>
+						<interface>iint</interface>
+						<visibility>beginner</visibility>
+						<default>300</default>
+						<max>450</max>
+						<min>200</min>
+					</property>
+					<setting>400</setting>
+					<helpdescription>圆心X轴方向上X的最大值</helpdescription>
+				</parameter>
+				<parameter name = "XMin" >
+					<property>
+						<accessmode>RW</accessmode>
+						<name>xsize</name>
+						<interface>iint</interface>
+						<visibility>beginner</visibility>
+						<default>10</default>
+						
+						<max>20</max>
+						<min>5</min>
+					</property>
+					<setting>100</setting>
+					<helpdescription>圆心X轴方向上X的最小值</helpdescription>
+				</parameter>
+				<parameter name = "YMax" >
+					<property>
+						<accessmode>RW</accessmode>
+						<name>xsize</name>
+						<interface>iint</interface>
+						<visibility>beginner</visibility>
+						<default>10</default>
+						<max>20</max>
+						<min>5</min>
+					</property>
+					<setting>400</setting>
+					<helpdescription>圆心Y轴方向上Y的最大值</helpdescription>
+				</parameter>
+				<parameter name = "YMin" >
+					<property>
+						<accessmode>RW</accessmode>
+						<name>xsize</name>
+						<interface>iint</interface>
+						<visibility>beginner</visibility>
+						<default>10</default>
+						<max>20</max>
+						<min>5</min>
+					</property>
+					<setting>50</setting>
+					<helpdescription>圆心Y轴方向上Y的最小值</helpdescription>
+				</parameter>
+				<parameter name = "RMax" >
+					<property>
+						<accessmode>RW</accessmode>
+						<name>xsize</name>
+						<interface>iint</interface>
+						<visibility>beginner</visibility>
+						<default>10</default>
+						
+						<max>400</max>
+						<min>80</min>
+					</property>
+					<setting>375</setting>
+					<helpdescription>圆心半径容许的最大值</helpdescription>
+				</parameter>
+				<parameter name = "RMin" >
+					<property>
+						<accessmode>RW</accessmode>
+						<name>xsize</name>
+						<interface>iint</interface>
+						<visibility>beginner</visibility>
+						<default>80</default>						
+						<max>200</max>
+						<min>60</min>
+					</property>
+					<setting>80</setting>
+					<helpdescription>圆心半径容许的最小值</helpdescription>
+				</parameter>
+				<property>
+					<accessmode>RW</accessmode>
+					<name>圆心查找算法1</name>
+					<interface>common</interface>
+					<visibility>beginner</visibility>
+				</property>	
+				<helpdescription>圆心查找算法1. 主要是按灰度进行一些圆心的查找定位</helpdescription>
+			</subtest>		
+			<property>
+				<accessmode>RW</accessmode>
+				<name>圆心定位</name>
+			</property>
+			<helpdescription>对圆形产品的圆心进行定位查找参数供其它测试使用</helpdescription>
+		</test>
+		<test testid="卷边测试" >			
+			<subtest subtestid="卷边测试">
+				<exe>
+					<exename>CurlDll.dll</exename>
+					<exeversion>1.0.1.0</exeversion>
+				</exe>
+		<order>999</order>
+                <runtest>NO</runtest>
+				<parameter name = "Thred_Curl">
+					<property>
+						<accessmode>RW</accessmode>
+						<name>Thred_Curl</name>
+						<interface>int</interface>
+						<visibility>beginner</visibility>
+						<default>10</default>						
+						<max>10000</max>
+						<min>1</min>
+						<helpdescription>卷边测试参数1</helpdescription>
+					</property>
+					<setting>9200</setting>
+					<helpdescription>方法参考基准数</helpdescription>
+				</parameter>
+        <parameter name="Regional_Internal">
+          <property>
+            <accessmode>RW</accessmode>
+            <currentvalue>15</currentvalue>
+            <default>10</default>
+            <helpdescription>help description this parameter function</helpdescription>
+            <interface>iint</interface>
+            <max>300</max>
+            <min>100</min>
+            <name>xsize</name>
+            <visibility>beginner</visibility>
+          </property>
+          <setting>186</setting>
+          <helpdescription>测试区域圆内径</helpdescription>
+        </parameter>
+        <parameter name="Regional_Out">
+          <property>
+            <accessmode>RW</accessmode>
+            <currentvalue>15</currentvalue>
+            <default>10</default>
+            <helpdescription>help description this parameter function</helpdescription>
+            <interface>iint</interface>
+            <max>300</max>
+            <min>130</min>
+            <name>xsize</name>
+            <visibility>beginner</visibility>
+          </property>
+          <setting>191</setting>
+          <helpdescription>测试区域圆外径</helpdescription>
+        </parameter>
+        
+				<property>
+					<accessmode>RW</accessmode>
+					<name>卷边测试</name>
+					<visibility>beginner</visibility>
+				</property>	
+				<helpdescription>对产品边缘卷边部分进行测试方法一是用两边的灰度差的方法</helpdescription>
+			</subtest>			
+			<property>
+				<accessmode>RW</accessmode>
+				<name>卷边测试</name>
+			</property>
+			<helpdescription>对产品边缘卷边部分进行测试</helpdescription>
+		</test>
+		<test testid="嵌环测试" >
+		<subtest subtestid="嵌环测试方法1">
+				<exe>
+					<exename>qianhuan.dll</exename>
+					<exeversion>1.0.1.0</exeversion>
+				</exe>
+		<order>999</order>
+                <runtest>NO</runtest>
+				<parameter name = "Thred_qian_a">
+					<property>
+						<accessmode>RW</accessmode>
+						<name>Thred_qian_a</name>
+						<interface>int</interface>
+						<visibility>beginner</visibility>
+						<default>1000</default>						
+						<max>2000</max>
+						<min>100</min>
+						<helpdescription>嵌环测试算子第一部分的参考值</helpdescription>
+					</property>
+					<setting>1000</setting>
+					<helpdescription>嵌环测试算子第一部分的参考值</helpdescription>
+				</parameter>
+				<parameter name = "Thred_qian_b">
+					<property>
+						<accessmode>RW</accessmode>
+						<name>Thred_qian_b</name>
+						<interface>int</interface>
+						<visibility>beginner</visibility>
+						<default>2000</default>						
+						<max>20000</max>
+						<min>5</min>
+						<helpdescription>嵌环测试算子第二部分的参考值</helpdescription>
+					</property>
+					<setting>2000</setting>
+					<helpdescription>嵌环测试算子第二部分的参考值</helpdescription>
+				</parameter>
+        <parameter name="Regional_Internal">
+          <property>
+            <accessmode>RW</accessmode>
+            <currentvalue>15</currentvalue>
+            <default>10</default>
+            <helpdescription>此参数设定检测区域的内径</helpdescription>
+            <interface>iint</interface>
+            <max>300</max>
+            <min>100</min>
+            <name>Regional_Internal</name>
+            <visibility>beginner</visibility>
+          </property>
+          <setting>186</setting>
+          <helpdescription>测试区域圆内径</helpdescription>
+        </parameter>
+        <parameter name="Regional_Out">
+          <property>
+            <accessmode>RW</accessmode>
+            <currentvalue>15</currentvalue>
+            <default>10</default>
+            <helpdescription>此参数设定检测区域的外径</helpdescription>
+            <interface>iint</interface>
+            <max>300</max>
+            <min>130</min>
+            <name>Regional_Out</name>
+            <visibility>beginner</visibility>
+          </property>
+          <setting>191</setting>
+          <helpdescription>测试区域圆外径</helpdescription>
+        </parameter>
+        
+				<property>
+					<accessmode>RW</accessmode>
+					<name>嵌环测试方法一</name>
+				</property>
+					<helpdescription>subtest help description this parameter function</helpdescription>
+			</subtest>
+			<property>
+				<accessmode>RW</accessmode>
+				<name>嵌环测试</name>
+				<interface>int</interface>
+				<visibility>beginner</visibility>
+			</property>
+			<helpdescription>test help description this parameter function</helpdescription>
+		</test>
+		<test testid="注胶检测" >			
+			<subtest subtestid="注胶测试1">
+				<exe>
+					<exename>zhujiao.dll</exename>
+					<exeversion>1.0.1.0</exeversion>
+				</exe>
+				<order>999</order>
+				<runtest>NO</runtest>
+				<parameter name = "Thred_jiao">
+					<property>
+						<accessmode>RW</accessmode>
+						<name>Thred_jiao</name>
+						<interface>int</interface>
+						<visibility>beginner</visibility>
+						<default>Thred_jiao</default>
+						<max>1000</max>
+						<min>100</min>
+						<helpdescription>注胶测试参考数值基本部分的参考值</helpdescription>
+					</property>
+					<setting>350</setting>
+					<helpdescription>注胶测试参考数值</helpdescription>
+				</parameter>
+				<parameter name = "Thred_jiao_inter">
+					<property>
+						<accessmode>RW</accessmode>
+						<name>Thred_jiao_inter</name>
+						<interface>int</interface>
+						<visibility>beginner</visibility>
+						<default>500</default>						
+						<max>2000</max>
+						<min>100</min>
+						<helpdescription>注胶内侧测试参考数值</helpdescription>
+					</property>
+					<setting>500</setting>
+					<helpdescription>注胶内侧测试参考数值</helpdescription>
+				</parameter>
+				<parameter name = "Thred_jiao_outer">
+					<property>
+						<accessmode>RW</accessmode>
+						<name>xsize</name>
+						<interface>iint</interface>
+						<visibility>beginner</visibility>
+						<default>800</default>
+						<max>2000</max>
+						<min>100</min>
+						<helpdescription>注胶外侧测试参考数值</helpdescription>
+					</property>
+					<setting>800</setting>
+					<helpdescription>注胶内侧测试参考数值</helpdescription>
+				</parameter>
+        <parameter name="Regional_Internal">
+          <property>
+            <accessmode>RW</accessmode>
+            <currentvalue>15</currentvalue>
+            <default>10</default>
+            <helpdescription>此参数设定检测区域的内径</helpdescription>
+            <interface>iint</interface>
+            <max>300</max>
+            <min>100</min>
+            <name>Regional_Internal</name>
+            <visibility>beginner</visibility>
+          </property>
+          <setting>186</setting>
+          <helpdescription>测试区域圆内径</helpdescription>
+        </parameter>
+        <parameter name="Regional_Out">
+          <property>
+            <accessmode>RW</accessmode>
+            <currentvalue>15</currentvalue>
+            <default>10</default>
+            <helpdescription>此参数设定检测区域的外径</helpdescription>
+            <interface>iint</interface>
+            <max>300</max>
+            <min>130</min>
+            <name>Regional_Out</name>
+            <visibility>beginner</visibility>
+          </property>
+          <setting>191</setting>
+          <helpdescription>测试区域圆外径</helpdescription>
+        </parameter>
+				<property>
+					<accessmode>RW</accessmode>
+					<name>注胶测试1</name>
+					<interface>int</interface>
+					<visibility>beginner</visibility>
+				</property>	
+				<helpdescription>subtest help description this parameter function</helpdescription>
+			</subtest>
+			<property>
+				<accessmode>RW</accessmode>
+				<name>注胶检测</name>
+				<interface>iint</interface>
+				<visibility>beginner</visibility>
+			</property>
+			<helpdescription>注胶检测， 对产品内的注胶进行检验和测试</helpdescription>
+		</test>
+		<test testid="加强筋检测" >			
+			<subtest subtestid="加强筋测试1">
+				<exe>
+					<exename>JiaQianJin.dll</exename>
+					<exeversion>1.0.1.0</exeversion>
+				</exe>
+				<order>999</order>
+                	<runtest>NO</runtest>
+				<parameter name = "Thred_jin_a">
+					<property>
+						<accessmode>RW</accessmode>
+						<name>Thred_jin_a</name>
+						<interface>iint</interface>
+						<visibility>beginner</visibility>
+						<default>10</default>						
+						<max>2000</max>
+						<min>100</min>
+						<helpdescription>加强筋检测参考数值一</helpdescription>
+					</property>
+					<setting>800</setting>
+					<helpdescription>加强筋检测参考数值一</helpdescription>
+				</parameter>
+				<parameter name = "Thred_jin_b">
+					<property>
+						<accessmode>RW</accessmode>
+						<name>Thred_jin_b</name>
+						<interface>iint</interface>
+						<visibility>beginner</visibility>
+						<default>10</default>
+						
+						<max>20</max>
+						<min>5</min>
+						<helpdescription>加强筋检测参考数值二</helpdescription>
+					</property>
+					<setting>800</setting>
+					<helpdescription>加强筋检测参考数值二</helpdescription>
+				</parameter>
+				<parameter name = "Thred_jin_c">
+					<property>
+						<accessmode>RW</accessmode>
+						<name>Thred_jin_c</name>
+						<interface>int</interface>
+						<visibility>beginner</visibility>
+						<helpdescription>加强筋检测参考数值三</helpdescription>
+					</property>
+					<setting>800</setting>
+					<helpdescription>加强筋检测参考数值三</helpdescription>
+				</parameter>
+        <parameter name="Regional_Internal">
+          <property>
+            <accessmode>RW</accessmode>
+            <currentvalue>15</currentvalue>
+            <default>10</default>
+            <helpdescription>此参数设定检测区域的内径</helpdescription>
+            <interface>iint</interface>
+            <max>300</max>
+            <min>100</min>
+            <name>Regional_Internal</name>
+            <visibility>beginner</visibility>
+          </property>
+          <setting>186</setting>
+          <helpdescription>测试区域圆内径</helpdescription>
+        </parameter>
+        <parameter name="Regional_Out">
+          <property>
+            <accessmode>RW</accessmode>
+            <currentvalue>15</currentvalue>
+            <default>10</default>
+            <helpdescription>此参数设定检测区域的外径</helpdescription>
+            <interface>iint</interface>
+            <max>300</max>
+            <min>130</min>
+            <name>Regional_Out</name>
+            <visibility>beginner</visibility>
+          </property>
+          <setting>191</setting>
+          <helpdescription>测试区域圆外径</helpdescription>
+        </parameter>
+				<property>
+					<accessmode>RW</accessmode>
+					<name>加强筋测试1</name>
+					<interface>int</interface>
+					<visibility>beginner</visibility>
+				</property>	
+				<helpdescription>加强筋测试方法一， 对底部和内外边进行检测</helpdescription>
+			</subtest>
+			<property>
+				<accessmode>RW</accessmode>
+				<name>加强筋检测</name>
+				<interface>int</interface>
+				<visibility>beginner</visibility>
+			</property>
+			<helpdescription>对产品的加强筋进行检测</helpdescription>
+		</test>
+		<test testid="面心检测" >			
+			<subtest subtestid="面心测试1">
+				<exe>
+					<exename>mianxin.dll</exename>
+					<exeversion>1.0.1.0</exeversion>
+				</exe>
+				<order>999</order>
+        <runtest>NO</runtest>
+				<property>
+					<accessmode>RW</accessmode>
+					<name>面心测试1</name>
+					<interface>int</interface>
+					<visibility>beginner</visibility>
+				</property>
+        <parameter name="Regional_Out">
+          <property>
+            <accessmode>RW</accessmode>
+            <currentvalue>15</currentvalue>
+            <default>10</default>
+            <helpdescription>此参数设定检测区域的内径</helpdescription>
+            <interface>iint</interface>
+            <max>300</max>
+            <min>130</min>
+            <name>Regional_Out</name>
+            <visibility>beginner</visibility>
+          </property>
+          <setting>191</setting>
+          <helpdescription>测试区域圆外径</helpdescription>
+        </parameter>
+				<helpdescription>面心内划桓及污点进行检测</helpdescription>
+			</subtest>
+			<property>
+				<accessmode>RW</accessmode>
+				<name>面心检测</name>
+				<interface>iint</interface>
+				<visibility>beginner</visibility>
+			</property>
+			<helpdescription>面心内划桓及污点进行检测</helpdescription>
+		</test>		
+	</test_instance>
+</slactls>

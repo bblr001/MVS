@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/slacmvs/!svn/ver/1036/trunk/CPGDianWeiSHM
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/CPGDianWeiSHM/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/CPGDianWeiSHM/dllmain.cpp
+END
+CPGDianWeiSHM.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/slacmvs/!svn/ver/579/trunk/CPGDianWeiSHM/CPGDianWeiSHM.vcxproj.filters
+END
+CPGDianWeiMatching.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/944/trunk/CPGDianWeiSHM/CPGDianWeiMatching.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/CPGDianWeiSHM/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/CPGDianWeiSHM/stdafx.cpp
+END
+CPGDianWeiMatching.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/669/trunk/CPGDianWeiSHM/CPGDianWeiMatching.h
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/CPGDianWeiSHM/ReadMe.txt
+END
+CPGDianWeiSHM.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/1036/trunk/CPGDianWeiSHM/CPGDianWeiSHM.vcxproj
+END

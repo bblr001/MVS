@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCircleDetectDll
+END
+BearingCircleDetectDll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCircleDetectDll/BearingCircleDetectDll.cpp
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCircleDetectDll/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCircleDetectDll/dllmain.cpp
+END
+BearingCircleDetectDll.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCircleDetectDll/BearingCircleDetectDll.h
+END
+CircleExtDll.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCircleDetectDll/CircleExtDll.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCircleDetectDll/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCircleDetectDll/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCircleDetectDll/ReadMe.txt
+END

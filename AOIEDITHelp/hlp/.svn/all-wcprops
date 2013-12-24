@@ -1,0 +1,419 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/802/trunk/AOIEDITHelp/hlp
+END
+hid_sc_minimize.htm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_sc_minimize.htm
+END
+AOIEDITHelp.hhc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/AOIEDITHelp.hhc
+END
+hid_prev_pane.htm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_prev_pane.htm
+END
+hid_window_new.htm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_window_new.htm
+END
+scrollbars.htm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/scrollbars.htm
+END
+hid_sc_tasklist.htm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_sc_tasklist.htm
+END
+hid_view_ruler.htm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_view_ruler.htm
+END
+AOIEDITHelp.hhk
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/AOIEDITHelp.hhk
+END
+afx_hidw_toolbar.htm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/afx_hidw_toolbar.htm
+END
+main_index.htm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/main_index.htm
+END
+hid_file_new.htm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_file_new.htm
+END
+AOIEDITHelp.hhp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/AOIEDITHelp.hhp
+END
+hid_window_all.htm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_window_all.htm
+END
+hid_file_close.htm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_file_close.htm
+END
+menu_view.htm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/menu_view.htm
+END
+hid_window_cascade.htm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_window_cascade.htm
+END
+afx_hidd_replace.htm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/afx_hidd_replace.htm
+END
+HTMLDefines.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/802/trunk/AOIEDITHelp/hlp/HTMLDefines.h
+END
+hid_file_save_as.htm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_file_save_as.htm
+END
+afx_hidd_color.htm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/afx_hidd_color.htm
+END
+hid_next_pane.htm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_next_pane.htm
+END
+hid_edit_paste.htm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_edit_paste.htm
+END
+hid_window_split.htm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_window_split.htm
+END
+afx_hidd_find.htm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/afx_hidd_find.htm
+END
+hid_edit_find.htm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_edit_find.htm
+END
+hid_edit_repeat.htm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_edit_repeat.htm
+END
+hid_window_tile_horz.htm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_window_tile_horz.htm
+END
+menu_help.htm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/menu_help.htm
+END
+hid_sc_close.htm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_sc_close.htm
+END
+hid_file_send_mail.htm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_file_send_mail.htm
+END
+hid_sc_nextwindow.htm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_sc_nextwindow.htm
+END
+hid_help_using.htm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_help_using.htm
+END
+hid_sc_size.htm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_sc_size.htm
+END
+afx_hidd_filesave.htm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/afx_hidd_filesave.htm
+END
+afx_hidp_default.htm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/afx_hidp_default.htm
+END
+hid_ht_nowhere.htm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_ht_nowhere.htm
+END
+hid_window_arrange.htm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_window_arrange.htm
+END
+afx_hidd_font.htm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/afx_hidd_font.htm
+END
+hid_sc_maximize.htm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_sc_maximize.htm
+END
+hid_app_exit.htm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_app_exit.htm
+END
+hid_app_about.htm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_app_about.htm
+END
+afx_hidw_dockbar_top.htm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/afx_hidw_dockbar_top.htm
+END
+hid_edit_replace.htm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_edit_replace.htm
+END
+hid_file_mru_file1.htm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_file_mru_file1.htm
+END
+hid_edit_clear_all.htm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_edit_clear_all.htm
+END
+hid_ht_caption.htm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_ht_caption.htm
+END
+hid_sc_prevwindow.htm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_sc_prevwindow.htm
+END
+hid_edit_clear.htm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_edit_clear.htm
+END
+hid_context_help.htm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_context_help.htm
+END
+afx_hidw_status_bar.htm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/afx_hidw_status_bar.htm
+END
+hid_view_toolbar.htm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_view_toolbar.htm
+END
+hid_file_save.htm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_file_save.htm
+END
+hid_edit_cut.htm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_edit_cut.htm
+END
+afx_hidd_fileopen.htm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/afx_hidd_fileopen.htm
+END
+menu_window.htm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/menu_window.htm
+END
+hid_sc_restore.htm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_sc_restore.htm
+END
+hid_edit_undo.htm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_edit_undo.htm
+END
+hidr_doc1type.htm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hidr_doc1type.htm
+END
+menu_file.htm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/menu_file.htm
+END
+hid_edit_copy.htm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_edit_copy.htm
+END
+hid_help_index.htm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_help_index.htm
+END
+afx_hidd_newtypedlg.htm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/afx_hidd_newtypedlg.htm
+END
+hid_window_tile.htm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_window_tile.htm
+END
+hid_window_tile_vert.htm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_window_tile_vert.htm
+END
+menu_edit.htm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/menu_edit.htm
+END
+hid_sc_move.htm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_sc_move.htm
+END
+hid_edit_redo.htm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_edit_redo.htm
+END
+hid_file_open.htm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_file_open.htm
+END
+hid_view_status_bar.htm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/hlp/hid_view_status_bar.htm
+END

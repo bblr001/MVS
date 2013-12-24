@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/slacmvs/!svn/ver/1309/trunk/EOEEdgeDLL
+END
+EOEEdgeDLL.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1309/trunk/EOEEdgeDLL/EOEEdgeDLL.h
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/EOEEdgeDLL/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/EOEEdgeDLL/dllmain.cpp
+END
+EOEEdgeDLL.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/1036/trunk/EOEEdgeDLL/EOEEdgeDLL.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/EOEEdgeDLL/targetver.h
+END
+EOEEdgeDLL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/707/trunk/EOEEdgeDLL/EOEEdgeDLL.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/EOEEdgeDLL/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/EOEEdgeDLL/ReadMe.txt
+END

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/slacmvs/!svn/ver/1036/trunk/CenterCOM
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/stdafx.h
+END
+CenterCOMps.def
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/CenterCOMps.def
+END
+CenterAlgorithm.rgs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/CenterAlgorithm.rgs
+END
+CenterCOM.rc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/CenterCOM.rc
+END
+CenterCOM.idl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/692/trunk/CenterCOM/CenterCOM.idl
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/targetver.h
+END
+CenterCOM.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/CenterCOM.cpp
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/dllmain.cpp
+END
+dllmain.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/dllmain.h
+END
+CenterAlgorithm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/CenterAlgorithm.cpp
+END
+CenterCOM.rgs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/CenterCOM.rgs
+END
+CenterCOM.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/1036/trunk/CenterCOM/CenterCOM.vcxproj
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/ReadMe.txt
+END
+CenterCOM.def
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/CenterCOM.def
+END
+CenterCOMPS.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/1036/trunk/CenterCOM/CenterCOMPS.vcxproj
+END
+Resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/Resource.h
+END
+CenterAlgorithm.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/688/trunk/CenterCOM/CenterAlgorithm.h
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/slacmvs/!svn/ver/1287/trunk/CenterHC
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/564/trunk/CenterHC/stdafx.h
+END
+CenterHC.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/669/trunk/CenterHC/CenterHC.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/CenterHC/dllmain.cpp
+END
+CenterHC.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/1036/trunk/CenterHC/CenterHC.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/CenterHC/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/CenterHC/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/CenterHC/ReadMe.txt
+END
+CenterHC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1287/trunk/CenterHC/CenterHC.cpp
+END
+CenterHC.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/579/trunk/CenterHC/CenterHC.vcxproj.filters
+END

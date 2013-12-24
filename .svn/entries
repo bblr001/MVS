@@ -1,0 +1,404 @@
+9
+
+dir
+1358
+http://192.168.1.3:81/svn/slacmvs/trunk
+http://192.168.1.3:81/svn/slacmvs
+
+
+
+2013-12-24T07:58:16.679500Z
+1358
+shenam
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c62e262d-7968-4260-8e0d-42b2b844520a
+
+ReleasePack
+dir
+
+CenterCOM
+dir
+
+CPGDianWeiSHM
+dir
+
+CurlDll2
+dir
+
+MainTest
+dir
+
+CurlDll4
+dir
+
+BearingBaoChiJiaDetectDll
+dir
+
+CurlDll5
+dir
+
+BearingCenterCapDll
+dir
+
+CPGGSurface
+dir
+
+CPGMianXinTest
+dir
+
+CPGShapeMatching2.1Sub
+dir
+
+CenterHC23
+dir
+
+AOIEdit3
+dir
+
+CurlDll
+dir
+
+MianXinFFT
+dir
+
+EOEGCountersink
+dir
+
+CPGDynThreshed2.1Sub
+dir
+
+EOEShapeDll2
+dir
+
+BearingCreateModelDll
+dir
+
+Inc
+dir
+
+CanBodyDetect01
+dir
+
+CanBodyLocation01
+dir
+
+zhujiao
+dir
+
+OldTestItemBak
+dir
+
+CenterDll
+dir
+
+CPGModelCreate
+dir
+
+CPGShapeCreation
+dir
+
+CenterCapExtDll
+dir
+
+CPGDianWeiROI
+dir
+
+Algorithm_COM
+dir
+
+EOEShapeDll
+dir
+
+check_blister_mixed
+dir
+
+CPGGLine
+dir
+
+HorizonSeamDetect01
+dir
+
+pylocation05v1.0
+dir
+
+BearingNeiWaiJingDetectDll
+dir
+
+CPGUVPuTu
+dir
+
+mianxin
+dir
+
+CPGGCountersink
+dir
+
+测试程序记录
+dir
+
+CPGGrayMatching
+dir
+
+CurlGuangGai
+dir
+
+Data
+dir
+
+SLACAOIMain.sln
+file
+
+
+
+
+2013-12-24T08:12:42.703125Z
+e9433f49446f80937ca81047f50a42bf
+2013-12-24T07:52:29.226375Z
+1356
+shenam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+66958
+
+Issues and Bugs.xlsx
+file
+
+
+
+
+2013-12-24T08:12:42.718750Z
+87600abb548a0f6c02b58afbf778075f
+2013-07-12T00:54:34.968846Z
+985
+xufei
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2647697
+
+BearingCreateModelNeiWaiJingDll
+dir
+
+pyVerticalSeamDetect01
+dir
+
+JiaQianJing
+dir
+
+Mianxin2
+dir
+
+bottle
+dir
+
+EOEEdgeDLL
+dir
+
+MatchingParaDefineTaoYinDll
+dir
+
+inspect_shampoo_label
+dir
+
+SLACAOIMainItem.sln
+file
+
+
+
+
+2013-12-24T08:12:42.718750Z
+f1e42a5f3421167be2b8ea1b9e378a34
+2013-12-17T03:44:38.632625Z
+1349
+huangmm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+79068
+
+Halcon_Program
+dir
+
+check_blister
+dir
+
+DynThreshed1.3
+dir
+
+BearingSLACAOIMain.sln
+file
+
+
+
+
+2013-12-24T08:12:42.718750Z
+6c9ef214cc6bb75ab9f9ed802d2112c8
+2013-12-16T04:36:59.085750Z
+1346
+shenam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16855
+
+CPGShapeMatching
+dir
+
+VerticalSeamDetect01
+dir
+
+EOEScanDll
+dir
+
+DllTest
+dir
+
+CanBodyLocation01v1.0
+dir
+
+Release
+dir
+
+pylocation03
+dir
+
+pylocation04
+dir
+
+Debug
+dir
+
+SLACMVSN
+dir
+
+pylocation05
+dir
+
+EOEGLine
+dir
+
+AOIEDITHelp
+dir
+
+EOEGSurface
+dir
+
+CenterHC
+dir
+
+CPGDynThreshed1.1
+dir
+
+BearingTryDetectDll
+dir
+
+UVCurlDLL2.1
+dir
+
+qianhuan
+dir
+
+MatchingParaDefineDll
+dir
+
+CenterDllHS
+dir
+
+comDataType
+dir
+
+EOECurlDll3
+dir
+
+MaoDing
+dir
+
+BearingCircleDetectDll
+dir
+

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/slacmvs/!svn/ver/1309/trunk/EOEGSurface
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/652/trunk/EOEGSurface/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/652/trunk/EOEGSurface/dllmain.cpp
+END
+EOEGSurface.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/720/trunk/EOEGSurface/EOEGSurface.vcxproj
+END
+EOEGSurface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/1309/trunk/EOEGSurface/EOEGSurface.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/652/trunk/EOEGSurface/targetver.h
+END
+EOEGSurface.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/673/trunk/EOEGSurface/EOEGSurface.vcproj
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/652/trunk/EOEGSurface/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/652/trunk/EOEGSurface/ReadMe.txt
+END
+EOEGSurface.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/1309/trunk/EOEGSurface/EOEGSurface.h
+END

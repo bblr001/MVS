@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<configuration>
+  <basicSetting>
+    <add key="program" value="Example.101"/>
+    <add key="tlsFile" value="example.tls"/>
+    <add key="sampleImage" value="sample.tiff"/>
+    <add key="dispWndWidth" value="659"/>
+    <add key="dispWndHeight" value="494"/>
+    <add key="imageSource" value="FILES"/>
+    <add key="imageFilePath" value="D:\SLACTST\Example.101\SLAC_LOG\FAIL\"/>
+    <add key="saveErrorImage" value="NO"/>
+  </basicSetting>
+  <cameraSetting>
+    <add key="cameraName" value="CH1 (21143001)"/>
+    <add key="triggerMode" value="NO"/>
+    <add key="connect2LightCtrlFlag" value="NO"/>
+    <add key="triggerType" value="FallingEdge"/>
+    <add key="cameraGain" value="100"/>
+    <add key="linesPerFrame" value="0"/>
+    <add key="framesPerSheet" value="0"/>    
+  </cameraSetting>
+  <rejectionSetting>
+    <add key="rejectPort" value="10"/>
+    <add key="enableFlag" value="NO"/>
+    <add key="alarmThreshold" value="30"/>
+    <add key="redLightPort" value="0"/>
+    <add key="greenLightPort" value="0"/>
+  </rejectionSetting>
+  <LightIntensitySetting>
+    <lightctrl name="Light Controller 1" address="0">
+      <parameter channel="1" name="Control_1_CH1" parameterDesc="CH1">
+        <property>
+          <interface>iint</interface>
+          <max>255</max>
+          <min>1</min>
+        </property>
+        <setting>47</setting>
+        <helpdescription>OutPut CH1</helpdescription>
+      </parameter>
+      <parameter channel="2" name="Control_1_CH2" parameterDesc="CH2">
+        <property>
+          <interface>iint</interface>
+          <max>255</max>
+          <min>1</min>
+        </property>
+        <setting>47</setting>
+        <helpdescription>OutPut CH2</helpdescription>
+      </parameter>
+      <parameter channel="3" name="Control_1_CH3" parameterDesc="CH3">
+        <property>
+          <interface>iint</interface>
+          <max>255</max>
+          <min>1</min>
+        </property>
+        <setting>47</setting>
+        <helpdescription>OutPut CH3</helpdescription>
+      </parameter>
+      <parameter channel="4" name="Control_1_CH4" parameterDesc="CH4">
+        <property>
+          <interface>iint</interface>
+          <max>255</max>
+          <min>1</min>
+        </property>
+        <setting>47</setting>
+        <helpdescription>OutPut CH4</helpdescription>
+      </parameter>
+    </lightctrl>
+    <lightctrl name="Light Controller 2" address="1">
+      <parameter channel="1" name="Control_2_CH1" parameterDesc="CH1">
+        <property>
+          <interface>ifloat</interface>
+          <max>255</max>
+          <min>0</min>
+        </property>
+        <setting>47</setting>
+        <helpdescription>Out Put CH1</helpdescription>
+      </parameter>
+      <parameter channel="2" name="Control_2_CH2" parameterDesc="CH2">
+        <property>
+          <interface>ifloat</interface>
+          <max>255</max>
+          <min>0</min>
+        </property>
+        <setting>47</setting>
+        <helpdescription>Out Put CH2</helpdescription>
+      </parameter>
+      <parameter channel="3" name="Control_2_CH3" parameterDesc="CH3">
+        <property>
+          <interface>ifloat</interface>
+          <max>255</max>
+          <min>0</min>
+        </property>
+        <setting>47</setting>
+        <helpdescription>Out Put CH3</helpdescription>
+      </parameter>
+      <parameter channel="4" name="Control_2_CH4" parameterDesc="CH4">
+        <property>
+          <interface>ifloat</interface>
+          <max>255</max>
+          <min>0</min>
+        </property>
+        <setting>47</setting>
+        <helpdescription>Out Put CH4</helpdescription>
+      </parameter>
+    </lightctrl>
+  </LightIntensitySetting>
+</configuration>

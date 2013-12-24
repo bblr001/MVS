@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/1343/trunk/BearingBaoChiJiaDetectDll
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/slacmvs/!svn/ver/1343/trunk/BearingBaoChiJiaDetectDll/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/1343/trunk/BearingBaoChiJiaDetectDll/dllmain.cpp
+END
+CenterRegionDetectDll.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/slacmvs/!svn/ver/1343/trunk/BearingBaoChiJiaDetectDll/CenterRegionDetectDll.vcxproj
+END
+BearingBaoChiJiaDetectDll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/slacmvs/!svn/ver/1343/trunk/BearingBaoChiJiaDetectDll/BearingBaoChiJiaDetectDll.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/1343/trunk/BearingBaoChiJiaDetectDll/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/slacmvs/!svn/ver/1343/trunk/BearingBaoChiJiaDetectDll/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/slacmvs/!svn/ver/1343/trunk/BearingBaoChiJiaDetectDll/ReadMe.txt
+END
+BearingBaoChiJiaDetectDll.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/slacmvs/!svn/ver/1343/trunk/BearingBaoChiJiaDetectDll/BearingBaoChiJiaDetectDll.h
+END

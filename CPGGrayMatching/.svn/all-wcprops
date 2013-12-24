@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/1036/trunk/CPGGrayMatching
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/657/trunk/CPGGrayMatching/stdafx.h
+END
+CPGGrayMatching.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/slacmvs/!svn/ver/1036/trunk/CPGGrayMatching/CPGGrayMatching.vcxproj
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/657/trunk/CPGGrayMatching/dllmain.cpp
+END
+CPGGrayMatching.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/slacmvs/!svn/ver/707/trunk/CPGGrayMatching/CPGGrayMatching.cpp
+END
+CPGGrayMatching.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/659/trunk/CPGGrayMatching/CPGGrayMatching.vcproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/657/trunk/CPGGrayMatching/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/657/trunk/CPGGrayMatching/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/657/trunk/CPGGrayMatching/ReadMe.txt
+END
+CPGGrayMatching.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/657/trunk/CPGGrayMatching/CPGGrayMatching.h
+END

@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/slacmvs/!svn/ver/1358/trunk/AOIEdit3
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/706/trunk/AOIEdit3/stdafx.h
+END
+TestTreeView.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1166/trunk/AOIEdit3/TestTreeView.h
+END
+ViewTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/ViewTree.h
+END
+AOIEditVer3.rc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1356/trunk/AOIEdit3/AOIEditVer3.rc
+END
+ClassView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/ClassView.cpp
+END
+ProSetRejectTab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/1356/trunk/AOIEdit3/ProSetRejectTab.cpp
+END
+ProgramSettingDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/1166/trunk/AOIEdit3/ProgramSettingDlg.h
+END
+NextFormView.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1319/trunk/AOIEdit3/NextFormView.h
+END
+ProSetBaseTab.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/721/trunk/AOIEdit3/ProSetBaseTab.h
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1114/trunk/AOIEdit3/app.config
+END
+LoginDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/824/trunk/AOIEdit3/LoginDlg.h
+END
+ProgramSelectorDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/1190/trunk/AOIEdit3/ProgramSelectorDlg.h
+END
+PropertiesWnd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/1333/trunk/AOIEdit3/PropertiesWnd.cpp
+END
+RibbonPage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/934/trunk/AOIEdit3/RibbonPage.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/targetver.h
+END
+OutputWnd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/OutputWnd.cpp
+END
+ProSetCameraTab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/1339/trunk/AOIEdit3/ProSetCameraTab.cpp
+END
+bounded_buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/1308/trunk/AOIEdit3/bounded_buffer.h
+END
+ChildView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/584/trunk/AOIEdit3/ChildView.cpp
+END
+AOIEditVer3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/1317/trunk/AOIEdit3/AOIEditVer3.cpp
+END
+RibbonPagerCtrl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/RibbonPagerCtrl.cpp
+END
+FileView.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/FileView.h
+END
+HomeView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1289/trunk/AOIEdit3/HomeView.cpp
+END
+ui_decorator.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/612/trunk/AOIEdit3/ui_decorator.h
+END
+SaveProgram.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/1190/trunk/AOIEdit3/SaveProgram.cpp
+END
+AOIEditVer3.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/1185/trunk/AOIEdit3/AOIEditVer3.vcxproj
+END
+DrawRegionDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/1356/trunk/AOIEdit3/DrawRegionDlg.cpp
+END
+DlgShowHistoryData.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/DlgShowHistoryData.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/stdafx.cpp
+END
+ViewTree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/ViewTree.cpp
+END
+TestTreeView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/940/trunk/AOIEdit3/TestTreeView.cpp
+END
+ErrorImageDispWnd.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/1335/trunk/AOIEdit3/ErrorImageDispWnd.h
+END
+CheckBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/611/trunk/AOIEdit3/CheckBox.h
+END
+process.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/1307/trunk/AOIEdit3/process.cfg
+END
+ProgramSettingDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/1304/trunk/AOIEdit3/ProgramSettingDlg.cpp
+END
+NextFormView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/1319/trunk/AOIEdit3/NextFormView.cpp
+END
+ProSetBaseTab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/1346/trunk/AOIEdit3/ProSetBaseTab.cpp
+END
+MainFrm.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/1308/trunk/AOIEdit3/MainFrm.h
+END
+LoginDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/824/trunk/AOIEdit3/LoginDlg.cpp
+END
+ProgramSelectorDlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/1307/trunk/AOIEdit3/ProgramSelectorDlg.cpp
+END
+ClassView.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/ClassView.h
+END
+ProSetRejectTab.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/1166/trunk/AOIEdit3/ProSetRejectTab.h
+END
+1.tiff
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/1.tiff
+END
+FileView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/FileView.cpp
+END
+PropertiesWnd.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/1166/trunk/AOIEdit3/PropertiesWnd.h
+END
+RibbonPage.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/934/trunk/AOIEdit3/RibbonPage.h
+END
+OutputWnd.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/OutputWnd.h
+END
+ProSetCameraTab.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/1335/trunk/AOIEdit3/ProSetCameraTab.h
+END
+AOIEditVer3.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/1106/trunk/AOIEdit3/AOIEditVer3.h
+END
+ChildView.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/ChildView.h
+END
+DlgShowHistoryData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/DlgShowHistoryData.cpp
+END
+RibbonPagerCtrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/RibbonPagerCtrl.h
+END
+ErrorImageDispWnd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/1335/trunk/AOIEdit3/ErrorImageDispWnd.cpp
+END
+CheckBox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/611/trunk/AOIEdit3/CheckBox.cpp
+END
+HomeView.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/965/trunk/AOIEdit3/HomeView.h
+END
+MainFrm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/1358/trunk/AOIEdit3/MainFrm.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/AOIEdit3/ReadMe.txt
+END
+SaveProgram.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/1190/trunk/AOIEdit3/SaveProgram.h
+END
+Resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1356/trunk/AOIEdit3/Resource.h
+END
+DrawRegionDlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/965/trunk/AOIEdit3/DrawRegionDlg.h
+END

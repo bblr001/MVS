@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/697/trunk/inspect_shampoo_label
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/564/trunk/inspect_shampoo_label/stdafx.h
+END
+inspect_shampoo_label.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/slacmvs/!svn/ver/669/trunk/inspect_shampoo_label/inspect_shampoo_label.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/inspect_shampoo_label/dllmain.cpp
+END
+inspect_shampoo_label.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/slacmvs/!svn/ver/697/trunk/inspect_shampoo_label/inspect_shampoo_label.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/564/trunk/inspect_shampoo_label/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/564/trunk/inspect_shampoo_label/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/564/trunk/inspect_shampoo_label/ReadMe.txt
+END
+inspect_shampoo_label.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/slacmvs/!svn/ver/669/trunk/inspect_shampoo_label/inspect_shampoo_label.cpp
+END

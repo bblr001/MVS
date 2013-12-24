@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 24
+rejector.cpp
+rejector.h
+
+K 13
+svn:mergeinfo
+V 23
+/trunk/AOIEdit3:348-349
+END

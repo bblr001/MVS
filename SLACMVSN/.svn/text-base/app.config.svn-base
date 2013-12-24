@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<configuration>
+  <basicSetting>
+    <add key="REJECT_DURATION_TIME" value="15"/>
+    <add key="DISMISS_ALARM_PORT" value="0"/>
+    <add key="ENCODER_TO_ARTCARD" value="YES"/>
+    <add key="CUSTOMISED_TITLE" value="苏州斯莱克精密设备股份有限公司"/>
+  </basicSetting>
+  <panelSetting>
+    <!--<add key="1" value="CH1"/>-->
+    <add key="2" value="CH2"/>
+    <!--<add key="3" value="CH3"/>-->
+  </panelSetting>
+</configuration>

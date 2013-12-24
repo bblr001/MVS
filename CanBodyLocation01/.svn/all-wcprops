@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/1263/trunk/CanBodyLocation01
+END
+CanBodyLocation01.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/1263/trunk/CanBodyLocation01/CanBodyLocation01.h
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/1001/trunk/CanBodyLocation01/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/1001/trunk/CanBodyLocation01/dllmain.cpp
+END
+CanBodyLocation01.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/slacmvs/!svn/ver/1239/trunk/CanBodyLocation01/CanBodyLocation01.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/1001/trunk/CanBodyLocation01/targetver.h
+END
+CanBodyLocation01.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/slacmvs/!svn/ver/1263/trunk/CanBodyLocation01/CanBodyLocation01.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/1001/trunk/CanBodyLocation01/stdafx.cpp
+END

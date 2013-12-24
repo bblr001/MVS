@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGSurface
+END
+CPGGSurface.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGSurface/CPGGSurface.h
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGSurface/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGSurface/dllmain.cpp
+END
+CPGGSurface.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGSurface/CPGGSurface.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGSurface/targetver.h
+END
+CPGGSurface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGSurface/CPGGSurface.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGSurface/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGSurface/ReadMe.txt
+END

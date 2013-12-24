@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/slacmvs/!svn/ver/697/trunk/bottle
+END
+bottle.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/669/trunk/bottle/bottle.h
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/564/trunk/bottle/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/564/trunk/bottle/dllmain.cpp
+END
+bottle.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/697/trunk/bottle/bottle.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/564/trunk/bottle/targetver.h
+END
+bottle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/669/trunk/bottle/bottle.cpp
+END
+bottle.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/579/trunk/bottle/bottle.vcxproj.filters
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/564/trunk/bottle/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/564/trunk/bottle/ReadMe.txt
+END

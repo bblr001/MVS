@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/slacmvs/!svn/ver/1309/trunk/EOEGLine
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/980/trunk/EOEGLine/stdafx.h
+END
+EOEGLine.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/1309/trunk/EOEGLine/EOEGLine.vcxproj
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/980/trunk/EOEGLine/dllmain.cpp
+END
+EOEGLine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/980/trunk/EOEGLine/EOEGLine.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/980/trunk/EOEGLine/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/980/trunk/EOEGLine/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/980/trunk/EOEGLine/ReadMe.txt
+END
+EOEGLine.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1309/trunk/EOEGLine/EOEGLine.h
+END

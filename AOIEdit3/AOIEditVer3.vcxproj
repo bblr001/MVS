@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Eng_Ver|Win32">
+      <Configuration>Debug_Eng_Ver</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Sheet_Inspection|Win32">
+      <Configuration>Debug_Sheet_Inspection</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Eng_Ver|Win32">
+      <Configuration>Release_Eng_Ver</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Sheet_Inspection|Win32">
+      <Configuration>Release_Sheet_Inspection</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>AOIEdit</ProjectName>
+    <ProjectGuid>{9A0FF4AA-49D9-4270-B935-E8A111B62F6A}</ProjectGuid>
+    <RootNamespace>AOIEditVer3</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\Inc\;..\AOIEdit3\;$(PYLON_ROOT)\include;$(PYLON_GENICAM_ROOT)\library\CPP\include;$(HALCONROOT)\include;..\Inc\PCI2312;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;EOE_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>halconcpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYLON_ROOT)\lib\Win32;$(PYLON_GENICAM_ROOT)\library\CPP\Lib\Win32_i86;$(HALCONROOT)/lib/$(HALCONARCH);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <StackCommitSize>300000</StackCommitSize>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)Debug\AOIEdit.exe  $(SolutionDir)SLACMVSN
+copy $(SolutionDir)Debug\AOIEdit.pdb  $(SolutionDir)SLACMVSN
+
+copy $(SolutionDir)Release\COMMONINFO.S3DB $(SolutionDir)Debug
+
+copy $(ProjectDir)process.cfg $(SolutionDir)Debug;
+copy "$(ProjectDir)app.config"  "$(TargetPath).config"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\Inc\;..\AOIEdit3\;$(PYLON_ROOT)\include;$(PYLON_GENICAM_ROOT)\library\CPP\include;$(HALCONROOT)\include;..\Inc\PCI2312;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;SHEET_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;SHEET_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>halconcpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYLON_ROOT)\lib\Win32;$(PYLON_GENICAM_ROOT)\library\CPP\Lib\Win32_i86;$(HALCONROOT)/lib/$(HALCONARCH);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <StackCommitSize>300000</StackCommitSize>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)Debug_Sheet_Inspection\AOIEdit.exe  $(SolutionDir)SLACMVSN
+copy $(SolutionDir)Debug_Sheet_Inspection\AOIEdit.pdb  $(SolutionDir)SLACMVSN
+
+copy $(SolutionDir)Release\COMMONINFO.S3DB $(SolutionDir)Debug_Sheet_Inspection
+copy $(ProjectDir)process.cfg $(SolutionDir)Debug_Sheet_Inspection;
+copy "$(ProjectDir)app.config"  "$(TargetPath).config"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\Inc\;..\AOIEdit3\;$(PYLON_ROOT)\include;$(PYLON_GENICAM_ROOT)\library\CPP\include;$(HALCONROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_ENGLISH;EOE_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_ENGLISH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>halconcpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYLON_ROOT)\lib\Win32;$(PYLON_GENICAM_ROOT)\library\CPP\Lib\Win32_i86;$(HALCONROOT)/lib/$(HALCONARCH);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <StackCommitSize>300000</StackCommitSize>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)Debug_Eng_Ver\AOIEdit.exe  $(SolutionDir)SLACMVSN
+copy $(SolutionDir)Debug_Eng_Ver\AOIEdit.pdb  $(SolutionDir)SLACMVSN
+
+copy $(SolutionDir)Release\COMMONINFO.S3DB $(SolutionDir)Debug_Eng_Ver
+
+copy $(ProjectDir)process.cfg $(SolutionDir)Debug_Eng_Ver;
+copy "$(ProjectDir)app.config"  "$(TargetPath).config"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\Inc\;..\AOIEdit3\;$(PYLON_ROOT)\include;$(PYLON_GENICAM_ROOT)\library\CPP\include;$(HALCONROOT)\include;..\Inc\PCI2312;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EOE_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>halconcpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYLON_ROOT)\lib\Win32;$(PYLON_GENICAM_ROOT)\library\CPP\Lib\Win32_i86;$(HALCONROOT)/lib/$(HALCONARCH);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(ProjectDir)process.cfg $(SolutionDir)Release;
+copy "$(ProjectDir)app.config"  "$(TargetPath).config"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\Inc\;..\AOIEdit3\;$(PYLON_ROOT)\include;$(PYLON_GENICAM_ROOT)\library\CPP\include;$(HALCONROOT)\include;..\Inc\PCI2312;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SHEET_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;SHEET_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>halconcpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYLON_ROOT)\lib\Win32;$(PYLON_GENICAM_ROOT)\library\CPP\Lib\Win32_i86;$(HALCONROOT)/lib/$(HALCONARCH);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(ProjectDir)process.cfg $(SolutionDir)Release_Sheet_Inspection
+copy $(SolutionDir)Release_Sheet_Inspection\AOIEdit.exe  $(SolutionDir)SLACMVSN
+copy $(SolutionDir)Release_Sheet_Inspection\AOIEdit.pdb  $(SolutionDir)SLACMVSN
+
+copy $(SolutionDir)Release\COMMONINFO.S3DB $(SolutionDir)Release_Sheet_Inspection
+copy $(ProjectDir)process.cfg $(SolutionDir)Release_Sheet_Inspection;
+copy "$(ProjectDir)app.config"  "$(TargetPath).config"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\Inc\;..\AOIEdit3\;$(PYLON_ROOT)\include;$(PYLON_GENICAM_ROOT)\library\CPP\include;$(HALCONROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_ENGLISH;EOE_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_ENGLISH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>halconcpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYLON_ROOT)\lib\Win32;$(PYLON_GENICAM_ROOT)\library\CPP\Lib\Win32_i86;$(HALCONROOT)/lib/$(HALCONARCH);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)Release\COMMONINFO.S3DB $(SolutionDir)Release_Eng_Ver
+copy $(ProjectDir)process.cfg $(SolutionDir)Release_Eng_Ver
+copy "$(ProjectDir)app.config"  "$(TargetPath).config"
+copy $(SolutionDir)Release_Eng_Ver\AOIEdit.exe  $(SolutionDir)SLACMVSN
+copy $(SolutionDir)Release_Eng_Ver\AOIEdit.pdb  $(SolutionDir)SLACMVSN</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Inc\VLCtrl.cpp" />
+    <ClCompile Include="AOIEditVer3.cpp" />
+    <ClCompile Include="CheckBox.cpp" />
+    <ClCompile Include="ChildView.cpp" />
+    <ClCompile Include="ErrorImageDispWnd.cpp" />
+    <ClCompile Include="DrawRegionDlg.cpp" />
+    <ClCompile Include="HomeView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="NextFormView.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="RibbonPage.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\Inc\TestListWnd.cpp" />
+    <ClCompile Include="TestTreeView.cpp" />
+    <ClCompile Include="..\Inc\ViewList.cpp" />
+    <ClCompile Include="ViewTree.cpp" />
+    <ClCompile Include="..\Inc\TlsFileParser.cpp" />
+    <ClCompile Include="..\Inc\CustomProperties.cpp" />
+    <ClCompile Include="..\Inc\IMActiveObj.cpp" />
+    <ClCompile Include="..\Inc\TLog.cpp" />
+    <ClCompile Include="..\Inc\Tools.cpp" />
+    <ClCompile Include="..\Inc\CGridListCtrlEx\CGridColumnTraitCombo.cpp" />
+    <ClCompile Include="..\Inc\CGridListCtrlEx\CGridColumnTraitDateTime.cpp" />
+    <ClCompile Include="..\Inc\CGridListCtrlEx\CGridColumnTraitEdit.cpp" />
+    <ClCompile Include="..\Inc\CGridListCtrlEx\CGridColumnTraitHyperLink.cpp" />
+    <ClCompile Include="..\Inc\CGridListCtrlEx\CGridColumnTraitImage.cpp" />
+    <ClCompile Include="..\Inc\CGridListCtrlEx\CGridColumnTraitMultilineEdit.cpp" />
+    <ClCompile Include="..\Inc\CGridListCtrlEx\CGridColumnTraitText.cpp" />
+    <ClCompile Include="..\Inc\CGridListCtrlEx\CGridListCtrlEx.cpp" />
+    <ClCompile Include="..\Inc\CGridListCtrlEx\CGridListCtrlGroups.cpp" />
+    <ClCompile Include="..\Inc\CGridListCtrlEx\CGridRowTraitText.cpp" />
+    <ClCompile Include="..\Inc\CGridListCtrlEx\CGridRowTraitXP.cpp" />
+    <ClCompile Include="..\Inc\CGridListCtrlEx\ViewConfigSection.cpp" />
+    <ClCompile Include="..\Inc\tinxml\tinystr.cpp" />
+    <ClCompile Include="..\Inc\tinxml\tinyxml.cpp" />
+    <ClCompile Include="..\Inc\tinxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\Inc\tinxml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\Inc\CppSQLite3.cpp" />
+    <ClCompile Include="..\Inc\SqlDB.cpp" />
+    <ClCompile Include="LoginDlg.cpp" />
+    <ClCompile Include="ProgramSelectorDlg.cpp" />
+    <ClCompile Include="ProgramSettingDlg.cpp" />
+    <ClCompile Include="ProSetBaseTab.cpp" />
+    <ClCompile Include="ProSetCameraTab.cpp" />
+    <ClCompile Include="ProSetRejectTab.cpp" />
+    <ClCompile Include="SaveProgram.cpp" />
+    <ClCompile Include="..\Inc\MConfigCenter.cpp" />
+    <ClCompile Include="..\Inc\MFilterCenter.cpp" />
+    <ClCompile Include="..\Inc\TestItemManage.cpp" />
+    <ClCompile Include="..\Inc\MRecvCenter.cpp" />
+    <ClCompile Include="..\Inc\BaslerCamera2.cpp" />
+    <ClCompile Include="..\Inc\ImageFilePump.cpp" />
+    <ClCompile Include="..\Inc\IMReport.cpp" />
+    <ClCompile Include="..\Inc\MReportCenter.cpp" />
+    <ClCompile Include="..\Inc\MReportMainView.cpp" />
+    <ClCompile Include="..\Inc\MReportView.cpp" />
+    <ClCompile Include="..\Inc\MReportFile.cpp" />
+    <ClCompile Include="..\Inc\MCtrlCenter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Inc\VLCtrl.h" />
+    <ClInclude Include="AOIEditVer3.h" />
+    <ClInclude Include="bounded_buffer.h" />
+    <ClInclude Include="CheckBox.h" />
+    <ClInclude Include="ChildView.h" />
+    <ClInclude Include="ErrorImageDispWnd.h" />
+    <ClInclude Include="DrawRegionDlg.h" />
+    <ClInclude Include="HomeView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="NextFormView.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RibbonPage.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\Inc\TestListWnd.h" />
+    <ClInclude Include="TestTreeView.h" />
+    <ClInclude Include="..\Inc\ViewList.h" />
+    <ClInclude Include="ui_decorator.h" />
+    <ClInclude Include="ViewTree.h" />
+    <ClInclude Include="..\Inc\TlsFileParser.h" />
+    <ClInclude Include="..\Inc\customproperties.h" />
+    <ClInclude Include="..\Inc\IMActiveObj.h" />
+    <ClInclude Include="..\Inc\MData.h" />
+    <ClInclude Include="..\Inc\ShareMem.h" />
+    <ClInclude Include="..\Inc\TLog.h" />
+    <ClInclude Include="..\Inc\Tools.h" />
+    <ClInclude Include="..\Inc\TypeCent.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridColumnTrait.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridColumnTraitCombo.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridColumnTraitDateTime.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridColumnTraitEdit.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridColumnTraitHyperLink.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridColumnTraitImage.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridColumnTraitMultilineEdit.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridColumnTraitText.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridColumnTraitVisitor.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridListCtrlEx.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridListCtrlGroups.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridRowTrait.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridRowTraitText.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridRowTraitVisitor.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\CGridRowTraitXP.h" />
+    <ClInclude Include="..\Inc\CGridListCtrlEx\ViewConfigSection.h" />
+    <ClInclude Include="..\Inc\tinxml\tinystr.h" />
+    <ClInclude Include="..\Inc\tinxml\tinyxml.h" />
+    <ClInclude Include="..\Inc\function.h" />
+    <ClInclude Include="..\Inc\CppSQLite3.h" />
+    <ClInclude Include="..\Inc\DBControl.h" />
+    <ClInclude Include="..\Inc\SqlDB.h" />
+    <ClInclude Include="..\Inc\sqlite3.h" />
+    <ClInclude Include="..\Inc\SqliteDB.h" />
+    <ClInclude Include="LoginDlg.h" />
+    <ClInclude Include="ProgramSelectorDlg.h" />
+    <ClInclude Include="ProgramSettingDlg.h" />
+    <ClInclude Include="ProSetBaseTab.h" />
+    <ClInclude Include="ProSetCameraTab.h" />
+    <ClInclude Include="ProSetRejectTab.h" />
+    <ClInclude Include="SaveProgram.h" />
+    <ClInclude Include="..\Inc\MConfigCenter.h" />
+    <ClInclude Include="..\Inc\MFilterCenter.h" />
+    <ClInclude Include="..\Inc\TestItemManage.h" />
+    <ClInclude Include="..\Inc\MRecvCenter.h" />
+    <ClInclude Include="..\Inc\BaslerCamera2.h" />
+    <ClInclude Include="..\Inc\CameraConfiguration.h" />
+    <ClInclude Include="..\Inc\ImageFilePump.h" />
+    <ClInclude Include="..\Inc\IMReport.h" />
+    <ClInclude Include="..\Inc\MReportCenter.h" />
+    <ClInclude Include="..\Inc\MReportMainView.h" />
+    <ClInclude Include="..\Inc\MReportView.h" />
+    <ClInclude Include="..\Inc\MReportFile.h" />
+    <ClInclude Include="..\Inc\MCtrlCenter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="process.cfg" />
+    <None Include="res\accept_32_2.png" />
+    <None Include="res\access_control_background.bmp" />
+    <None Include="res\AOIEditVer3.ico" />
+    <None Include="res\AOIEditVer3.rc2" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\bitmap3.bmp" />
+    <None Include="res\bitmap5.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\bmp00002.bmp" />
+    <None Include="res\bmp00003.bmp" />
+    <None Include="res\bmp00004.bmp" />
+    <None Include="res\bmp00005.bmp" />
+    <None Include="res\bmp00006.bmp" />
+    <None Include="res\bmp00007.bmp" />
+    <None Include="res\bmp00008.bmp" />
+    <None Include="res\buttons.bmp" />
+    <None Include="res\class_view.ico" />
+    <None Include="res\class_view_hc.ico" />
+    <None Include="res\classview.bmp" />
+    <None Include="res\classview_hc.bmp" />
+    <None Include="res\deny_32_2.png" />
+    <None Include="res\explorer.bmp" />
+    <None Include="res\explorer_hc.bmp" />
+    <None Include="res\file_view.ico" />
+    <None Include="res\file_view_hc.ico" />
+    <None Include="res\filelarge.bmp" />
+    <None Include="res\filesmall.bmp" />
+    <None Include="res\fileview.bmp" />
+    <None Include="res\fileview_hc.bmp" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\icon2.ico" />
+    <None Include="res\info.bmp" />
+    <None Include="res\main.bmp" />
+    <None Include="res\menuimages.bmp" />
+    <None Include="res\menuimages_hc.bmp" />
+    <None Include="res\output_wnd.ico" />
+    <None Include="res\output_wnd_hc.ico" />
+    <None Include="res\panel.bmp" />
+    <None Include="res\properties.bmp" />
+    <None Include="res\properties_hc.bmp" />
+    <None Include="res\properties_wnd.ico" />
+    <None Include="res\properties_wnd_hc.ico" />
+    <None Include="res\SLACMVSN.ico" />
+    <None Include="res\sort.bmp" />
+    <None Include="res\sort_hc.bmp" />
+    <None Include="res\testlist.bmp" />
+    <None Include="res\testtree.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\writelarge.bmp" />
+    <None Include="res\writesmall.bmp" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AOIEditVer3.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Inc\sqlite3.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="AOIEditVer3.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

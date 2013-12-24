@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/slacmvs/!svn/ver/1036/trunk/zhujiao
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/564/trunk/zhujiao/stdafx.h
+END
+zhujiao.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1036/trunk/zhujiao/zhujiao.vcxproj
+END
+zhujiaoDll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/672/trunk/zhujiao/zhujiaoDll.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/zhujiao/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/564/trunk/zhujiao/stdafx.cpp
+END
+zhujiao.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/zhujiao/zhujiao.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/564/trunk/zhujiao/ReadMe.txt
+END
+zhujiaoDll.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/669/trunk/zhujiao/zhujiaoDll.h
+END

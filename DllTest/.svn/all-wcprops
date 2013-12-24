@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/slacmvs/!svn/ver/1036/trunk/DllTest
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/564/trunk/DllTest/stdafx.h
+END
+dllTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/669/trunk/DllTest/dllTest.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/DllTest/dllmain.cpp
+END
+DllTest.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1036/trunk/DllTest/DllTest.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/DllTest/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/564/trunk/DllTest/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/564/trunk/DllTest/ReadMe.txt
+END
+DllTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/669/trunk/DllTest/DllTest.cpp
+END

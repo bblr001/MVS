@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.0" halcon_version="10.0.1" cs="53354002">
+<procedure name="main">
+<interface/>
+<body>
+<c>* In this program the size of raw fish sticks is measured</c>
+<c>* before they are coated with bread crumbs.</c>
+<c>* First, the fish sticks are segmented from the background.</c>
+<c>* Then, their dimensions are measured, compared to the</c>
+<c>* required minimum size, and the result is displayed.</c>
+<c>* </c>
+<l>dev_update_off ()</l>
+<l>dev_close_window ()</l>
+<l>read_image (Image, 'G:/20120224/5.tiff')</l>
+<l>dev_open_window_fit_image (Image, 0, 0, -1, -1, WindowHandle)</l>
+<l>set_display_font (WindowHandle, 16, 'mono', 'true', 'false')</l>
+<l>dev_set_draw ('margin')</l>
+<l>get_system ('store_empty_region', StoreEmptyRegion)</l>
+<l>set_system ('store_empty_region', 'true')</l>
+<c>* </c>
+<l>dev_display(Image)</l>
+<c></c>
+<l>gen_circle(tai, 250, 340, 140.5)</l>
+<l>change_domain(Image, tai, region_tai)</l>
+<l>mean_image (region_tai, mean_tai, 2, 2)</l>
+<l>threshold (mean_tai, white_tai, 80, 255)</l>
+<l>connection (white_tai, connect_tai)</l>
+<l>select_shape (connect_tai, select_tai, 'area', 'and', 10, 1000)</l>
+<l>union1 (select_tai, union_tai)</l>
+<l>dilation_circle (union_tai, dila_tai, 2)</l>
+<l>skeleton (dila_tai, ske_tai)</l>
+<l>connection (ske_tai, error_tai)</l>
+<l>select_shape (error_tai, err, 'outer_radius', 'and', 10, 10000)</l>
+<l>count_obj(err, error_number)</l>
+<c></c>
+<c></c>
+<l>threshold (mean_tai, white_tai, 0, 105)</l>
+<l>connection (white_tai, connect_tai)</l>
+<l>select_shape (connect_tai, select_tai, 'area', 'and', 50, 1000)</l>
+<l>union1 (select_tai, union_tai)</l>
+<l>dilation_circle (union_tai, dila_tai, 1)</l>
+<l>skeleton (dila_tai, ske_tai)</l>
+<l>connection (ske_tai, error_tai)</l>
+<l>select_shape (error_tai, err, 'outer_radius', 'and', 15, 10000)</l>
+<l>count_obj(err, error_number)</l>
+<c></c>
+<c></c>
+<c> </c>
+<c> </c>
+<c> </c>
+<c></c>
+<l>threshold (mean_tai, white_tai, 0, 75)</l>
+<l>connection (white_tai, connect_tai)</l>
+<l>select_shape (connect_tai, err, 'area', 'and', 5, 1000)</l>
+<l>count_obj(err, error_number)</l>
+<c></c>
+<c></c>
+<l>threshold (mean_tai, white_tai, 115,255)</l>
+<l>connection (white_tai, connect_tai)</l>
+<l>select_shape (connect_tai, err, 'area', 'and', 5, 1000)</l>
+<l>count_obj(err, error_number)</l>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+<procedure name="select_tuple_larger">
+<interface>
+<ic>
+<par name="Tuple"/>
+<par name="Value"/>
+</ic>
+<oc>
+<par name="Indices"/>
+</oc>
+</interface>
+<body>
+<c>* </c>
+<c>* Select Values that are larger than "Value"</c>
+<c>* and return the indices of the elements that are larger</c>
+<c>* </c>
+<c>* </c>
+<l>tuple_find (sgn(Tuple - Value), 1, Indices)</l>
+<l>if (Indices[0] = -1)</l>
+<l>    Indices := []</l>
+<l>endif</l>
+<l>return ()</l>
+</body>
+<docu id="select_tuple_larger">
+<parameters>
+<parameter id="Indices"/>
+<parameter id="Tuple"/>
+<parameter id="Value"/>
+</parameters>
+</docu>
+</procedure>
+</hdevelop>

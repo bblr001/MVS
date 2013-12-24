@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCenterCapDll
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCenterCapDll/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCenterCapDll/dllmain.cpp
+END
+BearingCenterDll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCenterCapDll/BearingCenterDll.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCenterCapDll/targetver.h
+END
+BearingCenterDll.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCenterCapDll/BearingCenterDll.h
+END
+CenterCapDll.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCenterCapDll/CenterCapDll.vcxproj
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCenterCapDll/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/1343/trunk/BearingCenterCapDll/ReadMe.txt
+END

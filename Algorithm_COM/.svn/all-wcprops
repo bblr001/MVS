@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM
+END
+HDeclSpec.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HDeclSpec.h
+END
+HCtype.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HCtype.h
+END
+HConst.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HConst.h
+END
+HalconCOM.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HalconCOM.h
+END
+HParallel.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HParallel.h
+END
+Halcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/Halcon.h
+END
+HVersNum.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HVersNum.h
+END
+HalconC.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HalconC.h
+END
+HalconXimport.idl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HalconXimport.idl
+END
+HMacro.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HMacro.h
+END
+HalconCDefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HalconCDefs.h
+END
+IPType.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/IPType.h
+END
+base_interface.idl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/base_interface.idl
+END
+HInterfaceC.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HInterfaceC.h
+END
+HProto.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HProto.h
+END
+HExtern.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HExtern.h
+END
+HErrorDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HErrorDef.h
+END
+HIntDef.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HIntDef.h
+END
+HBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HBase.h
+END
+HSync.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/680/trunk/Algorithm_COM/HSync.h
+END

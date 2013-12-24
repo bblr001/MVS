@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/564/trunk/ReleasePack/ExampleProgram/Example.101
+END
+sample.tiff
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/slacmvs/!svn/ver/564/trunk/ReleasePack/ExampleProgram/Example.101/sample.tiff
+END
+dlltest.tls
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/slacmvs/!svn/ver/564/trunk/ReleasePack/ExampleProgram/Example.101/dlltest.tls
+END
+process.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/slacmvs/!svn/ver/564/trunk/ReleasePack/ExampleProgram/Example.101/process.cfg
+END
+testrec.db
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/slacmvs/!svn/ver/564/trunk/ReleasePack/ExampleProgram/Example.101/testrec.db
+END
+MyTLS5.tls
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/slacmvs/!svn/ver/564/trunk/ReleasePack/ExampleProgram/Example.101/MyTLS5.tls
+END

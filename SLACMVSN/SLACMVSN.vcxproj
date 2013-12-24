@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Eng_Ver|Win32">
+      <Configuration>Debug_Eng_Ver</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Sheet_Inspection|Win32">
+      <Configuration>Debug_Sheet_Inspection</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Eng_Ver|Win32">
+      <Configuration>Release_Eng_Ver</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Sheet_Inspection|Win32">
+      <Configuration>Release_Sheet_Inspection</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>SLACMVS</ProjectName>
+    <ProjectGuid>{B6115C5F-F947-48F6-BDEA-9BC459ACD9C6}</ProjectGuid>
+    <RootNamespace>SLACMVSN</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">D:\boost;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">D:\boost\stage\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\inc\;$(HALCONROOT)\include;$(HALCONROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;EOE_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>halconcpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYLON_ROOT)\lib\Win32;$(PYLON_GENICAM_ROOT)\library\CPP\Lib\Win32_i86;$(HALCONROOT)/lib/$(HALCONARCH);..\Inc\PCI2312\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(ProjectDir)res\ready.png  $(SolutionDir)Debug;
+copy $(ProjectDir)res\run.png  $(SolutionDir)Debug;
+copy $(ProjectDir)res\pause.png  $(SolutionDir)Debug;
+copy $(ProjectDir)res\alarm.png  $(SolutionDir)Debug;
+copy $(ProjectDir)res\stop.png  $(SolutionDir)Debug;
+
+copy $(ProjectDir)res\ready.png  $(ProjectDir)Debug;
+copy $(ProjectDir)res\run.png  $(ProjectDir)Debug;
+copy $(ProjectDir)res\pause.png  $(ProjectDir)Debug;
+copy $(ProjectDir)res\alarm.png  $(ProjectDir)Debug;
+copy $(ProjectDir)res\stop.png  $(ProjectDir)Debug;
+copy "$(ProjectDir)app.config"  "$(TargetPath).config"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\inc\;$(HALCONROOT)\include;$(HALCONROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;SHEET_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>halconcpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYLON_ROOT)\lib\Win32;$(PYLON_GENICAM_ROOT)\library\CPP\Lib\Win32_i86;$(HALCONROOT)/lib/$(HALCONARCH);..\Inc\PCI2312\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(ProjectDir)res\ready.png  $(SolutionDir)Debug_Sheet_Inspection;
+copy $(ProjectDir)res\run.png  $(SolutionDir)Debug_Sheet_Inspection;
+copy $(ProjectDir)res\pause.png  $(SolutionDir)Debug_Sheet_Inspection;
+copy $(ProjectDir)res\alarm.png  $(SolutionDir)Debug_Sheet_Inspection;
+copy $(ProjectDir)res\stop.png  $(SolutionDir)Debug_Sheet_Inspection;
+
+copy $(ProjectDir)res\ready.png  $(ProjectDir)Debug_Sheet_Inspection;
+copy $(ProjectDir)res\run.png  $(ProjectDir)Debug_Sheet_Inspection;
+copy $(ProjectDir)res\pause.png  $(ProjectDir)Debug_Sheet_Inspection;
+copy $(ProjectDir)res\alarm.png  $(ProjectDir)Debug_Sheet_Inspection;
+copy $(ProjectDir)res\stop.png  $(ProjectDir)Debug_Sheet_Inspection;
+copy "$(ProjectDir)app.config"  "$(TargetPath).config"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\inc\;$(HALCONROOT)\include;$(HALCONROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_ENGLISH;EOE_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_ENGLISH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>halconcpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYLON_ROOT)\lib\Win32;$(PYLON_GENICAM_ROOT)\library\CPP\Lib\Win32_i86;$(HALCONROOT)/lib/$(HALCONARCH);..\Inc\PCI2312\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(ProjectDir)res\ready.png $(SolutionDir)Debug_Eng_Ver;
+copy $(ProjectDir)res\run.png $(SolutionDir)Debug_Eng_Ver;
+copy $(ProjectDir)res\pause.png $(SolutionDir)Debug_Eng_Ver;
+copy $(ProjectDir)res\alarm.png $(SolutionDir)Debug_Eng_Ver;
+copy $(ProjectDir)res\stop.png $(SolutionDir)Debug_Eng_Ver;
+
+copy $(ProjectDir)res\ready.png $(ProjectDir)Debug_Eng_Ver;
+copy $(ProjectDir)res\run.png $(ProjectDir)Debug_Eng_Ver;
+copy $(ProjectDir)res\pause.png $(ProjectDir)Debug_Eng_Ver;
+copy $(ProjectDir)res\alarm.png $(ProjectDir)Debug_Eng_Ver;
+copy $(ProjectDir)res\stop.png $(ProjectDir)Debug_Eng_Ver;
+copy "$(ProjectDir)app.config"  "$(TargetPath).config"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\inc\;$(HALCONROOT)\include;$(HALCONROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EOE_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>halconcpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYLON_ROOT)\lib\Win32;$(PYLON_GENICAM_ROOT)\library\CPP\Lib\Win32_i86;$(HALCONROOT)/lib/$(HALCONARCH);..\Inc\PCI2312\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(ProjectDir)res\ready.png $(SolutionDir)Release;
+copy $(ProjectDir)res\run.png $(SolutionDir)Release;
+copy $(ProjectDir)res\pause.png $(SolutionDir)Release;
+copy $(ProjectDir)res\alarm.png $(SolutionDir)Release;
+copy $(ProjectDir)res\stop.png $(SolutionDir)Release;
+
+copy $(ProjectDir)res\ready.png $(ProjectDir)Release;
+copy $(ProjectDir)res\run.png $(ProjectDir)Release;
+copy $(ProjectDir)res\pause.png $(ProjectDir)Release;
+copy $(ProjectDir)res\alarm.png $(ProjectDir)Release;
+copy $(ProjectDir)res\stop.png $(ProjectDir)Release;
+copy "$(ProjectDir)app.config"  "$(TargetPath).config"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\inc\;$(HALCONROOT)\include;$(HALCONROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SHEET_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>halconcpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYLON_ROOT)\lib\Win32;$(PYLON_GENICAM_ROOT)\library\CPP\Lib\Win32_i86;$(HALCONROOT)/lib/$(HALCONARCH);..\Inc\PCI2312\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(ProjectDir)res\ready.png $(SolutionDir)Release;
+copy $(ProjectDir)res\run.png $(SolutionDir)Release;
+copy $(ProjectDir)res\pause.png $(SolutionDir)Release;
+copy $(ProjectDir)res\alarm.png $(SolutionDir)Release;
+copy $(ProjectDir)res\stop.png $(SolutionDir)Release;
+
+copy $(ProjectDir)res\ready.png $(ProjectDir)Release;
+copy $(ProjectDir)res\run.png $(ProjectDir)Release;
+copy $(ProjectDir)res\pause.png $(ProjectDir)Release;
+copy $(ProjectDir)res\alarm.png $(ProjectDir)Release;
+copy $(ProjectDir)res\stop.png $(ProjectDir)Release;
+copy "$(ProjectDir)app.config"  "$(TargetPath).config"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\inc\;$(HALCONROOT)\include;$(HALCONROOT)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_ENGLISH;EOE_INSPECTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_ENGLISH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>halconcpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(PYLON_ROOT)\lib\Win32;$(PYLON_GENICAM_ROOT)\library\CPP\Lib\Win32_i86;$(HALCONROOT)/lib/$(HALCONARCH);..\Inc\PCI2312\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(ProjectDir)res\ready.png $(SolutionDir)Release_Eng_Ver;
+copy $(ProjectDir)res\run.png $(SolutionDir)Release_Eng_Ver;
+copy $(ProjectDir)res\pause.png $(SolutionDir)Release_Eng_Ver;
+copy $(ProjectDir)res\alarm.png $(SolutionDir)Release_Eng_Ver;
+copy $(ProjectDir)res\stop.png $(SolutionDir)Release_Eng_Ver;
+
+copy $(ProjectDir)res\ready.png $(ProjectDir)Release_Eng_Ver;
+copy $(ProjectDir)res\run.png $(ProjectDir)Release_Eng_Ver;
+copy $(ProjectDir)res\pause.png $(ProjectDir)Release_Eng_Ver;
+copy $(ProjectDir)res\alarm.png $(ProjectDir)Release_Eng_Ver;
+copy $(ProjectDir)res\stop.png $(ProjectDir)Release_Eng_Ver;
+copy "$(ProjectDir)app.config"  "$(TargetPath).config"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Inc\rejector.cpp" />
+    <ClCompile Include="..\Inc\SheetInspectionPanel.cpp" />
+    <ClCompile Include="..\Inc\tinxml\tinystr.cpp" />
+    <ClCompile Include="..\Inc\tinxml\tinyxml.cpp" />
+    <ClCompile Include="..\Inc\tinxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\Inc\tinxml\tinyxmlparser.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="LoginDlg.cpp" />
+    <ClCompile Include="OverViewPage.cpp" />
+    <ClCompile Include="SLACMVSN.cpp" />
+    <ClCompile Include="SLACMVSNDoc.cpp" />
+    <ClCompile Include="SLACMVSNView.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Sheet_Inspection|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Eng_Ver|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Sheet_Inspection|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Eng_Ver|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WarningDlg.cpp" />
+    <ClCompile Include="BCMenu.cpp" />
+    <ClCompile Include="BtnST.cpp" />
+    <ClCompile Include="CeXDib.cpp" />
+    <ClCompile Include="..\Inc\MyButton.cpp" />
+    <ClCompile Include="MyCombox.cpp" />
+    <ClCompile Include="..\Inc\MyLabel.cpp" />
+    <ClCompile Include="MyPopButton.cpp" />
+    <ClCompile Include="ShadeButtonST.cpp" />
+    <ClCompile Include="TabCtrlDoc.cpp" />
+    <ClCompile Include="DBSQLite.cpp" />
+    <ClCompile Include="MyListCtrl.cpp" />
+    <ClCompile Include="PropSheet2.cpp" />
+    <ClCompile Include="SettingPropSheetFrame.cpp" />
+    <ClCompile Include="UserManager.cpp" />
+    <ClCompile Include="..\Inc\DBControl.cpp" />
+    <ClCompile Include="DlgShowData.cpp" />
+    <ClCompile Include="GridList.cpp" />
+    <ClCompile Include="..\Inc\PanelManager.cpp" />
+    <ClCompile Include="..\Inc\MTITip.cpp" />
+    <ClCompile Include="..\Inc\MyPanel.cpp" />
+    <ClCompile Include="..\Inc\2DBarGraph.cpp" />
+    <ClCompile Include="..\Inc\2DLineGraph.cpp" />
+    <ClCompile Include="..\Inc\2DPieGraph.cpp" />
+    <ClCompile Include="..\Inc\GraphObject.cpp" />
+    <ClCompile Include="..\Inc\CppSQLite3.cpp" />
+    <ClCompile Include="..\Inc\SqlDB.cpp" />
+    <ClCompile Include="..\Inc\IMActiveObj.cpp" />
+    <ClCompile Include="..\Inc\TLog.cpp" />
+    <ClCompile Include="..\Inc\Tools.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Inc\ConfigurationManager.h" />
+    <ClInclude Include="..\Inc\rejector.h" />
+    <ClInclude Include="..\Inc\SheetInspectionPanel.h" />
+    <ClInclude Include="..\Inc\tinxml\tinystr.h" />
+    <ClInclude Include="..\Inc\tinxml\tinyxml.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="LoginDlg.h" />
+    <ClInclude Include="OverViewPage.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SLACMVSN.h" />
+    <ClInclude Include="SLACMVSNDoc.h" />
+    <ClInclude Include="SLACMVSNView.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ui_decorator.h" />
+    <ClInclude Include="WarningDlg.h" />
+    <ClInclude Include="BCMenu.h" />
+    <ClInclude Include="BtnST.h" />
+    <ClInclude Include="CeXDib.h" />
+    <ClInclude Include="..\Inc\MyButton.h" />
+    <ClInclude Include="MyComBox.h" />
+    <ClInclude Include="..\Inc\MyLabel.h" />
+    <ClInclude Include="MyPopButton.h" />
+    <ClInclude Include="ShadeButtonST.h" />
+    <ClInclude Include="TabCtrlDoc.h" />
+    <ClInclude Include="DBSQLite.h" />
+    <ClInclude Include="MyListCtrl.h" />
+    <ClInclude Include="PropSheet2.h" />
+    <ClInclude Include="SettingPropSheetFrame.h" />
+    <ClInclude Include="UserManager.h" />
+    <ClInclude Include="..\Inc\DBControl.h" />
+    <ClInclude Include="DlgShowData.h" />
+    <ClInclude Include="GridList.h" />
+    <ClInclude Include="..\Inc\PanelManager.h" />
+    <ClInclude Include="..\Inc\MTITip.h" />
+    <ClInclude Include="..\Inc\MyPanel.h" />
+    <ClInclude Include="..\Inc\2DBarGraph.h" />
+    <ClInclude Include="..\Inc\2DLineGraph.h" />
+    <ClInclude Include="..\Inc\2DPieGraph.h" />
+    <ClInclude Include="..\Inc\GraphObject.h" />
+    <ClInclude Include="..\Inc\CppSQLite3.h" />
+    <ClInclude Include="..\Inc\function.h" />
+    <ClInclude Include="..\Inc\SqlDB.h" />
+    <ClInclude Include="..\Inc\sqlite3.h" />
+    <ClInclude Include="..\Inc\SqliteDB.h" />
+    <ClInclude Include="..\Inc\IMActiveObj.h" />
+    <ClInclude Include="..\Inc\ShareMem.h" />
+    <ClInclude Include="..\Inc\TLog.h" />
+    <ClInclude Include="..\Inc\Tools.h" />
+    <ClInclude Include="..\Inc\TypeCent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\alarm.png" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap_p.bmp" />
+    <None Include="res\bmp00010.bmp" />
+    <None Include="res\EXIT.bmp" />
+    <None Include="res\exit_disable.bmp" />
+    <None Include="res\EXIT_IN.bmp" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\login.bmp" />
+    <None Include="res\login1.bmp" />
+    <None Include="res\login3.bmp" />
+    <None Include="res\logout.bmp" />
+    <None Include="res\logout1.bmp" />
+    <None Include="res\pause.png" />
+    <None Include="res\ready.png" />
+    <None Include="res\run.png" />
+    <None Include="res\shutdown.ico" />
+    <None Include="res\shutdown_in.ico" />
+    <None Include="res\SLACMVSN.ico" />
+    <None Include="res\SLACMVSN.rc2" />
+    <None Include="res\SLACMVSNDoc.ico" />
+    <None Include="res\stateico.bmp" />
+    <None Include="res\stop.png" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\USER.bmp" />
+    <None Include="res\USER.png" />
+    <None Include="res\USERIN.png" />
+    <None Include="res\user_group_disable.bmp" />
+    <None Include="res\warning.png" />
+    <None Include="UserImages.bmp" />
+    <None Include="res\USERIN.bmp" />
+    <None Include="..\Inc\sqlite3.dll" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SLACMVSN.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Inc\sqlite3.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="SLACMVSN.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

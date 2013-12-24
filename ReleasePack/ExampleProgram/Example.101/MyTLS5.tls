@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<test_instance>
+    <!-- Settings for MyApp -->
+    <test testid="圆心定位">
+        <subtest subtestid="圆心查找算法1">
+            <exe>
+                <exename>CenterDll</exename>
+                <exeversion>1.0.1.0</exeversion>
+            </exe>
+            <parameter name="Thred_Center1">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <interface>int</interface>
+                    <max>300</max>
+                    <min>5</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>127</setting>
+                <helpdescription>圆心查找第一次的参考值</helpdescription>
+            </parameter>
+            <parameter name="Thred_Center2">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <interface>iint</interface>
+                    <max>1000</max>
+                    <min>20</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>97</setting>
+                <helpdescription>圆心查找第二种算法的参考值。此值是对第一种处理结果不理想的状况下才会被运行</helpdescription>
+            </parameter>
+            <parameter name="XMax">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>500</default>
+                    <interface>iint</interface>
+                    <max>750</max>
+                    <min>200</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>450</setting>
+                <helpdescription>XSize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="XMin">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>150</currentvalue>
+                    <default>250</default>
+                    <interface>iint</interface>
+                    <max>400</max>
+                    <min>100</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>250</setting>
+                <helpdescription>XSize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="YMax">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>350</currentvalue>
+                    <default>10</default>
+                    <interface>iint</interface>
+                    <max>600</max>
+                    <min>50</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>400</setting>
+                <helpdescription>XSize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="YMin">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>150</currentvalue>
+                    <default>10</default>
+                    <interface>iint</interface>
+                    <max>300</max>
+                    <min>50</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>200</setting>
+                <helpdescription>XSize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="RMax">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <interface>iint</interface>
+                    <max>400</max>
+                    <min>50</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>375</setting>
+                <helpdescription>XSize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="RMin">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <interface>iint</interface>
+                    <max>400</max>
+                    <min>50</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>175</setting>
+                <helpdescription>XSize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <property>
+                <accessmode>RW</accessmode>
+                <currentvalue>15</currentvalue>
+                <default>10</default>
+                <interface>iint</interface>
+                <max>20</max>
+                <min>5</min>
+                <name>xsize</name>
+                <visibility>beginner</visibility>
+            </property>
+            <order>999</order>
+            <runtest>YES</runtest>
+            <helpdescription>subtest help 这里可以写中文的帮助信息也许可以写很多。。。 你可以试试看</helpdescription>
+        </subtest>
+    </test>
+    <test testid="卷边测试">
+        <subtest subtestid="卷边测试">
+            <exe>
+                <exename>CurlDll</exename>
+                <exeversion>1.0.1.0</exeversion>
+            </exe>
+            <parameter name="Thred_Curl">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>10000</max>
+                    <min>500</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>7608</setting>
+                <helpdescription>2 xsize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="Regional_Internal">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>300</max>
+                    <min>100</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>186</setting>
+                <helpdescription>测试区域圆内径</helpdescription>
+            </parameter>
+            <parameter name="Regional_Out">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>300</max>
+                    <min>130</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>191</setting>
+                <helpdescription>测试区域圆外径</helpdescription>
+            </parameter>
+            <property>
+                <accessmode>RW</accessmode>
+                <currentvalue>15</currentvalue>
+                <default>10</default>
+                <interface>iint</interface>
+                <max>20</max>
+                <min>5</min>
+                <name>xsize</name>
+                <visibility>beginner</visibility>
+            </property>
+            <order>999</order>
+            <runtest>NO</runtest>
+            <helpdescription>subtest help description this parameter function</helpdescription>
+        </subtest>
+    </test>
+    <test testid="嵌环测试">
+        <subtest subtestid="嵌环测试方法1">
+            <exe>
+                <exename>qianhuan</exename>
+                <exeversion>1.0.1.0</exeversion>
+            </exe>
+            <parameter name="Thred_qian_a">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>2000</max>
+                    <min>500</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>1000</setting>
+                <helpdescription>2 xsize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="Thred_qian_b">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>4000</max>
+                    <min>500</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>2000</setting>
+                <helpdescription>2 xsize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="Regional_Internal">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>300</max>
+                    <min>100</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>167</setting>
+                <helpdescription>测试区域圆内径</helpdescription>
+            </parameter>
+            <parameter name="Regional_Out">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>300</max>
+                    <min>130</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>183</setting>
+                <helpdescription>测试区域圆外径</helpdescription>
+            </parameter>
+            <property>
+                <accessmode>RW</accessmode>
+                <currentvalue>15</currentvalue>
+                <default>10</default>
+                <interface>iint</interface>
+                <max>20</max>
+                <min>5</min>
+                <name>xsize</name>
+                <visibility>beginner</visibility>
+            </property>
+            <order>999</order>
+            <runtest>NO</runtest>
+            <helpdescription>subtest help description this parameter function</helpdescription>
+        </subtest>
+    </test>
+    <test testid="注胶检测">
+        <subtest subtestid="注胶测试1">
+            <exe>
+                <exename>zhujiao</exename>
+                <exeversion>1.0.1.0</exeversion>
+            </exe>
+            <parameter name="Thred_jiao">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>2000</max>
+                    <min>50</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>1610</setting>
+                <helpdescription>2 xsize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="Thred_jiao_inter">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>2000</max>
+                    <min>50</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>1660</setting>
+                <helpdescription>2 xsize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="Thred_jiao_outer">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>1000</max>
+                    <min>50</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>1000</setting>
+                <helpdescription>2 xsize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="Regional_Internal">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>300</max>
+                    <min>100</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>173</setting>
+                <helpdescription>测试区域圆内径</helpdescription>
+            </parameter>
+            <parameter name="Regional_Out">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>300</max>
+                    <min>130</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>183</setting>
+                <helpdescription>测试区域圆外径</helpdescription>
+            </parameter>
+            <property>
+                <accessmode>RW</accessmode>
+                <currentvalue>15</currentvalue>
+                <default>10</default>
+                <interface>iint</interface>
+                <max>20</max>
+                <min>5</min>
+                <name>xsize</name>
+                <visibility>beginner</visibility>
+            </property>
+            <order>999</order>
+            <runtest>NO</runtest>
+            <helpdescription>subtest help description this parameter function</helpdescription>
+        </subtest>
+    </test>
+    <test testid="加强筋检测">
+        <subtest subtestid="加强筋测试1">
+            <exe>
+                <exename>JiaQianJin</exename>
+                <exeversion>1.0.1.0</exeversion>
+            </exe>
+            <parameter name="Thred_jin_a">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>2000</max>
+                    <min>50</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>800</setting>
+                <helpdescription>2 xsize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="Thred_jin_b">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>2000</max>
+                    <min>50</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>800</setting>
+                <helpdescription>2 xsize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="Thred_jin_c">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>2000</max>
+                    <min>50</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>800</setting>
+                <helpdescription>2 xsize parameter help description this parameter function</helpdescription>
+            </parameter>
+            <parameter name="Regional_Internal">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>300</max>
+                    <min>100</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>129</setting>
+                <helpdescription>测试区域圆内径</helpdescription>
+            </parameter>
+            <parameter name="Regional_Out">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>300</max>
+                    <min>130</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>149</setting>
+                <helpdescription>测试区域圆外径</helpdescription>
+            </parameter>
+            <property>
+                <accessmode>RW</accessmode>
+                <currentvalue>15</currentvalue>
+                <default>10</default>
+                <interface>iint</interface>
+                <max>20</max>
+                <min>5</min>
+                <name>xsize</name>
+                <visibility>beginner</visibility>
+            </property>
+            <order>999</order>
+            <runtest>NO</runtest>
+            <helpdescription>subtest help description this parameter function</helpdescription>
+        </subtest>
+    </test>
+    <test testid="面心检测">
+        <subtest subtestid="面心测试1">
+            <exe>
+                <exename>mianxin</exename>
+                <exeversion>1.0.1.0</exeversion>
+            </exe>
+            <parameter name="Regional_Out">
+                <property>
+                    <accessmode>RW</accessmode>
+                    <currentvalue>15</currentvalue>
+                    <default>10</default>
+                    <helpdescription>help description this parameter function</helpdescription>
+                    <interface>iint</interface>
+                    <max>300</max>
+                    <min>10</min>
+                    <name>xsize</name>
+                    <visibility>beginner</visibility>
+                </property>
+                <setting>168</setting>
+                <helpdescription>测试区域圆外径</helpdescription>
+            </parameter>
+            <property>
+                <accessmode>RW</accessmode>
+                <currentvalue>15</currentvalue>
+                <default>10</default>
+                <interface>iint</interface>
+                <max>20</max>
+                <min>5</min>
+                <name>xsize</name>
+                <visibility>beginner</visibility>
+            </property>
+            <order>999</order>
+            <runtest>YES</runtest>
+            <helpdescription>subtest help description this parameter function</helpdescription>
+        </subtest>
+    </test>
+</test_instance>

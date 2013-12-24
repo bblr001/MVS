@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/slacmvs/!svn/ver/1036/trunk/CurlGuangGai
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/CurlGuangGai/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/CurlGuangGai/dllmain.cpp
+END
+CurlGuangGai.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/1036/trunk/CurlGuangGai/CurlGuangGai.vcxproj
+END
+GuangGai.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/707/trunk/CurlGuangGai/GuangGai.cpp
+END
+GuangGai.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/669/trunk/CurlGuangGai/GuangGai.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/CurlGuangGai/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/CurlGuangGai/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/CurlGuangGai/ReadMe.txt
+END

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.0" halcon_version="10.0.1" cs="3379971449">
+<procedure name="main">
+<interface/>
+<body>
+<c></c>
+<l>dev_update_off ()</l>
+<l>dev_close_window ()</l>
+<l>*read_image (Image, 'F:/tests/20120410Temp/200/3.tiff')</l>
+<c></c>
+<l>read_image (Image, 'F:/tests/20120413/9.tiff')</l>
+<c></c>
+<c>*找圆心</c>
+<l>dev_open_window_fit_image (Image, 0, 0, -1, -1, WindowHandle)</l>
+<l>set_display_font (WindowHandle, 16, 'mono', 'true', 'false')</l>
+<l>dev_set_draw ('margin')</l>
+<l>get_system ('store_empty_region', StoreEmptyRegion)</l>
+<l>set_system ('store_empty_region', 'true')</l>
+<c>* </c>
+<l>dev_display(Image)</l>
+<c></c>
+<l>area_center(Image,Area, Row, Column)</l>
+<l>gen_ellipse(Ellipse, Row, Column, 0, Column-30, Row)</l>
+<l>reduce_domain(Image, Ellipse, ImageReduced)</l>
+<l>inspect_shape_model(ImageReduced, ModelImages, ModelRegions, 1, 30)</l>
+<c></c>
+<l>Txx:=Row[0]</l>
+<l>Tyy:=Column[0]</l>
+<c></c>
+<c></c>
+<c>*定义矩形</c>
+<l>connection(ModelRegions, ConnectedRegions)</l>
+<l>select_shape(ConnectedRegions, SelectedRegions, 'area', 'and', 500, 99999)</l>
+<c></c>
+<l>smallest_circle(SelectedRegions, Row2, Column2, Radius2)</l>
+<c></c>
+<l>gen_circle (circle, Row2[0], Column2[0], Radius2[0])</l>
+<l>gen_circle (circleCent, Row2[0], Column2[0], 2)</l>
+<c></c>
+<l>dev_display(circle)</l>
+<l>gen_circle(CircleIn, Row2[0], Column2[0], 69*Radius2[0]/100)</l>
+<l>gen_circle(CircleOut, Row2[0], Column2[0], 73*Radius2[0]/100)</l>
+<l>dev_display(CircleIn)</l>
+<l>dev_display(CircleOut)</l>
+<l>difference(CircleOut, CircleIn, Diff)</l>
+<l>reduce_domain(Image, Diff, Reduced)</l>
+<l>bin_threshold(Reduced, Region3)</l>
+<c></c>
+<c>*区域内的圆或半径</c>
+<l>smallest_rectangle2(Region3, Recy, Recx, Recw, Length1, Length2)</l>
+<l>gen_rectangle2(Rectangle, Recy, Recx, Recw,150, 80)</l>
+<c></c>
+<l>dev_display(Rectangle)</l>
+<c></c>
+<l>gen_circle(Axle, Recy, Recx, 2)</l>
+<l>dev_display(Axle)</l>
+<l>disp_arrow (WindowHandle, Txx-1, Tyy-1, -100*sin(Recw)+Recy, 100*cos(Recw)+Recx, 1)</l>
+<l>disp_arrow(WindowHandle, Recy, Recx, -100*sin(Recw)+Recy, 100*cos(Recw)+Recx, 1)</l>
+<l>*DeltaCenter:=(sqrt(Row2[0]-Recy)*(Row2[0]-Recy)+(Column2[0]-Recx)*(Column2[0]-Recx))</l>
+<l>myrad:=Recw</l>
+<l>reduce_domain(Image, Rectangle, Reduce1)</l>
+<l>bin_threshold(Reduce1, bith)</l>
+<l>*inspect_shape_model(Reduce1, bith, Rectangle, 1, 30)</l>
+<l>connection(bith, con)</l>
+<l>*select_shape(ConnectedRegions, SelectedRegions, 'area', 'and', 50, 99999)</l>
+<c></c>
+<l>dev_display(con)</l>
+<c></c>
+<c>*open</c>
+<c></c>
+<l>opening_circle(con, ope, 5)</l>
+<l>dev_display(ope)</l>
+<l>connection(ope, con1)</l>
+<l>select_shape(con1, ope, 'outer_radius', 'and', 10, 99999)</l>
+<l>union1(ope, uni)</l>
+<l>count_obj(uni, Nu)</l>
+<l>smallest_circle(uni, Diry5, Dirx5, DirR3)</l>
+<l>gen_circle(Cir4, Diry5, Dirx5, DirR3)</l>
+<l>dev_display(Cir4)</l>
+<c></c>
+<l>disp_line(WindowHandle, Diry5*5-Tyy*4, Dirx5*5-Txx*4, Tyy*5-Diry5*4, Txx*5-Dirx5*4)</l>
+<c></c>
+<l>opening_circle(con, ope, 2)</l>
+<l>dev_display(ope)</l>
+<c></c>
+<c></c>
+<c>*lat</c>
+<l>connection(ope, con2)</l>
+<c></c>
+<l>select_shape(con2, sel, 'contlength', 'and', 500, 99999)</l>
+<l>closing_circle(sel, clo, 10)</l>
+<l>dilation_circle(clo, lat, 3)</l>
+<l>fill_up(lat, Fil)</l>
+<c>*groove=Fil</c>
+<l>dilation_circle(clo, lat, 60)</l>
+<c>*AfxMessageBox("lat");</c>
+<c></c>
+<l>difference(Fil, lat, Region3)</l>
+<l>reduce_domain(Image, Region3, Reduced)</l>
+<l>skeleton(Reduced, ske)</l>
+<l>dev_display(ske)</l>
+<c>*AfxMessageBox("ske");</c>
+<c></c>
+<l>smallest_rectangle2(ske, Recy, Recx, Recw, Length1, Length2)</l>
+<l>disp_line(WindowHandle, 200*sin(Recw)+Tyy, -200*cos(Recw)+Txx, -200*sin(Recw)+Tyy, 200*cos(Recw)+Txx)</l>
+<c></c>
+<l>if (abs(Recw-myrad)&gt;0.05)</l>
+<l>     write_string(WindowHandle, 'Error Direction')</l>
+<l>endif</l>
+<c> </c>
+<l>if (abs(Dirx5-Txx)&gt;20)</l>
+<l>    if (Dirx5&lt;Txx)</l>
+<l>        Recw:=Recw+3.1416</l>
+<l>    endif</l>
+<l>else</l>
+<l>    if (Diry5&gt;Tyy)</l>
+<l>        Recw:=Recw+3.1416</l>
+<l>    endif</l>
+<l>endif</l>
+<c></c>
+<l>disp_circle(WindowHandle, -200*sin(Recw)+Tyy, 200*cos(Recw)+Txx, 3)</l>
+<c></c>
+<l>Radd:=Recw</l>
+<l>read_image (Image18, 'F:/tests/20120413/18.tiff')</l>
+<l>rotate_image(Image, rotate, 360-Radd*180/3.1416, 'bilinear')</l>
+<l>dev_display(rotate)</l>
+</body>
+<docu id="main">
+<parameters/>
+</docu>
+</procedure>
+</hdevelop>

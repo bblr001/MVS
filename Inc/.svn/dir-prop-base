@@ -1,0 +1,21 @@
+K 10
+svn:ignore
+V 256
+IMFilter.cpp
+IMFilter.h
+IMRecv.cpp
+IMRecv.h
+MI_ControlCenter.cpp
+MI_ControlCenter.h
+MI_DataCenter.cpp
+MI_DataCenter.h
+MI_DataConfig.cpp
+MI_DataConfig.h
+MReportMainRecord.cpp
+MReportMainRecord.h
+MathParams.h
+RejectShareMem.cpp
+RejectShareMem.h
+ShareMem.cpp
+
+END

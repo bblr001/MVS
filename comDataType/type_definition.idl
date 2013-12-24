@@ -1,0 +1,78 @@
+// base_interface.idl : base_interface 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(base_interface.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+[
+	uuid(DC8D82ED-D19F-4429-B8DE-2F73E66E14AA),
+	version(1.0),
+	helpstring("COMMap 1.0 Type Library")
+]
+library type_definitionLib
+{
+    importlib("stdole2.tlb");
+
+	typedef
+	[
+		uuid(249A008B-9D16-4eff-8E57-8DC4164632D7),
+		version(1.0),
+		helpstring("Parameter Container Class")
+	]
+	struct CParameter
+	{
+		SAFEARRAY(LPOLESTR) parameters; // These parameter will be parsed by different Algorithm
+	}CParameter;
+
+	typedef
+	[
+		uuid(C6E08724-7A03-4fb5-91CD-75017915C11F),
+		version(1.0),
+		helpstring("The test result retrived from the test algorithm")
+	]
+	struct CResult
+	{
+		boolean    m_bFailSubTest;
+		short      m_index;
+		LPOLESTR   m_strSubTestName;
+		LPOLESTR   m_strErrorMsg;
+		long	   m_errorX;
+		long	   m_errorY;
+		long	   m_errorR;
+	}CResult;
+
+	typedef
+	[
+		uuid(B2F83644-A782-4756-B998-2764ED31A52D),
+		version(1.0),
+		helpstring("This Class hold all the image information")
+	]
+	struct CImageData
+	{
+		boolean     m_isFail;
+		boolean     m_isDebug;
+		long	    m_imageIndex;// 
+		long        m_handleOfShowWin; // Window's handle 
+		double	    m_roateAngle;
+		double      m_center_x;
+		double      m_center_y;
+		double      m_center_x2; // unused now
+		double      m_center_y2; // unused now
+		double      m_redius;
+		double      m_redius2;   // unused now
+		[ref]long*  m_Image;     // pointer to Hobject
+		long*       m_errorRgn;  // pointer to error region
+		long*       m_object1;   // Reserved for future usage, must be NULL;
+		long*       m_object2;   // Reserved for future usage  must be NULL;
+		double      m_tDRI;      // Duration of Reading Image, ms 
+		double      m_tDPI;      // Duration of Process Image, ms
+		double      m_tDDI;      // Duration of Display Image, ms
+
+		SAFEARRAY(CResult) m_rsltArray;
+	}CImageData;
+}
+

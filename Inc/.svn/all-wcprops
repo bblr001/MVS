@@ -1,0 +1,623 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/slacmvs/!svn/ver/1356/trunk/Inc
+END
+MReportCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1059/trunk/Inc/MReportCenter.h
+END
+ViewTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/slacmvs/!svn/ver/564/trunk/Inc/ViewTree.h
+END
+BaslerCamera2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1351/trunk/Inc/BaslerCamera2.cpp
+END
+TCppML.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/slacmvs/!svn/ver/564/trunk/Inc/TCppML.h
+END
+Tools.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/slacmvs/!svn/ver/1297/trunk/Inc/Tools.h
+END
+SqlDB.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/slacmvs/!svn/ver/564/trunk/Inc/SqlDB.cpp
+END
+MyPanel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/1356/trunk/Inc/MyPanel.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/564/trunk/Inc/targetver.h
+END
+MFilterCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1166/trunk/Inc/MFilterCenter.h
+END
+ViewList.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/slacmvs/!svn/ver/627/trunk/Inc/ViewList.h
+END
+CMAlgorithmFilter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/Inc/CMAlgorithmFilter.cpp
+END
+rejector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/1356/trunk/Inc/rejector.cpp
+END
+MRecvCenter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1306/trunk/Inc/MRecvCenter.cpp
+END
+2DBarGraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/564/trunk/Inc/2DBarGraph.h
+END
+BaslerCamera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/Inc/BaslerCamera.cpp
+END
+TestListWnd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1340/trunk/Inc/TestListWnd.cpp
+END
+2DPieGraph.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/1010/trunk/Inc/2DPieGraph.cpp
+END
+DBControl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/564/trunk/Inc/DBControl.cpp
+END
+MReportCenter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1339/trunk/Inc/MReportCenter.cpp
+END
+TestItemPropertiesWnd.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/564/trunk/Inc/TestItemPropertiesWnd.h
+END
+TestTreeView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/Inc/TestTreeView.cpp
+END
+function.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/slacmvs/!svn/ver/861/trunk/Inc/function.h
+END
+MData.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/slacmvs/!svn/ver/1279/trunk/Inc/MData.h
+END
+CppSQLite3.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/564/trunk/Inc/CppSQLite3.h
+END
+pylon_utilities.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/Inc/pylon_utilities.cpp
+END
+MReportMainTestView.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/Inc/MReportMainTestView.h
+END
+GraphObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/564/trunk/Inc/GraphObject.h
+END
+TCppML.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/slacmvs/!svn/ver/676/trunk/Inc/TCppML.cpp
+END
+CBaseException.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/Inc/CBaseException.h
+END
+IMActiveObj.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/623/trunk/Inc/IMActiveObj.h
+END
+CRecvFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/564/trunk/Inc/CRecvFile.cpp
+END
+MFilterCenter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1346/trunk/Inc/MFilterCenter.cpp
+END
+MTITip.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/slacmvs/!svn/ver/564/trunk/Inc/MTITip.cpp
+END
+TLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/slacmvs/!svn/ver/564/trunk/Inc/TLog.h
+END
+CBaslerCameraConfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/564/trunk/Inc/CBaslerCameraConfig.cpp
+END
+TestItemManage.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/1166/trunk/Inc/TestItemManage.h
+END
+CMAlgorithmFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/Inc/CMAlgorithmFilter.h
+END
+SheetInspectionPanel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/1191/trunk/Inc/SheetInspectionPanel.cpp
+END
+CameraConfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/573/trunk/Inc/CameraConfiguration.h
+END
+CppSQLite3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/613/trunk/Inc/CppSQLite3.cpp
+END
+MReportFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1350/trunk/Inc/MReportFile.cpp
+END
+MReportMainView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1059/trunk/Inc/MReportMainView.cpp
+END
+sqlite3.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/slacmvs/!svn/ver/564/trunk/Inc/sqlite3.h
+END
+TestListWnd.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/1166/trunk/Inc/TestListWnd.h
+END
+PanelManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/1191/trunk/Inc/PanelManager.cpp
+END
+DBControl.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/621/trunk/Inc/DBControl.h
+END
+TestTreeView.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/564/trunk/Inc/TestTreeView.h
+END
+pylon_utilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/Inc/pylon_utilities.h
+END
+2DLineGraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/564/trunk/Inc/2DLineGraph.h
+END
+TLog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/slacmvs/!svn/ver/1106/trunk/Inc/TLog.cpp
+END
+VLCtrl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/1302/trunk/Inc/VLCtrl.cpp
+END
+IMReport.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/slacmvs/!svn/ver/664/trunk/Inc/IMReport.h
+END
+TestItemManage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/893/trunk/Inc/TestItemManage.cpp
+END
+CRecvFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/564/trunk/Inc/CRecvFile.h
+END
+MTITip.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/slacmvs/!svn/ver/564/trunk/Inc/MTITip.h
+END
+sqlite3.dll
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/564/trunk/Inc/sqlite3.dll
+END
+CBaslerCameraConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/Inc/CBaslerCameraConfig.h
+END
+WorkUnit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/564/trunk/Inc/WorkUnit.cpp
+END
+MCtrlCenter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1350/trunk/Inc/MCtrlCenter.cpp
+END
+TlsFileParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1316/trunk/Inc/TlsFileParser.h
+END
+ImageFilePump.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1346/trunk/Inc/ImageFilePump.cpp
+END
+MyButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/1297/trunk/Inc/MyButton.h
+END
+CustomProperties.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/982/trunk/Inc/CustomProperties.cpp
+END
+MReportView.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/1339/trunk/Inc/MReportView.h
+END
+MConfigCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1356/trunk/Inc/MConfigCenter.h
+END
+SheetInspectionPanel.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/1107/trunk/Inc/SheetInspectionPanel.h
+END
+MyLabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/slacmvs/!svn/ver/721/trunk/Inc/MyLabel.h
+END
+ViewTree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/564/trunk/Inc/ViewTree.cpp
+END
+MReportMainView.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1059/trunk/Inc/MReportMainView.h
+END
+MReportFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/1332/trunk/Inc/MReportFile.h
+END
+PanelManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/1356/trunk/Inc/PanelManager.h
+END
+2DLineGraph.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/Inc/2DLineGraph.cpp
+END
+Tools.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/slacmvs/!svn/ver/932/trunk/Inc/Tools.cpp
+END
+TypeCent.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/1334/trunk/Inc/TypeCent.h
+END
+IMReport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/564/trunk/Inc/IMReport.cpp
+END
+ShareMem.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/1356/trunk/Inc/ShareMem.h
+END
+ViewList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/627/trunk/Inc/ViewList.cpp
+END
+ConfigurationManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/1110/trunk/Inc/ConfigurationManager.h
+END
+BaslerCamera2.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1192/trunk/Inc/BaslerCamera2.h
+END
+sqlite3.lib
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/564/trunk/Inc/sqlite3.lib
+END
+MyPanel.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/slacmvs/!svn/ver/1356/trunk/Inc/MyPanel.h
+END
+SqlDB.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/slacmvs/!svn/ver/564/trunk/Inc/SqlDB.h
+END
+VLCtrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/slacmvs/!svn/ver/1302/trunk/Inc/VLCtrl.h
+END
+2DBarGraph.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/580/trunk/Inc/2DBarGraph.cpp
+END
+IException.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/564/trunk/Inc/IException.h
+END
+SqliteDB.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/slacmvs/!svn/ver/638/trunk/Inc/SqliteDB.h
+END
+TlsFileParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1356/trunk/Inc/TlsFileParser.cpp
+END
+MyButton.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/1297/trunk/Inc/MyButton.cpp
+END
+MRecvCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/1106/trunk/Inc/MRecvCenter.h
+END
+rejector.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/1356/trunk/Inc/rejector.h
+END
+MReportView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1354/trunk/Inc/MReportView.cpp
+END
+MConfigCenter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1356/trunk/Inc/MConfigCenter.cpp
+END
+TestItemPropertiesWnd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/564/trunk/Inc/TestItemPropertiesWnd.cpp
+END
+MyLabel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/1112/trunk/Inc/MyLabel.cpp
+END
+BaslerCamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/564/trunk/Inc/BaslerCamera.h
+END
+MCtrlCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/1356/trunk/Inc/MCtrlCenter.h
+END
+WorkUnit.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/slacmvs/!svn/ver/564/trunk/Inc/WorkUnit.h
+END
+MReportMainTestView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/564/trunk/Inc/MReportMainTestView.cpp
+END
+GraphObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/Inc/GraphObject.cpp
+END
+ImageFilePump.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1203/trunk/Inc/ImageFilePump.h
+END
+2DPieGraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/564/trunk/Inc/2DPieGraph.h
+END
+IMActiveObj.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/623/trunk/Inc/IMActiveObj.cpp
+END
+customproperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/982/trunk/Inc/customproperties.h
+END

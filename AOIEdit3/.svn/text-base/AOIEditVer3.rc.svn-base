@@ -1,0 +1,1102 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\AOIEditVer3.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""          // 标准组件\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.CHS\\afxprint.rc""                // 打印/打印预览资源\r\n"
+    "#include ""l.CHS\\afxribbon.rc""               // MFC 功能区和控件条资源\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SLACMVSN.ico"
+IDI_FILE_VIEW           ICON                    "res\\file_view.ico"
+IDI_FILE_VIEW_HC        ICON                    "res\\file_view_hc.ico"
+IDI_CLASS_VIEW          ICON                    "res\\class_view.ico"
+IDI_CLASS_VIEW_HC       ICON                    "res\\class_view_hc.ico"
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+IDI_PROPERTIES_WND      ICON                    "res\\properties_wnd.ico"
+IDI_PROPERTIES_WND_HC   ICON                    "res\\properties_wnd_hc.ico"
+IDI_CURS                ICON                    "res\\icon1.ico"
+IDI_ICON2               ICON                    "res\\icon2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+IDB_MAIN                BITMAP                  "res\\main.bmp"
+IDB_FILELARGE           BITMAP                  "res\\filelarge.bmp"
+IDB_FILESMALL           BITMAP                  "res\\filesmall.bmp"
+IDB_WRITELARGE          BITMAP                  "res\\writelarge.bmp"
+IDB_WRITESMALL          BITMAP                  "res\\writesmall.bmp"
+IDB_BUTTONS             BITMAP                  "res\\buttons.bmp"
+IDR_SORT                BITMAP                  "res\\sort.bmp"
+IDB_SORT_24             BITMAP                  "res\\sort_hc.bmp"
+IDB_FILE_VIEW           BITMAP                  "res\\fileview.bmp"
+IDB_FILE_VIEW_24        BITMAP                  "res\\fileview_hc.bmp"
+IDB_CLASS_VIEW          BITMAP                  "res\\classview.bmp"
+IDB_CLASS_VIEW_24       BITMAP                  "res\\classview_hc.bmp"
+IDR_EXPLORER            BITMAP                  "res\\explorer.bmp"
+IDB_EXPLORER_24         BITMAP                  "res\\explorer_hc.bmp"
+IDR_MENU_IMAGES         BITMAP                  "res\\menuimages.bmp"
+IDB_MENU_IMAGES_24      BITMAP                  "res\\menuimages_hc.bmp"
+IDR_PROPERTIES          BITMAP                  "res\\properties.bmp"
+IDB_PROPERTIES_HC       BITMAP                  "res\\properties_hc.bmp"
+IDB_INFO                BITMAP                  "res\\info.bmp"
+IDB_TESTTREE_TOOLS_24   BITMAP                  "res\\testtree.bmp"
+IDR_TESTTREE_TOOLS      BITMAP                  "res\\toolbar1.bmp"
+IDB_TESTTREE_VIEW       BITMAP                  "res\\bmp00002.bmp"
+IDB_TESTTREE_VIEW_24    BITMAP                  "res\\fileview_hc.bmp"
+IDB_OPERLARGE           BITMAP                  "res\\bitmap1.bmp"
+IDB_OPERSMALL           BITMAP                  "res\\bmp00001.bmp"
+IDB_BITMAP_PRO_BUTTON   BITMAP                  "res\\bmp00003.bmp"
+IDB_BITMAP_CREATE_BUTTON BITMAP                  "res\\bmp00004.bmp"
+IDB_BITMAP_LOAD_BUTTON  BITMAP                  "res\\bitmap2.bmp"
+IDB_TESTLIST_TOOLBAR_HC BITMAP                  "res\\bmp00005.bmp"
+IDR_TESTLIST_TOOLBAR    BITMAP                  "res\\testlist.bmp"
+IDR_TESTTREE_TL         BITMAP                  "res\\bmp00006.bmp"
+IDB_BITMAP_UAC_BKGRD    BITMAP                  "res\\access_control_background.bmp"
+IDB_BITMAP_PANEL        BITMAP                  "res\\bmp00007.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_SORT TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_SORT_MENU
+    BUTTON      ID_NEW_FOLDER
+END
+
+IDR_EXPLORER TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_PROPERTIES
+END
+
+IDR_MENU_IMAGES TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_WINDOW_MANAGER
+    SEPARATOR
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_TOOLS_MACRO
+    BUTTON      ID_SORTING_SORTALPHABETIC
+    BUTTON      ID_SORTING_SORTBYTYPE
+    BUTTON      ID_SORTING_SORTBYACCESS
+    BUTTON      ID_SORTING_GROUPBYTYPE
+END
+
+IDR_PROPERTIES TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_EXPAND_ALL
+    BUTTON      ID_SORTPROPERTIES
+    BUTTON      ID_PROPERTY_ADD_BTN
+    SEPARATOR
+    BUTTON      ID_BUTTON32771
+    BUTTON      ID_BUTTON32772
+END
+
+IDR_TESTLIST_TOOLBAR TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_TESTLIST_BT_MOVE_UP
+    BUTTON      ID_TESTLIST_BT_MOVE_DOWN
+    BUTTON      ID_TESTLIST_BT_DELETE
+    SEPARATOR
+    BUTTON      ID_TESTLIST_BT_APPLY
+END
+
+IDR_TESTTREE_TL TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_BTN_TESTTREE_OPEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "编辑"
+    BEGIN
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+END
+
+IDR_WINDOWS_MENU MENU
+BEGIN
+    POPUP "新建窗口(&N)"
+    BEGIN
+        MENUITEM "全屏显示",                        ID_FULL_SCREEN
+        MENUITEM "退出全屏",                        ID_END_FULLSCR
+    END
+END
+
+IDR_POPUP_SORT MENU
+BEGIN
+    POPUP "排序"
+    BEGIN
+        MENUITEM "按字母顺序排序(&S)",                 ID_SORTING_SORTALPHABETIC
+        MENUITEM "按类型排序(&T)",                   ID_SORTING_SORTBYTYPE
+        MENUITEM "按访问排序(&E)",                   ID_SORTING_SORTBYACCESS
+        MENUITEM "按类型分组(&Y)",                   ID_SORTING_GROUPBYTYPE
+    END
+END
+
+IDR_POPUP_EXPLORER MENU
+BEGIN
+    POPUP "资源管理器"
+    BEGIN
+        MENUITEM "打开(&O)",                      ID_OPEN
+        MENUITEM "打开方式(&W)....",                ID_OPEN_WITH
+        MENUITEM SEPARATOR
+        MENUITEM "编译(&C)",                      ID_DUMMY_COMPILE
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "删除(&R)",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "属性(&P)...",                   ID_PROPERTIES
+    END
+END
+
+IDR_OUTPUT_POPUP MENU
+BEGIN
+    POPUP "弹出项"
+    BEGIN
+        MENUITEM "复制(&C)",                      ID_EDIT_COPY
+        MENUITEM "清除(&C)",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "隐藏(&H)",                      ID_VIEW_OUTPUTWND
+    END
+END
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+        MENUITEM "标题栏(&C)",                     ID_VIEW_CAPTION_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 AOIEditVer3(&A)...",       ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_TESTTREE MENU
+BEGIN
+    POPUP "资源管理器"
+    BEGIN
+        MENUITEM "打开(&O)",                      ID_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "删除(&R)",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 AOIEditVer3"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "AOIEditVer3，1.0 版",IDC_VERSION_TEXT,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_DIALOG_DRAW_SHAPE DIALOGEX 0, 0, 127, 190
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tools"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+#ifdef _ENGLISH
+	BEGIN
+		PUSHBUTTON      "CIRCLE",IDC_BUTTON_DRAW_CIRCLE,19,15,39,29
+		PUSHBUTTON      "RECTANGLE",IDC_BUTTON_DRAW_RECTANGLE,19,52,39,29
+		PUSHBUTTON      "POLYGON",IDC_BUTTON_DRAW_POLYGON,68,52,39,29
+		PUSHBUTTON      "ELLIPSE",IDC_BUTTON_DRAW_ELLIPSE,68,14,39,29
+		PUSHBUTTON      "+",IDC_BUTTON_UNION,18,96,39,29
+		PUSHBUTTON      "-",IDC_BUTTON_DIFF,68,96,39,29
+		PUSHBUTTON      "UNDO",IDC_BUTTON_REDRAW,19,134,39,29,WS_DISABLED
+		PUSHBUTTON      "SAVE",IDC_BUTTON_SAVE,68,134,39,29
+	END
+
+#else
+BEGIN
+    PUSHBUTTON      "圆",IDC_BUTTON_DRAW_CIRCLE,19,15,39,29
+    PUSHBUTTON      "四边形",IDC_BUTTON_DRAW_RECTANGLE,19,52,39,29
+    PUSHBUTTON      "多边形",IDC_BUTTON_DRAW_POLYGON,68,52,39,29
+    PUSHBUTTON      "椭圆",IDC_BUTTON_DRAW_ELLIPSE,68,14,39,29
+    PUSHBUTTON      "+",IDC_BUTTON_UNION,18,96,39,29
+    PUSHBUTTON      "-",IDC_BUTTON_DIFF,68,96,39,29
+    PUSHBUTTON      "撤销",IDC_BUTTON_REDRAW,19,134,39,29,WS_DISABLED
+    PUSHBUTTON      "保存",IDC_BUTTON_SAVE,68,134,39,29
+END
+
+#endif
+
+IDD_DIALOG_SAVEPRO DIALOGEX 0, 0, 354, 201
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+#ifdef _ENGLISH
+CAPTION "Save Program"
+#else
+CAPTION "保存程式"
+#endif
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+#ifdef _ENGLISH
+    DEFPUSHBUTTON   "Ok",IDOK,221,171,55,20
+    PUSHBUTTON      "Cancel",IDCANCEL,288,171,55,20
+    CONTROL         "",IDC_STATIC_SAVEDLG_LOGO,"Static",SS_BITMAP,188,10,155,135
+#else
+    DEFPUSHBUTTON   "确定",IDOK,221,171,55,20
+    PUSHBUTTON      "取消",IDCANCEL,288,171,55,20
+    CONTROL         "",IDC_STATIC_SAVEDLG_LOGO,"Static",SS_BITMAP,188,10,155,135
+#endif
+END
+
+IDD_DIALOG_PROSETTING DIALOGEX 0, 0, 326, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+#ifdef _ENGLISH
+CAPTION "System Settings"
+#else
+CAPTION "系统设置"
+#endif
+FONT 12, "新宋体", 400, 0, 0x86
+BEGIN
+#ifdef _ENGLISH
+    DEFPUSHBUTTON   "Ok",IDOK,255,188,30,14,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Cancel",IDCANCEL,290,188,30,14,0,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_TAB_PROSETTING,"SysTabControl32",0x0,13,15,299,163,WS_EX_STATICEDGE
+    CONTROL         "Initialize Current Parameters",IDC_CHECK_AUTOINIT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,187,130,10,WS_EX_TRANSPARENT
+#else
+    DEFPUSHBUTTON   "确定",IDOK,255,188,30,14,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "取消",IDCANCEL,290,188,30,14,0,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_TAB_PROSETTING,"SysTabControl32",0x0,13,15,299,163,WS_EX_STATICEDGE
+    CONTROL         "初始化当前参数",IDC_CHECK_AUTOINIT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,187,72,10,WS_EX_TRANSPARENT
+#endif
+END
+
+IDD_DIALOG_PROSET_REJECT DIALOGEX 0, 0, 288, 154
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 12, "新宋体", 400, 0, 0x0
+BEGIN
+#ifdef _ENGLISH
+    EDITTEXT        IDC_EDIT_REJECTPORT,76,41,38,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_SIGNELTIME,76,60,38,12,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Enable Rejection",IDC_CHECK_REJECT,"Button",BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,11,16,75,10
+    LTEXT           "Port",IDC_STATIC,23,43,34,8
+    LTEXT           "Pulse Width",IDC_STATIC,23,62,50,8
+    EDITTEXT        IDC_EDIT_DELAYTIME,76,93,38,12,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Delay Time",IDC_STATIC,24,95,45,8
+    CONTROL         " Counting Rejection",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | BS_TOP | WS_DISABLED,11,28,88,10
+    CONTROL         " Delay Rejection",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | BS_TOP | WS_DISABLED,11,78,88,10
+    EDITTEXT        IDC_EDIT_NGCOUNT,213,39,50,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_WINNERPORT,213,64,50,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Alarm Threshold",IDC_STATIC,143,42,60,8
+    LTEXT           "Alarm  Port",IDC_STATIC,143,68,45,8
+    EDITTEXT        IDC_EDIT_STATEPORT,213,90,50,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Status Port",IDC_STATIC,143,92,45,8
+    GROUPBOX        "",IDC_STATIC,129,29,140,80,BS_FLAT,WS_EX_TRANSPARENT
+    LTEXT           "Status",IDC_STATIC,131,15,61,8
+#else
+    EDITTEXT        IDC_EDIT_REJECTPORT,76,41,38,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_SIGNELTIME,76,60,38,12,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         " 排    盖",IDC_CHECK_REJECT,"Button",BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,11,16,45,10
+    LTEXT           "端    口",IDC_STATIC,24,43,34,8
+    LTEXT           "信号宽度",IDC_STATIC,24,62,38,8
+    EDITTEXT        IDC_EDIT_DELAYTIME,76,93,38,12,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "延迟时间",IDC_STATIC,24,95,45,8
+    CONTROL         " 计数排盖",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | BS_TOP | WS_DISABLED,11,28,52,10
+    CONTROL         " 延时排盖",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | BS_TOP | WS_DISABLED,11,78,52,10
+    EDITTEXT        IDC_EDIT_NGCOUNT,203,39,57,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_WINNERPORT,203,64,57,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "连续不良数",IDC_STATIC,143,42,44,8
+    LTEXT           "报警灯端口",IDC_STATIC,143,68,45,8
+    EDITTEXT        IDC_EDIT_STATEPORT,203,90,57,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "状态灯端口",IDC_STATIC,143,92,45,8
+    GROUPBOX        "",IDC_STATIC,129,29,140,80,BS_FLAT,WS_EX_TRANSPARENT
+    LTEXT           "状态显示",IDC_STATIC,131,15,61,8
+#endif
+END
+
+IDD_DIALOG_PROSET_CAMERA DIALOGEX 0, 0, 299, 154
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 12, "新宋体", 400, 0, 0x0
+BEGIN
+#ifdef _ENGLISH
+	PUSHBUTTON      "Search",IDC_BUTTON_SCAN,205,8,29,14
+    COMBOBOX        IDC_COMBO_SOURE,52,9,148,58,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         " Trigger Mode",IDC_CHECK_TRIGGER,"Button",BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,62,36,54,10
+    LTEXT           "Camera:",IDC_STATIC,12,11,32,8
+    COMBOBOX        IDC_COMBO_TraggerEdge,122,34,65,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_CAMERAGAIN,122,53,65,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "CameraGain:",IDC_STATIC_GAIN,62,56,56,8
+    GROUPBOX        "",IDC_STATIC,52,25,148,88,BS_FLAT,WS_EX_TRANSPARENT
+
+    LTEXT           "TrigerDelay:",IDC_STATIC_TRIGERDELAY,62,75,56,8
+	EDITTEXT        IDC_EDIT_CAMERATRIGERDELAY,122,72,65,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+
+
+    LTEXT           "Setting:",IDC_STATIC,12,31,36,8
+    CONTROL         "Connect to Light Controller",IDC_CHECK_CONNECT_LIGHT_CTRL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,162,92,10
+
+#ifdef SHEET_INSPECTION
+    LTEXT           "Lines/Frame",IDC_STATIC,74,76,50,11
+    LTEXT           "Frames/Sheet",IDC_STATIC,74,94,50,11
+    EDITTEXT        IDC_EDIT_LINE_PER_FRAME,132,73,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FRAME_PER_SHEET,132,92,65,14,ES_AUTOHSCROLL
+#endif
+#else
+    PUSHBUTTON      "查找",IDC_BUTTON_SCAN,205,8,29,14
+    COMBOBOX        IDC_COMBO_SOURE,52,9,148,58,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         " 触发模式",IDC_CHECK_TRIGGER,"Button",BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,62,36,54,10
+    LTEXT           "相机:",IDC_STATIC,12,11,32,8
+    COMBOBOX        IDC_COMBO_TraggerEdge,122,34,65,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_CAMERAGAIN,122,53,65,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           " 相机增益",IDC_STATIC_GAIN,69,56,36,8
+    GROUPBOX        "",IDC_STATIC,52,25,148,88,BS_FLAT,WS_EX_TRANSPARENT
+
+    LTEXT           " 触发延时",IDC_STATIC_TRIGERDELAY,70,75,36,8
+	EDITTEXT        IDC_EDIT_CAMERATRIGERDELAY,122,72,65,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+
+
+    LTEXT           "设置:",IDC_STATIC,12,31,36,8
+    CONTROL         "连接光源控制器",IDC_CHECK_CONNECT_LIGHT_CTRL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,132,72,10
+#ifdef SHEET_INSPECTION
+    LTEXT           "行数/帧",IDC_STATIC,74,76,28,11
+    LTEXT           "帧数/片",IDC_STATIC,74,94,28,11
+    EDITTEXT        IDC_EDIT_LINE_PER_FRAME,122,73,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FRAME_PER_SHEET,122,92,65,14,ES_AUTOHSCROLL
+#endif
+#endif
+END
+
+IDD_DIALOG_PROSET_BASE DIALOGEX 0, 0, 299, 163
+STYLE DS_SETFONT | WS_CHILD
+FONT 12, "新宋体", 400, 0, 0x86
+BEGIN
+#ifdef _ENGLISH
+    CONTROL         " Save Rejected Image",IDC_CHECK_SAVE_IMAGE,"Button",BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,19,108,90,11
+    EDITTEXT        IDC_EDIT_ERRORCOUNT,128,135,40,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Rejected Image Count",IDC_STATIC_ERR_IMG_COUNT,31,136,90,8
+    PUSHBUTTON      "Select Path",IDC_BUTTON_SOURCESEL,174,36,50,15
+    GROUPBOX        "",IDC_STATIC,9,15,225,67,BS_FLAT,WS_EX_TRANSPARENT
+    CONTROL         " Single Image",IDC_RADIO_FILE,"Button",BS_AUTORADIOBUTTON | BS_TOP | WS_GROUP,16,24,65,10
+    CONTROL         " Image Folder",IDC_RADIO_FILES,"Button",BS_AUTORADIOBUTTON | BS_TOP | WS_GROUP,16,38,62,10
+    GROUPBOX        "",IDC_STATIC,9,98,224,54,BS_FLAT,WS_EX_TRANSPARENT
+    CONTROL         " Camera",IDC_RADIO_CAMERA,"Button",BS_AUTORADIOBUTTON | BS_TOP | WS_GROUP,16,54,48,10
+    LTEXT           " ",IDC_STATIC_PATH,26,70,205,8
+    EDITTEXT        IDC_EDIT_TIMEI,124,38,40,12,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    LTEXT           "Interval",IDC_STATIC,84,39,35,8
+    CONTROL         " Save Passed Image",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,19,121,90,10
+    LTEXT           "Image Source",IDC_STATIC_IMG_SOURCE,9,7,80,9
+    LTEXT           "Setting for Rejected Image",IDC_STATIC_IMG_SETTING,10,87,150,12
+#else
+    CONTROL         " 保存错误图片",IDC_CHECK_SAVE_IMAGE,"Button",BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,19,108,65,11
+    EDITTEXT        IDC_EDIT_ERRORCOUNT,128,135,40,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "错误图片数量",IDC_STATIC_ERR_IMG_COUNT,31,136,51,8
+    PUSHBUTTON      "选择路径",IDC_BUTTON_SOURCESEL,174,36,43,15
+    GROUPBOX        "",IDC_STATIC,9,15,225,67,BS_FLAT,WS_EX_TRANSPARENT
+    CONTROL         " 单张图片",IDC_RADIO_FILE,"Button",BS_AUTORADIOBUTTON | BS_TOP | WS_GROUP,16,24,52,10
+    CONTROL         " 图片文件夹",IDC_RADIO_FILES,"Button",BS_AUTORADIOBUTTON | BS_TOP | WS_GROUP,16,38,57,10
+    GROUPBOX        "",IDC_STATIC,9,98,224,54,BS_FLAT,WS_EX_TRANSPARENT
+    CONTROL         " 相   机",IDC_RADIO_CAMERA,"Button",BS_AUTORADIOBUTTON | BS_TOP | WS_GROUP,16,54,48,10
+    LTEXT           " ",IDC_STATIC_PATH,26,70,205,8
+    EDITTEXT        IDC_EDIT_TIMEI,124,38,40,12,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    LTEXT           "时间间隔",IDC_STATIC,84,39,35,8
+    CONTROL         " 保存正确图片",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,19,121,68,10
+    LTEXT           "图片来源",IDC_STATIC_IMG_SOURCE,9,7,37,9
+    LTEXT           "错误图片设置",IDC_STATIC_IMG_SETTING,10,87,53,12
+#endif
+END
+
+IDD_DIALOG_OPENPRO DIALOGEX 0, 0, 359, 210
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+#ifdef _ENGLISH
+CAPTION "Select Program"
+#else
+CAPTION "选择程式"
+#endif
+FONT 12, "新宋体", 400, 0, 0x0
+BEGIN
+#ifdef _ENGLISH
+    DEFPUSHBUTTON   "Load",IDOK,280,181,30,14
+    PUSHBUTTON      "Cancel",IDCANCEL,315,181,30,14
+    CONTROL         "",IDC_LIST_PROGRAM,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,13,13,127,182
+    CONTROL         "",IDC_STATIC_OPENDLG_LOGO,"Static",SS_BLACKFRAME,153,15,191,157
+#else
+    DEFPUSHBUTTON   "加载",IDOK,280,181,30,14
+    PUSHBUTTON      "取消",IDCANCEL,315,181,30,14
+    CONTROL         "",IDC_LIST_PROGRAM,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,13,13,127,182
+    CONTROL         "",IDC_STATIC_OPENDLG_LOGO,"Static",SS_BLACKFRAME,153,15,191,157
+#endif
+END
+
+IDD_DIALOG_SHOWDATA DIALOGEX 0, 0, 320, 271
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,253,262
+    PUSHBUTTON      "查询",IDC_BTNQUERY,266,61,50,14
+END
+
+IDD_DIALOG_CHMODE DIALOGEX 0, 0, 436, 177
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_THICKFRAME
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,289,156,50,14,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    PUSHBUTTON      "取消",IDCANCEL,350,156,50,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_USERNAME,184,78,105,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_USERPASSWORD,184,100,105,14,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+IDD_NEXTFORM DIALOGEX 0, 0, 405, 272
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+END
+
+IDD_HOMEVIEW DIALOGEX 0, 0, 560, 440
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+END
+
+IDD_DISPS DIALOGEX 0, 0, 503, 138
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_WND2,"Static",SS_BLACKRECT | SS_NOTIFY,75,0,42,48
+    CONTROL         "",IDC_WND7,"Static",SS_BLACKRECT | SS_NOTIFY,303,0,42,30
+    CONTROL         "",IDC_WND1,"Static",SS_BLACKRECT | SS_NOTIFY | SS_CENTERIMAGE | SS_REALSIZEIMAGE,12,3,60,48
+    CONTROL         "",IDC_WND3,"Static",SS_BLACKRECT | SS_NOTIFY,120,0,42,30
+    CONTROL         "",IDC_WND4,"Static",SS_BLACKRECT | SS_NOTIFY,165,0,42,30
+    CONTROL         "",IDC_WND6,"Static",SS_BLACKRECT | SS_NOTIFY,257,0,42,32
+    CONTROL         "",IDC_WND5,"Static",SS_BLACKRECT | SS_NOTIFY,210,0,42,30
+    CONTROL         "",IDC_WND8,"Static",SS_BLACKRECT | SS_NOTIFY,350,7,42,48
+    CONTROL         "",IDC_WND9,"Static",SS_BLACKRECT | SS_NOTIFY,397,7,42,30
+    CONTROL         "",IDC_WND10,"Static",SS_BLACKRECT | SS_NOTIFY,446,7,42,48
+    CONTROL         "",IDC_WND11,"Static",SS_BLACKRECT | SS_NOTIFY,7,94,42,30
+    CONTROL         "",IDC_WND12,"Static",SS_BLACKRECT | SS_NOTIFY,55,92,42,30
+    CONTROL         "",IDC_WND13,"Static",SS_BLACKRECT | SS_NOTIFY,103,99,42,32
+    CONTROL         "",IDC_WND14,"Static",SS_BLACKRECT | SS_NOTIFY,157,101,42,30
+    CONTROL         "",IDC_WND15,"Static",SS_BLACKRECT | SS_NOTIFY,205,101,42,30
+    CONTROL         "",IDC_WND16,"Static",SS_BLACKRECT | SS_NOTIFY,256,98,42,32
+    CONTROL         "",IDC_WND17,"Static",SS_BLACKRECT | SS_NOTIFY,305,101,42,30
+    CONTROL         "",IDC_WND18,"Static",SS_BLACKRECT | SS_NOTIFY,354,101,42,30
+    CONTROL         "",IDC_WND19,"Static",SS_BLACKRECT | SS_NOTIFY,405,98,42,32
+    CONTROL         "",IDC_WND20,"Static",SS_BLACKRECT | SS_NOTIFY,454,101,42,30
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,1,1116
+ PRODUCTVERSION 3,0,1,1116
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "苏州斯莱克精密设备有限公司"
+            VALUE "FileDescription", "SLACMVS 通道程式"
+            VALUE "FileVersion", "3.0.1.1116"
+            VALUE "InternalName", "AOIEditVer3.exe"
+            VALUE "LegalCopyright", "(C) 苏州斯莱克精密设备有限公司  保留所有权利。"
+            VALUE "OriginalFilename", "AOIEditVer3.exe"
+            VALUE "ProductName", "斯莱克机器视觉系统(SMVS)"
+            VALUE "ProductVersion", "3.0.1.1116"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_DIALOG_DRAW_SHARP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 143
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_DIALOG_SAVEPRO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 347
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_DIALOG_PROSETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 319
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_DIALOG_PROSET_REJECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 281
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DIALOG_PROSET_CAMERA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DIALOG_PROSET_BASE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 294
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_DIALOG_OPENPRO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 352
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_DIALOG_SHOWDATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 316
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 269
+    END
+
+    IDD_DIALOG_CHMODE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 429
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_NEXTFORM, DIALOG
+    BEGIN
+        RIGHTMARGIN, 356
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_HOMEVIEW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 454
+        BOTTOMMARGIN, 320
+    END
+
+    IDD_DISPS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 496
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_PROSET_CAMERA DLGINIT
+BEGIN
+    IDC_COMBO_TraggerEdge, 0x403, 12, 0
+0x6152, 0x6973, 0x676e, 0x4520, 0x6764, 0x0065, 
+    IDC_COMBO_TraggerEdge, 0x403, 13, 0
+0x6146, 0x6c6c, 0x6e69, 0x2067, 0x6445, 0x6567, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_ACCEPT              PNG                     "res\\accept_32_2.png"
+IDB_DENY                PNG                     "res\\deny_32_2.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "Suzhou SLAC Precision Equipment Co.,Ltd."
+    IDS_OPER_CFG            "配置"
+    IDS_LOGO                ":"
+#ifdef _ENGLISH
+	IDS_USER                "Not Login"
+#else
+    IDS_USER                "未登录"
+#endif
+    IDS_OPER_RUN            "运行"
+    IDS_OPER_STOP           "停止"
+    IDS_OPER_PAUSE          "暂停"
+    IDS_RIBBON_DISP         "图像显示方式"
+    IDS_DISP_SHOT           "单张"
+    IDS_DISP_CONTIN         "连续"
+    IDS_OPER_OPEN_DESC      "\nf打开测试项目"
+    IDS_DISP_SAVE           "保存"
+    IDS_BTN_SAVESYS         "保存程序"
+    IDS_BTN_OPENCFG         "打开调试窗口"
+    IDS_BTN_ERR_IMG      "实时图片"
+    IDS_DISP_ZERO           "统计清零"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DISP_CONTIN_ENG     "Continue"
+    IDS_OPER_OPEN_DESC_ENG  "\nfGet Test Item"
+    IDS_DISP_SAVE_ENG       "Save"
+    IDS_BTN_SAVESYS_ENG     "Save App"
+    IDS_BTN_OPENCFG_ENG     "Open Configuration Window"
+    IDS_BTN_ERR_IMG_ENG  "Realtime Picture"
+    IDS_DISP_ZERO_ENG       "Recount"
+    IDS_USER_ENG            "Not Login"
+    AFX_IDS_IDLEMESSAGE_ENG "Ready"
+    ID_APP_ABOUT_ENG        "Display program information , version number and copyright \n About"
+    ID_APP_EXIT_ENG         "Quit the application; prompts to save documents \n exit"
+    AFX_IDS_SCCLOSE_ENG     "Close the active window and prompts to save documents"
+    AFX_IDS_SCRESTORE_ENG   "Restore the window to its normal size"
+    AFX_IDS_SCTASKLIST_ENG  "Real-time picture"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OPER_CFG_ENG        "Configuration"
+    IDS_OPER_RUN_ENG        "Run"
+    IDS_OPER_STOP_ENG       "Stop"
+    IDS_OPER_PAUSE_ENG      "Pause"
+    IDS_RIBBON_DISP_ENG     "Display images"
+    IDS_DISP_SHOT_ENG       "Shot"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1_ENG    "Suzhou SLAC Precision Equipment Co.,Ltd. | Visual Inspection System | (0512-66939157)"
+    IDS_RIBBON_HEXT_ENG     "Historical Rejected Images"
+    IDS_RIBBON_OPER_ENG     "Operating | Control"
+    IDS_OPER_OPEN_ENG       "Open"
+    IDS_ABOUT_TITLE_ENG     "About AOIEditVer3"
+    IDS_ABOUT_VESRION_ENG   "AOIEditVer3，1.0 Edition"
+    IDS_ABOUT_TITLE         "关于 AOIEditVer3"
+    IDS_ABOUT_VESRION       "AOIEditVer3，1.0 版"
+    ID_VIEW_CAPTION_BAR     "Show or hide the title bar\nToggle the title bar"
+    IDS_FILE_VIEW_ENG       "Detection operator"
+    IDS_CLASS_VIEW_ENG      "Class View"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "AOIEditVer3"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information , version number and copyright \n About"
+    ID_APP_EXIT             "Quit the application; prompts to save documents \n exit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除选定内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制选定内容并将其放到剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切选定内容并将其放到剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "恢复上次撤消的操作\n重做"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n切换工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小为图标"
+    AFX_IDS_SCMAXIMIZE      "使窗口最大化显示"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到前一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "实时图片"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "苏州斯莱克精密设备股份有限公司 | 视觉检测系统 | (0512-66939157)"
+    IDS_STATUS_PANE2        "窗格 2"
+    IDS_LOGO_TEXT           " Vision Inspection |"
+    IDS_RIBBON_HEXT         "历史错误图片"
+    IDS_RIBBON_OPER         "操作 | 控制"
+    IDS_OPER_OPEN           "打开"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FILE_VIEW           "检测算子"
+    IDS_CLASS_VIEW          "类视图"
+    IDS_OUTPUT_WND          "检测算子输出"
+    IDS_PROPERTIES_WND      "算子参数"
+	IDS_LIGHT_CTRL_WND_TITLE  "光源参数"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OUTPUT_WND_ENG      "Detection operator output"
+    IDS_PROPERTIES_WND_ENG  "Algorithm Parameters"
+	IDS_LIGHT_CTRL_WND_TITLE_ENG "Light Parameters"
+    IDS_RIBBON_EXIT_ENG     "Exit(&X)"
+    IDS_RIBBON_HOME_ENG     "Surveillance Center"
+    IDS_CAPTION_BUTTON      "选项..."
+    IDS_CAPTION_BUTTON_TIP  "单击此处查看其他选项"
+    IDS_CAPTION_TEXT        "这是标题栏，可在其中向用户显示消息。"
+    IDS_CAPTION_IMAGE_TIP   "重要事项"
+    IDS_CAPTION_IMAGE_TEXT  "这是向用户显示的信息性消息。"
+    IDS_CAPTION_BUTTON_ENG  "Options..."
+    IDS_CAPTION_BUTTON_TIP_ENG "Click here to see other options"
+    IDS_CAPTION_IMAGE_TIP_ENG "Important"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EXPLORER            "资源管理器"
+    IDS_EDIT_MENU           "编辑"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CAPTION_IMAGE_TEXT_ENG 
+                            "This informational message is displayed to the user。"
+    IDS_EXPLORER_ENG        "Explorer"
+    IDS_EDIT_MENU_ENG       "Editor"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RIBBON_STYLE_DESC   "选择一个 Office 2007 主题"
+    IDS_RIBBON_STATUSBAR    "状态栏"
+    IDS_RIBBON_VIEW         "视图"
+    IDS_RIBBON_CAPTIONBAR   "标题栏"
+    IDS_BUILD_TAB           "生成"
+    IDS_DEBUG_TAB           "调试"
+    IDS_FIND_TAB            "查找"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RIBBON_FILE         "文件控制"
+    IDS_RIBBON_FILE_ENG     "File Contrl"
+    IDS_RIBBON_NEW          "新建(&N)"
+    IDS_RIBBON_PRINT        "打印"
+    IDS_RIBBON_PRINT_LABEL  "预览并打印文档"
+    IDS_RIBBON_PRINT_QUICK  "快速打印(&Q)"
+    IDS_RIBBON_PRINT_PREVIEW "打印预览(&V)"
+    IDS_RIBBON_PRINT_SETUP  "打印设置(&U)"
+    IDS_RIBBON_CLOSE        "关闭(&C)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RIBBON_OPEN_ENG     "Open(&O)..."
+    IDS_RIBBON_SAVE_ENG     "Save(&S)"
+    IDS_RIBBON_SAVEAS_ENG   "Save as(&A)..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_RIBBON_RECENT_DOCS  "最近使用的文档"
+    IDS_RIBBON_EXIT         "退出(&X)"
+    IDS_RIBBON_HOME         "监控中心"
+    IDS_RIBBON_CLIPBOARD    "剪贴板\nD"
+    IDS_RIBBON_PASTE        "粘贴\nV"
+    IDS_RIBBON_CUT          "剪切\nX"
+    IDS_RIBBON_COPY         "复制\nC"
+    IDS_RIBBON_SELECTALL    "全选\nA"
+    IDS_RIBBON_WINDOW       "窗口\nW"
+    IDS_RIBBON_WINDOWS      "窗口\nI"
+    IDS_RIBBON_STYLE        "样式"
+    IDS_RIBBON_STYLE_TIP    "修改视觉样式"
+END
+
+
+STRINGTABLE
+BEGIN
+#ifdef _ENGLISH
+    ID_TESTLIST_BT_MOVE_UP   "\nMove Up"
+	ID_TESTLIST_BT_MOVE_DOWN "\nMove Down"
+	ID_TESTLIST_BT_DELETE    "\nDelete"
+	ID_TESTLIST_BT_APPLY     "\nApply"
+#else
+    ID_TESTLIST_BT_MOVE_UP   "\n上移"
+	ID_TESTLIST_BT_MOVE_DOWN "\n下移"
+	ID_TESTLIST_BT_DELETE    "\n删除"
+	ID_TESTLIST_BT_APPLY     "\n应用"
+#endif
+END
+
+STRINGTABLE
+BEGIN
+#ifdef _ENGLISH
+	ID_EXPAND_ALL       "\nBy Category"
+	ID_SORTPROPERTIES   "\nBy Alphabetic"
+	ID_PROPERTY_ADD_BTN "\nAdd Algorithm"
+#else
+	ID_EXPAND_ALL       "\n按分类顺序"
+	ID_SORTPROPERTIES   "\n字母顺序"
+	ID_PROPERTY_ADD_BTN "\n添加算子"
+#endif
+END
+
+STRINGTABLE
+BEGIN
+#ifdef _ENGLISH
+	ID_BTN_TESTTREE_OPEN "\nOpen Algorithm Library"
+#else
+    ID_BTN_TESTTREE_OPEN "\n打开算子库"
+#endif
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\AOIEditVer3.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"          // 标准组件
+#if !defined(_AFXDLL)
+#include "l.CHS\afxprint.rc"                // 打印/打印预览资源
+#include "l.CHS\afxribbon.rc"               // MFC 功能区和控件条资源
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/slacmvs/!svn/ver/1309/trunk/EOEScanDll
+END
+EOEScanDll.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1309/trunk/EOEScanDll/EOEScanDll.h
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/657/trunk/EOEScanDll/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/657/trunk/EOEScanDll/dllmain.cpp
+END
+EOEScanDll.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/743/trunk/EOEScanDll/EOEScanDll.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/657/trunk/EOEScanDll/targetver.h
+END
+EOEScanDll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/720/trunk/EOEScanDll/EOEScanDll.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/657/trunk/EOEScanDll/stdafx.cpp
+END
+EOEScanDll.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/719/trunk/EOEScanDll/EOEScanDll.vcproj
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/657/trunk/EOEScanDll/ReadMe.txt
+END

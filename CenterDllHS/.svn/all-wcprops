@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/slacmvs/!svn/ver/1287/trunk/CenterDllHS
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/CenterDllHS/stdafx.h
+END
+CenterDllHS.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/1036/trunk/CenterDllHS/CenterDllHS.vcxproj
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/CenterDllHS/dllmain.cpp
+END
+CenterDllHS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/1287/trunk/CenterDllHS/CenterDllHS.cpp
+END
+CenterDllHS.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/slacmvs/!svn/ver/579/trunk/CenterDllHS/CenterDllHS.vcxproj.filters
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/CenterDllHS/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/CenterDllHS/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/CenterDllHS/ReadMe.txt
+END
+CenterDllHS.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/669/trunk/CenterDllHS/CenterDllHS.h
+END

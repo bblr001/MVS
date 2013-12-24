@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/slacmvs/!svn/ver/1108/trunk/Inc/PCI2312
+END
+CommUser.lib
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/Inc/PCI2312/CommUser.lib
+END
+PCI2312H.doc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/Inc/PCI2312/PCI2312H.doc
+END
+CommUser.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/Inc/PCI2312/CommUser.h
+END
+PCI2312.LIB
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1108/trunk/Inc/PCI2312/PCI2312.LIB
+END
+Pci2312.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1108/trunk/Inc/PCI2312/Pci2312.h
+END
+PCI2312S.doc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/Inc/PCI2312/PCI2312S.doc
+END

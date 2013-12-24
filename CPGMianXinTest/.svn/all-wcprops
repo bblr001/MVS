@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/1309/trunk/CPGMianXinTest
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/CPGMianXinTest/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/564/trunk/CPGMianXinTest/dllmain.cpp
+END
+CPGMianXinTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/1309/trunk/CPGMianXinTest/CPGMianXinTest.h
+END
+CPGMianXinTest.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/1036/trunk/CPGMianXinTest/CPGMianXinTest.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/564/trunk/CPGMianXinTest/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/CPGMianXinTest/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/CPGMianXinTest/ReadMe.txt
+END
+CPGMianXinTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/945/trunk/CPGMianXinTest/CPGMianXinTest.cpp
+END
+CPGMianXinTest.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/slacmvs/!svn/ver/579/trunk/CPGMianXinTest/CPGMianXinTest.vcxproj.filters
+END

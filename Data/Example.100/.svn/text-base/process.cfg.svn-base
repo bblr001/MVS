@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<program_instance>
+    <!-- Settings for MyApp -->
+    <CameraElement>
+        <CameraName>BASLER A312F</CameraName>
+        <TriggerMode>NO</TriggerMode>
+        <TriggerActivation>RisingEdge</TriggerActivation>
+    </CameraElement>
+    <RejectElement>
+        <port>7</port>
+        <RejectMode>NO</RejectMode>
+    </RejectElement>
+    <ReadFileElement>
+        <FilePath>E:\FAIL\test\</FilePath>
+    </ReadFileElement>
+    <BaseInfoElement>
+        <programname>Example.101</programname>
+        <tlsfilename>MyTLS5.tls</tlsfilename>
+        <logofilename>sample.tiff</logofilename>
+        <source>FILE</source>
+        <saveerrimage>YES</saveerrimage>
+    </BaseInfoElement>
+</program_instance>

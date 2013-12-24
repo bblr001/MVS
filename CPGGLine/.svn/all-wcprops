@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGLine
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGLine/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGLine/dllmain.cpp
+END
+CPGGLine.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGLine/CPGGLine.vcxproj
+END
+CPGGLine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGLine/CPGGLine.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGLine/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGLine/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGLine/ReadMe.txt
+END
+CPGGLine.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1311/trunk/CPGGLine/CPGGLine.h
+END

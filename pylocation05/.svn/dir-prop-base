@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 95
+[Bb]in
+obj
+[Dd]ebug
+[Rr]elease
+*.user
+*.aps
+*.eto
+ClientBin
+GeneratedArtifacts
+_Pvt_Extensions
+
+END

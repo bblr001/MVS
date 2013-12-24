@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/slacmvs/!svn/ver/1036/trunk/CPGModelCreate
+END
+CPGModelCreate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/808/trunk/CPGModelCreate/CPGModelCreate.cpp
+END
+CPGModelCreate.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/slacmvs/!svn/ver/579/trunk/CPGModelCreate/CPGModelCreate.vcxproj.filters
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/CPGModelCreate/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/564/trunk/CPGModelCreate/dllmain.cpp
+END
+CPGModelCreate.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/669/trunk/CPGModelCreate/CPGModelCreate.h
+END
+CPGModelCreate.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/1036/trunk/CPGModelCreate/CPGModelCreate.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/564/trunk/CPGModelCreate/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/CPGModelCreate/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/CPGModelCreate/ReadMe.txt
+END

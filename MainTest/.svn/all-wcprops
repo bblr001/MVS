@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/slacmvs/!svn/ver/1109/trunk/MainTest
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/stdafx.h
+END
+PropSheet2.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/PropSheet2.h
+END
+GroupAddIn.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/GroupAddIn.h
+END
+MyListCtrl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/MyListCtrl.cpp
+END
+JobTestListView.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/JobTestListView.h
+END
+DBSQLite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/DBSQLite.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/targetver.h
+END
+OutputWnd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/OutputWnd.cpp
+END
+MainTestDoc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/MainTestDoc.cpp
+END
+PropSheet.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/PropSheet.h
+END
+UserAddIn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/UserAddIn.cpp
+END
+JobMainView.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/JobMainView.h
+END
+MainTestView.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/MainTestView.h
+END
+JobMainFrm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/JobMainFrm.cpp
+END
+SettingPropSheetFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/SettingPropSheetFrame.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/stdafx.cpp
+END
+UserManagePage.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/UserManagePage.h
+END
+MainTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/MainTest.h
+END
+PropSheet2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/PropSheet2.cpp
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/resource.h
+END
+MIData.ini
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/MIData.ini
+END
+GroupAddIn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/GroupAddIn.cpp
+END
+MainFrm.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/MainFrm.h
+END
+JobDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/JobDialog.h
+END
+ChangeMode.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/ChangeMode.h
+END
+UserImages.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/UserImages.bmp
+END
+JobTestListView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/JobTestListView.cpp
+END
+MainTest.rc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/MainTest.rc
+END
+PropSheet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/PropSheet.cpp
+END
+JobMainView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/JobMainView.cpp
+END
+MyListCtrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/MyListCtrl.h
+END
+DBSQLite.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/639/trunk/MainTest/DBSQLite.h
+END
+OutputWnd.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/OutputWnd.h
+END
+MainTestView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/MainTestView.cpp
+END
+MainTestDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/MainTestDoc.h
+END
+SettingPropSheetFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/SettingPropSheetFrame.cpp
+END
+UserAddIn.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/UserAddIn.h
+END
+MainTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/MainTest.cpp
+END
+UserManagePage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/UserManagePage.cpp
+END
+MainTest.aps
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/MainTest.aps
+END
+JobMainFrm.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/JobMainFrm.h
+END
+MainFrm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/MainFrm.cpp
+END
+ChangeMode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1109/trunk/MainTest/ChangeMode.cpp
+END
+JobDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/JobDialog.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/MainTest/ReadMe.txt
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/slacmvs/!svn/ver/1036/trunk/MaoDing
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/564/trunk/MaoDing/stdafx.h
+END
+MaoDingDll.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/669/trunk/MaoDing/MaoDingDll.h
+END
+MaoDing.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1036/trunk/MaoDing/MaoDing.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/MaoDing/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/564/trunk/MaoDing/stdafx.cpp
+END
+MaoDingDll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/672/trunk/MaoDing/MaoDingDll.cpp
+END

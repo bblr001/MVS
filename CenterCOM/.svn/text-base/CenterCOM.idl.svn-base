@@ -1,0 +1,42 @@
+// CenterCOM.idl : CenterCOM 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(CenterCOM.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+import "type_definition.idl";
+
+[
+	object,
+	uuid(B0B2DCC4-5C6E-4434-8B13-415FDC21C767),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ICenterAlgorithm : IDispatch
+{
+	HRESULT GetAlgorithmName([out] OLECHAR* algorithmName);
+	HRESULT SetParameter([in] short* paramIndex, [in] CParameter* pParameter);
+	HRESULT ProcessImageData([in,ref] CImageData* pImageData, [in] short* parameterIndex, [out] CResult* retResult);
+	HRESULT TrainPrameter([in, ref] CImageData* pImageData);
+}
+
+
+[
+	uuid(1A3B5416-3A02-4E22-B28F-18FC1A46F6AF),
+	version(1.0),
+]
+library CenterCOMLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(036CB749-68DC-491A-9F4B-7E5115669256)		
+	]
+	coclass CenterAlgorithm
+	{
+		[default] interface ICenterAlgorithm;
+	};
+};
+

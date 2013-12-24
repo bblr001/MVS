@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/slacmvs/!svn/ver/1309/trunk/EOEShapeDll
+END
+EOEShapeDll.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/1036/trunk/EOEShapeDll/EOEShapeDll.vcxproj
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/EOEShapeDll/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/EOEShapeDll/dllmain.cpp
+END
+EOEShapeDll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/1309/trunk/EOEShapeDll/EOEShapeDll.cpp
+END
+EOEShapeDll.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/slacmvs/!svn/ver/743/trunk/EOEShapeDll/EOEShapeDll.vcxproj.filters
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/EOEShapeDll/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/EOEShapeDll/stdafx.cpp
+END
+EOEShapeDll.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/1309/trunk/EOEShapeDll/EOEShapeDll.h
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/EOEShapeDll/ReadMe.txt
+END

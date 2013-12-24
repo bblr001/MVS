@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/1343/trunk/BearingTryDetectDll
+END
+CircleExtDll.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/slacmvs/!svn/ver/1343/trunk/BearingTryDetectDll/CircleExtDll.vcxproj.filters
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/1343/trunk/BearingTryDetectDll/stdafx.h
+END
+BearingTryDetectDll.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/slacmvs/!svn/ver/1343/trunk/BearingTryDetectDll/BearingTryDetectDll.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/1343/trunk/BearingTryDetectDll/dllmain.cpp
+END
+BearingTryDetectDll.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/slacmvs/!svn/ver/1343/trunk/BearingTryDetectDll/BearingTryDetectDll.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/1343/trunk/BearingTryDetectDll/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/1343/trunk/BearingTryDetectDll/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/1343/trunk/BearingTryDetectDll/ReadMe.txt
+END
+BearingTryDetectDll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/slacmvs/!svn/ver/1343/trunk/BearingTryDetectDll/BearingTryDetectDll.cpp
+END

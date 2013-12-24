@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/1357/trunk/MatchingParaDefineTaoYinDll
+END
+MatchingParaDefineTaoYinDll.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/slacmvs/!svn/ver/1357/trunk/MatchingParaDefineTaoYinDll/MatchingParaDefineTaoYinDll.h
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/slacmvs/!svn/ver/1357/trunk/MatchingParaDefineTaoYinDll/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/slacmvs/!svn/ver/1357/trunk/MatchingParaDefineTaoYinDll/dllmain.cpp
+END
+MatchingParaDefineTaoYinDll.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/slacmvs/!svn/ver/1357/trunk/MatchingParaDefineTaoYinDll/MatchingParaDefineTaoYinDll.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/slacmvs/!svn/ver/1357/trunk/MatchingParaDefineTaoYinDll/targetver.h
+END
+CenterRegionDetectDll.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/slacmvs/!svn/ver/1357/trunk/MatchingParaDefineTaoYinDll/CenterRegionDetectDll.vcxproj.filters
+END
+MatchingParaDefineTaoYinDll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/slacmvs/!svn/ver/1357/trunk/MatchingParaDefineTaoYinDll/MatchingParaDefineTaoYinDll.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/slacmvs/!svn/ver/1357/trunk/MatchingParaDefineTaoYinDll/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/slacmvs/!svn/ver/1357/trunk/MatchingParaDefineTaoYinDll/ReadMe.txt
+END

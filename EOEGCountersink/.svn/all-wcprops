@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/1309/trunk/EOEGCountersink
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/652/trunk/EOEGCountersink/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/652/trunk/EOEGCountersink/dllmain.cpp
+END
+EOEGCountersink.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/slacmvs/!svn/ver/707/trunk/EOEGCountersink/EOEGCountersink.cpp
+END
+EOEGCountersink.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/slacmvs/!svn/ver/673/trunk/EOEGCountersink/EOEGCountersink.vcproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/652/trunk/EOEGCountersink/targetver.h
+END
+EOEGCountersink.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/1309/trunk/EOEGCountersink/EOEGCountersink.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/652/trunk/EOEGCountersink/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/652/trunk/EOEGCountersink/ReadMe.txt
+END
+EOEGCountersink.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/slacmvs/!svn/ver/720/trunk/EOEGCountersink/EOEGCountersink.vcxproj
+END

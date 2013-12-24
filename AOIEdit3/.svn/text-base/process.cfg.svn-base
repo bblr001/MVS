@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<settings>
+    <BasicSetting>
+      <programname>example.108</programname>
+      <tlsfilename>example.tls</tlsfilename>
+      <source>FILES</source>
+      <imageinterval>500</imageinterval>
+      <saveerrimage>NO</saveerrimage>
+    </BasicSetting>
+    <CameraSetting>
+        <CameraName>CH1 (21143001)</CameraName>
+        <TriggerMode>NO</TriggerMode>
+        <TriggerActivation>FallingEdge</TriggerActivation>
+        <CameraGain>0</CameraGain>
+    </CameraSetting>
+    <RejectSetting>
+        <port>5</port>
+        <RejectMode>NO</RejectMode>
+        <WarningThreshold>30</WarningThreshold>
+        <RedLightPort>0</RedLightPort>
+        <GreenLightPort>0</GreenLightPort>
+    </RejectSetting>
+    <ImageFilePath>
+        <FilePath>D:\SLACTST\样盖缺陷盖\</FilePath>
+    </ImageFilePath>
+    <LightIntensitySetting>
+        <lightctrl name="Light Controller 1" address="0">
+            <parameter channel = "1" name="Control_1_CH1" parameterDesc="CH1">
+                <property>
+                    <interface>iint</interface>
+                    <max>255</max>
+                    <min>1</min>
+                </property>
+                <setting>47</setting>
+                <helpdescription>OutPut CH1</helpdescription>
+            </parameter>
+            <parameter channel = "2" name="Control_1_CH2" parameterDesc="CH2">
+                <property>
+                    <interface>iint</interface>
+                    <max>255</max>
+                    <min>1</min>
+                </property>
+                <setting>47</setting>
+                <helpdescription>OutPut CH2</helpdescription>
+            </parameter>
+            <parameter channel = "3" name="Control_1_CH3" parameterDesc="CH3">
+                <property>
+                    <interface>iint</interface>
+                    <max>255</max>
+                    <min>1</min>
+                </property>
+                <setting>47</setting>
+                <helpdescription>OutPut CH3</helpdescription>
+            </parameter>
+            <parameter channel = "4" name="Control_1_CH4" parameterDesc="CH4">
+                <property>
+                    <interface>iint</interface>
+                    <max>255</max>
+                    <min>1</min>
+                </property>
+                <setting>47</setting>
+                <helpdescription>OutPut CH4</helpdescription>
+            </parameter>
+        </lightctrl>
+        <lightctrl name="Light Controller 2" address="1">
+            <parameter channel = "1"  name="Control_2_CH1" parameterDesc="CH1">
+                <property>
+                    <interface>ifloat</interface>
+                    <max>255</max>
+                    <min>0</min>
+                </property>
+                <setting>47</setting>
+                <helpdescription>Out Put CH1</helpdescription>
+            </parameter>
+            <parameter channel = "2"  name="Control_2_CH2" parameterDesc="CH2">
+                <property>
+                    <interface>ifloat</interface>
+                    <max>255</max>
+                    <min>0</min>
+                </property>
+                <setting>47</setting>
+                <helpdescription>Out Put CH2</helpdescription>
+            </parameter>
+            <parameter channel = "3"  name="Control_2_CH3" parameterDesc="CH3">
+                <property>
+                    <interface>ifloat</interface>
+                    <max>255</max>
+                    <min>0</min>
+                </property>
+                <setting>47</setting>
+                <helpdescription>Out Put CH3</helpdescription>
+            </parameter>
+            <parameter channel = "4"  name="Control_2_CH4" parameterDesc="CH4">
+                <property>
+                    <interface>ifloat</interface>
+                    <max>255</max>
+                    <min>0</min>
+                </property>
+                <setting>47</setting>
+                <helpdescription>Out Put CH4</helpdescription>
+            </parameter>
+        </lightctrl>
+    </LightIntensitySetting>
+</settings>

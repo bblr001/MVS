@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/slacmvs/!svn/ver/1356/trunk/AOIEDITHelp
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/stdafx.h
+END
+GridList_DataModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/GridList_DataModel.h
+END
+DrawRegistDialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/1356/trunk/AOIEDITHelp/DrawRegistDialog.h
+END
+DlgBar.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/DlgBar.h
+END
+FileTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/FileTree.h
+END
+InspList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/InspList.cpp
+END
+Tools.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/Tools.h
+END
+Master_TestItem.mas
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/Master_TestItem.mas
+END
+PropertyFormView.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/1356/trunk/AOIEDITHelp/PropertyFormView.h
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/targetver.h
+END
+CTlSplitter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/CTlSplitter.cpp
+END
+tinyxml.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/tinyxml.h
+END
+tinystr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/tinystr.cpp
+END
+AOIEDITHelpDoc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/906/trunk/AOIEDITHelp/AOIEDITHelpDoc.cpp
+END
+CTLSplitter.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/CTLSplitter.h
+END
+tinyxmlerror.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/tinyxmlerror.cpp
+END
+CMCfgCenter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/CMCfgCenter.cpp
+END
+tinyxmlparser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/tinyxmlparser.cpp
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/util.h
+END
+AOIEDITHelpView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/1313/trunk/AOIEDITHelp/AOIEDITHelpView.cpp
+END
+customproperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/customproperty.h
+END
+sample.tiff
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/sample.tiff
+END
+CustomProperties.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/802/trunk/AOIEDITHelp/CustomProperties.cpp
+END
+AOIEDITHelp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/1313/trunk/AOIEDITHelp/AOIEDITHelp.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/stdafx.cpp
+END
+DlgBar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/1344/trunk/AOIEDITHelp/DlgBar.cpp
+END
+DrawRegistDialog.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/1356/trunk/AOIEDITHelp/DrawRegistDialog.cpp
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/1344/trunk/AOIEDITHelp/resource.h
+END
+ItemView.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/ItemView.h
+END
+MainFrm.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1356/trunk/AOIEDITHelp/MainFrm.h
+END
+FileTree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/FileTree.cpp
+END
+AOIEDITHelp.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/1355/trunk/AOIEDITHelp/AOIEDITHelp.vcxproj
+END
+Tools.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/Tools.cpp
+END
+PropertyFormView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/1356/trunk/AOIEDITHelp/PropertyFormView.cpp
+END
+tinyxml.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/tinyxml.cpp
+END
+AOIEDITHelp.rc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/1356/trunk/AOIEDITHelp/AOIEDITHelp.rc
+END
+InspList.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/InspList.h
+END
+util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/util.cpp
+END
+customproperty.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/customproperty.cpp
+END
+tinystr.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/tinystr.h
+END
+AOIEDITHelp.reg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/AOIEDITHelp.reg
+END
+AOIEDITHelpDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/904/trunk/AOIEDITHelp/AOIEDITHelpDoc.h
+END
+CMCfgCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/CMCfgCenter.h
+END
+AOIEDITHelpView.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/802/trunk/AOIEDITHelp/AOIEDITHelpView.h
+END
+MainFrm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1356/trunk/AOIEDITHelp/MainFrm.cpp
+END
+ItemView.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/1356/trunk/AOIEDITHelp/ItemView.cpp
+END
+8mm_3.tiff
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/8mm_3.tiff
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/AOIEDITHelp/ReadMe.txt
+END
+AOIEDITHelp.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/slacmvs/!svn/ver/1313/trunk/AOIEDITHelp/AOIEDITHelp.h
+END
+customproperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/802/trunk/AOIEDITHelp/customproperties.h
+END

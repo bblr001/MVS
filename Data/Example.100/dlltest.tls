@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<test_instance>
+<!-- Settings for MyApp -->
+<test testid="DllTest">
+    <subtest subtestid="DllTest">
+        <exe>
+            <exename>dll</exename>
+            <exeversion>1.0.1.0</exeversion>
+        </exe>
+        <parameter name="Thred_jiao">
+            <property>
+                <accessmode>RW</accessmode>
+                <default>Thred_jiao</default>
+                <helpdescription>圆心查找第一次的参考值</helpdescription>
+                <interface>int</interface>
+                <max>1000</max>
+                <min>100</min>
+                <name>Thred_jiao</name>
+                <visibility>beginner</visibility>
+            </property>
+            <setting>800</setting>
+            <helpdescription>圆心查找第一次的参考值...</helpdescription>
+        </parameter>
+        <property>
+            <accessmode>RW</accessmode>
+            <interface>int</interface>
+            <name>注胶测试1</name>
+            <visibility>beginner</visibility>
+        </property>
+        <order>999</order>
+        <runtest>Yes</runtest>
+        <helpdescription>subtest help description this parameter function</helpdescription>
+    </subtest>
+</test>
+</test_instance>

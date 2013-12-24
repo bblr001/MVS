@@ -1,0 +1,613 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\SLACMVSN.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""          // 标准组件\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.CHS\\afxprint.rc""                // 打印/打印预览资源\r\n"
+    "#include ""l.CHS\\afxribbon.rc""               // MFC 功能区和控件条资源\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SLACMVSN.ico"
+IDR_SLACMVSNTYPE        ICON                    "res\\SLACMVSNDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_BITMAP_LOG          BITMAP                  "res\\bitmap1.bmp"
+IDB_EXIT                BITMAP                  "res\\EXIT.bmp"
+IDB_EXIT_IN             BITMAP                  "res\\EXIT_IN.bmp"
+IDB_USER                BITMAP                  "res\\USER.bmp"
+IDB_USER_IN             BITMAP                  "res\\USERIN.bmp"
+IDB_BITMAP_PRONAMEUP    BITMAP                  "res\\bmp00010.bmp"
+IDB_BITMAP_PRONAMEDOWN  BITMAP                  "res\\bitmap_p.bmp"
+IDB_STATEICONS          BITMAP                  "res\\stateico.bmp"
+IDB_LOGIN               BITMAP                  "res\\login.bmp"
+IDB_LOGIN1              BITMAP                  "res\\login1.bmp"
+IDB_BITMAP_LOGOUT       BITMAP                  "res\\logout.bmp"
+IDB_BITMAP_LOGOUT_IN    BITMAP                  "res\\logout1.bmp"
+IDC_USER_MANAGER_DISABLE BITMAP                  "res\\user_group_disable.bmp"
+IDB_BITMAP_EXIT_DISABLE BITMAP                  "res\\exit_disable.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "保存(&S)\tCtrl+S",              ID_FILE_SAVE
+        MENUITEM "另存为(&A)...",                  ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        POPUP "工具栏和停靠窗口(&T)"
+        BEGIN
+            MENUITEM "<占位符>",                       ID_VIEW_TOOLBAR
+        END
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 SLACMVSN(&A)...",          ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "编辑"
+    BEGIN
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+END
+
+IDR_MENU_MYKV MENU
+BEGIN
+    POPUP "程序名称"
+    BEGIN
+        MENUITEM "Program-001",                 ID_32771
+        MENUITEM "Program-002",                 ID_32772
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 SLACMVSN"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "SLACMVSN，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_SLACMVSN_FORM DIALOGEX 0, 0, 423, 462
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD | WS_CAPTION
+FONT 16, "华文楷体", 400, 0, 0x0
+BEGIN
+    LTEXT           "1",IDC_STATIC_CUSTOMINFO,126,2,156,11
+    CONTROL         "",IDC_TAB_MAIN,"SysTabControl32",0x0,0,76,423,381
+    PUSHBUTTON      "",IDC_EXIT,380,2,11,11
+    PUSHBUTTON      "",IDC_USER,412,2,11,11
+    LTEXT           "静态",IDC_USERNAME_GROUP,337,31,63,12
+    CONTROL         "",IDC_BTN_MENU,"Button",BS_OWNERDRAW | NOT WS_VISIBLE | WS_TABSTOP,274,2,40,13
+    PUSHBUTTON      "",IDC_BUT_LOGIN,350,2,11,11
+    PUSHBUTTON      "",IDC_BUT_LOGOUT,364,2,11,11,NOT WS_VISIBLE
+END
+
+IDD_PROPPAGE_OVERVIEWPAGE DIALOGEX 0, 0, 316, 251
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+END
+
+IDD_PROPPAGE_CHANGEL DIALOGEX 0, 0, 833, 551
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_BTN_LOAD,"Button",BS_OWNERDRAW | WS_DISABLED | WS_TABSTOP,611,21,80,24
+    CONTROL         "",IDC_BTN_NOPIC,"Button",BS_OWNERDRAW | WS_TABSTOP,611,143,80,70
+    CONTROL         "",IDC_BTN_OKPIC,"Button",BS_OWNERDRAW | WS_TABSTOP,505,143,80,70
+    CONTROL         "",IDC_BTN_OPEN,"Button",BS_OWNERDRAW | WS_TABSTOP,727,229,80,70
+    LTEXT           "检测数量:",IDC_STATIC_01,506,228,59,21,WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "不良数量:",IDC_STATIC_02,506,265,59,21,WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "检测良率:",IDC_STATIC_03,506,302,59,21,WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "",IDC_TOTALNUM,566,228,126,21,WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "",IDC_FAUTYNUM,566,265,126,21,WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "",IDC_OKNUM,566,302,126,21,WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_BTN_ONLINE,"Button",BS_OWNERDRAW | WS_TABSTOP,611,64,80,70
+    CONTROL         "",IDC_BTN_OFFLINE,"Button",BS_OWNERDRAW | WS_TABSTOP,505,64,80,70
+    COMBOBOX        IDC_COMBO2,507,22,78,30,CBS_DROPDOWN | WS_DISABLED | WS_VSCROLL | WS_TABSTOP,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_STATIC_LOGPIC,"Static",SS_BLACKFRAME,8,9,432,349
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,9,371,430,172
+    CONTROL         "历史数据查询",IDC_BTN_QUERY,"Button",BS_OWNERDRAW | WS_TABSTOP,506,370,79,23
+    CONTROL         "",IDC_BT_WARNING,"Button",BS_OWNERDRAW | BS_ICON | WS_TABSTOP,628,332,83,84
+END
+
+IDD_DIALOG_LOGIN DIALOGEX 0, 0, 246, 129
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_Operator,72,24,125,16,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Password,72,53,125,16,ES_CENTER | ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,77,91,50,14
+    PUSHBUTTON      "取消",IDCANCEL,141,91,50,14
+    LTEXT           "用户:",IDC_STATIC,27,28,20,8
+    LTEXT           "密码:",IDC_STATIC,27,59,20,8
+END
+
+IDD_USERMANAGER DIALOGEX 0, 0, 301, 211
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户管理"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_USERINFO,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,287,94
+    EDITTEXT        IDC_NAME,75,118,61,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ID,185,118,68,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_PSW,75,146,61,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "用户:",IDC_STATIC,46,119,20,8
+    LTEXT           "密码:",IDC_STATIC,46,147,20,8
+    LTEXT           "群组:",IDC_STATIC,160,147,20,8
+    LTEXT           "编号:",IDC_STATIC,160,119,20,8
+    PUSHBUTTON      "修改",IDC_MODIFICATION,130,179,50,14
+    PUSHBUTTON      "删除",IDC_DELETE,198,179,50,14
+    COMBOBOX        IDC_COMBO_GROUP,185,146,68,44,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "创建",IDC_BUTTON_CREATE,64,179,50,14
+END
+
+IDD_DIALOG_SHOWDATA DIALOGEX 0, 0, 297, 245
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数据查询"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,64,283,174
+    PUSHBUTTON      "查询",IDC_BTN_QUERY,217,24,50,14
+    CONTROL         "",IDC_DATETIMEPICKER1,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,57,7,80,15
+    CONTROL         "",IDC_DATETIMEPICKER2,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,57,24,80,15
+    CONTROL         "",IDC_DATETIMEPICKER3,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,143,7,62,15
+    CONTROL         "",IDC_DATETIMEPICKER4,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,143,24,62,15
+    LTEXT           "开始时间：",IDC_STATIC,14,11,40,11
+    LTEXT           "结束时间：",IDC_STATIC,14,25,40,11
+    LTEXT           "总计盖数:",IDC_STATIC,15,51,40,8
+    LTEXT           "不良盖数:",IDC_STATIC,98,52,39,8
+    LTEXT           "不良率:",IDC_STATIC,185,53,33,8
+    CTEXT           "0",IDC_STATIC_ALL,51,51,46,10,0,WS_EX_STATICEDGE
+    CTEXT           "0",IDC_STATIC_FAIL,134,51,46,10,0,WS_EX_STATICEDGE
+    CTEXT           "0%",IDC_STATIC_PERC,215,51,46,10,0,WS_EX_STATICEDGE
+END
+
+IDD_DIALOG_WARNING DIALOGEX 0, 0, 281, 103
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "警报原因"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,206,57,48,19
+    COMBOBOX        IDC_COMBO_WARNING,101,22,153,106,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "请选择报警原因",IDC_STATIC,25,24,57,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,1,1116
+ PRODUCTVERSION 3,0,1,1116
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "苏州斯莱克精密设备有限公司"
+            VALUE "FileDescription", "SLACMVS 主界面程式"
+            VALUE "FileVersion", "3.0.1.1116"
+            VALUE "InternalName", "SLACMVSN.exe"
+            VALUE "LegalCopyright", "(C) 苏州斯莱克精密设备有限公司 保留所有权利。"
+            VALUE "OriginalFilename", "SLACMVSN.exe"
+            VALUE "ProductName", "斯莱克机器视觉系统(SMVS)"
+            VALUE "ProductVersion", "3.0.1.1116"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_SLACMVSN_FORM, DIALOG
+    BEGIN
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 457
+    END
+
+    IDD_PROPPAGE_OVERVIEWPAGE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 315
+        BOTTOMMARGIN, 249
+    END
+
+    IDD_PROPPAGE_CHANGEL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 830
+        BOTTOMMARGIN, 543
+    END
+
+    IDD_DIALOG_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 239
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_USERMANAGER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 204
+    END
+
+    IDD_DIALOG_SHOWDATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 238
+    END
+
+    IDD_DIALOG_WARNING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PROPPAGE_CHANGEL DLGINIT
+BEGIN
+    IDC_COMBO2, 0x403, 12, 0
+0x7250, 0x676f, 0x6172, 0x2d6d, 0x3030, 0x0031, 
+    IDC_COMBO2, 0x403, 12, 0
+0x7250, 0x676f, 0x6172, 0x2d6d, 0x3030, 0x0032, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG_WARNING         PNG                     "res\\warning.png"
+IDB_PNG_ALARM           PNG                     "res\\alarm.png"
+IDB_PNG_PAUSE           PNG                     "res\\pause.png"
+IDB_PNG_READY           PNG                     "res\\ready.png"
+IDB_PNG_RUN             PNG                     "res\\run.png"
+IDB_PNG_STOP            PNG                     "res\\stop.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_IDS_ProshTitle      "设置页"
+    IDS_OBJECT_PROPERTIES   "User Management"
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。请确保 OLE 库是正确的版本。"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "SLACMVSN\n\nSLACMVSN\n\n\nSLACMVSN.Document\nSLACMVSN.Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "SLACMVSN"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "创建新文档\n新建"
+    ID_FILE_OPEN            "打开现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "用新名称保存活动文档\n另存为"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "打开此文档"
+    ID_FILE_MRU_FILE2       "打开此文档"
+    ID_FILE_MRU_FILE3       "打开此文档"
+    ID_FILE_MRU_FILE4       "打开此文档"
+    ID_FILE_MRU_FILE5       "打开此文档"
+    ID_FILE_MRU_FILE6       "打开此文档"
+    ID_FILE_MRU_FILE7       "打开此文档"
+    ID_FILE_MRU_FILE8       "打开此文档"
+    ID_FILE_MRU_FILE9       "打开此文档"
+    ID_FILE_MRU_FILE10      "打开此文档"
+    ID_FILE_MRU_FILE11      "打开此文档"
+    ID_FILE_MRU_FILE12      "打开此文档"
+    ID_FILE_MRU_FILE13      "打开此文档"
+    ID_FILE_MRU_FILE14      "打开此文档"
+    ID_FILE_MRU_FILE15      "打开此文档"
+    ID_FILE_MRU_FILE16      "打开此文档"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除选定内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制选定内容并将其放到剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切选定内容并将其放到剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "恢复上次撤消的操作\n重做"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小为图标"
+    AFX_IDS_SCMAXIMIZE      "使窗口最大化显示"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到前一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "窗格 1"
+    IDS_STATUS_PANE2        "窗格 2"
+    IDS_TOOLBAR_STANDARD    "标准"
+    IDS_TOOLBAR_CUSTOMIZE   "自定义..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EDIT_MENU           "编辑"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\SLACMVSN.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"          // 标准组件
+#if !defined(_AFXDLL)
+#include "l.CHS\afxprint.rc"                // 打印/打印预览资源
+#include "l.CHS\afxribbon.rc"               // MFC 功能区和控件条资源
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

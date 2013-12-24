@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/slacmvs/!svn/ver/1278/trunk/VerticalSeamDetect01
+END
+VerticalSeamDetect01.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/slacmvs/!svn/ver/1267/trunk/VerticalSeamDetect01/VerticalSeamDetect01.h
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/1004/trunk/VerticalSeamDetect01/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/1004/trunk/VerticalSeamDetect01/dllmain.cpp
+END
+VerticalSeamDetect01.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/slacmvs/!svn/ver/1245/trunk/VerticalSeamDetect01/VerticalSeamDetect01.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/slacmvs/!svn/ver/1004/trunk/VerticalSeamDetect01/targetver.h
+END
+VerticalSeamDetect01.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/slacmvs/!svn/ver/1278/trunk/VerticalSeamDetect01/VerticalSeamDetect01.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/slacmvs/!svn/ver/1004/trunk/VerticalSeamDetect01/stdafx.cpp
+END

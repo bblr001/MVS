@@ -1,0 +1,20 @@
+以下程式请从安装包中得到
+1. Halcon的安装
+	1.1 copy安装包中C文件夹下的全部资料夹到系统盘的根目录中.
+	1.2 在系统属性中高级选项中增加环境变量
+		HALCONARCH=x86-win32
+		HALCONROOT=C:\Program Files\MVTec\HALCON-10.0
+	1.3 在环境变量中的path中增加 C:\Program Files\MVTec\HALCON-10.0\bin\x86-win32;C:\Program Files\MVTec\HALCON-10.0\FLEXlm\x86-win32
+2. 程式资料夹的建立
+	2.1 解压SLACTST.zip 到C:\SLACTST\
+		此压缩文件在程式包中可以找到
+3. 确定系统有安装dotnetfx35.exe
+	此安装文件在程式包中可以找到
+
+4. 确定系统安装VC_x86Runtime.exe
+	此安装文件在程式包中可以找到
+
+5. 确定系统安装vcredist_x86.exe
+	此安装文件在程式包中可以找到
+
+

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/slacmvs/!svn/ver/697/trunk/check_blister_mixed
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/564/trunk/check_blister_mixed/stdafx.h
+END
+check_blister_mixed.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/slacmvs/!svn/ver/697/trunk/check_blister_mixed/check_blister_mixed.vcxproj
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/564/trunk/check_blister_mixed/dllmain.cpp
+END
+check_blister_mixed.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/slacmvs/!svn/ver/669/trunk/check_blister_mixed/check_blister_mixed.cpp
+END
+check_blister_mixed.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/slacmvs/!svn/ver/579/trunk/check_blister_mixed/check_blister_mixed.vcxproj.filters
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/564/trunk/check_blister_mixed/targetver.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/564/trunk/check_blister_mixed/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/564/trunk/check_blister_mixed/ReadMe.txt
+END
+check_blister_mixed.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/slacmvs/!svn/ver/669/trunk/check_blister_mixed/check_blister_mixed.h
+END

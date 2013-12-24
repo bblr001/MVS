@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/slacmvs/!svn/ver/1276/trunk/CanBodyDetect01
+END
+CanBodyDetect01.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/1262/trunk/CanBodyDetect01/CanBodyDetect01.h
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/1000/trunk/CanBodyDetect01/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/1000/trunk/CanBodyDetect01/dllmain.cpp
+END
+CanBodyDetect01.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/slacmvs/!svn/ver/1238/trunk/CanBodyDetect01/CanBodyDetect01.vcxproj
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/1000/trunk/CanBodyDetect01/targetver.h
+END
+CanBodyDetect01.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/1276/trunk/CanBodyDetect01/CanBodyDetect01.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/slacmvs/!svn/ver/1000/trunk/CanBodyDetect01/stdafx.cpp
+END

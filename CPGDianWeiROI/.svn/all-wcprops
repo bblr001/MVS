@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/slacmvs/!svn/ver/1036/trunk/CPGDianWeiROI
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/564/trunk/CPGDianWeiROI/stdafx.h
+END
+CPGDianWeiROIDll.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/564/trunk/CPGDianWeiROI/CPGDianWeiROIDll.cpp
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/CPGDianWeiROI/dllmain.cpp
+END
+CPGDianWeiROI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/slacmvs/!svn/ver/672/trunk/CPGDianWeiROI/CPGDianWeiROI.cpp
+END
+CPGDianWeiROI.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/slacmvs/!svn/ver/579/trunk/CPGDianWeiROI/CPGDianWeiROI.vcxproj.filters
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/564/trunk/CPGDianWeiROI/targetver.h
+END
+CPGDianWeiROI.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/slacmvs/!svn/ver/669/trunk/CPGDianWeiROI/CPGDianWeiROI.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/CPGDianWeiROI/stdafx.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/564/trunk/CPGDianWeiROI/ReadMe.txt
+END
+CPGDianWeiROI.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/slacmvs/!svn/ver/1036/trunk/CPGDianWeiROI/CPGDianWeiROI.vcxproj
+END

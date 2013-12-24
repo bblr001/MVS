@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/slacmvs/!svn/ver/1268/trunk/pylocation03
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/slacmvs/!svn/ver/1150/trunk/pylocation03/stdafx.h
+END
+dllmain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/1150/trunk/pylocation03/dllmain.cpp
+END
+pylocation03.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/slacmvs/!svn/ver/1268/trunk/pylocation03/pylocation03.cpp
+END
+targetver.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/slacmvs/!svn/ver/1150/trunk/pylocation03/targetver.h
+END
+pylocation03.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/slacmvs/!svn/ver/1268/trunk/pylocation03/pylocation03.h
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/slacmvs/!svn/ver/1150/trunk/pylocation03/stdafx.cpp
+END
+pylocation03.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/slacmvs/!svn/ver/1241/trunk/pylocation03/pylocation03.vcxproj
+END
